@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import type { Question } from "@/lib/types";
+import { DIFFICULTIES, DIFFICULTY_LABELS } from "@/lib/types";
 import { recordAnswer } from "@/lib/store";
 
 export default function QuestionsView({
@@ -16,7 +17,13 @@ export default function QuestionsView({
     [questions],
   );
 
-  const [filter, setFilter] = useState<string>("all");
+  const difficulties = useMemo(() => {
+    const present = new Set(questions.map((q) => q.difficulty ?? "intermediate"));
+    return DIFFICULTIES.filter((d) => present.has(d));
+  }, [questions]);
+
+  const [domainFilter, setDomainFilter] = useState("all");
+  const [difficultyFilter, setDifficultyFilter] = useState("all");
   const [order, setOrder] = useState<Question[]>([]);
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
@@ -24,13 +31,18 @@ export default function QuestionsView({
   const [finished, setFinished] = useState(false);
 
   useEffect(() => {
-    const list = filter === "all" ? questions : questions.filter((q) => q.domain === filter);
+    const list = questions.filter(
+      (q) =>
+        (domainFilter === "all" || q.domain === domainFilter) &&
+        (difficultyFilter === "all" ||
+          (q.difficulty ?? "intermediate") === difficultyFilter),
+    );
     setOrder(shuffle(list));
     setIndex(0);
     setSelected(null);
     setCorrectCount(0);
     setFinished(false);
-  }, [filter, questions]);
+  }, [domainFilter, difficultyFilter, questions]);
 
   const q = order[index];
 
@@ -39,7 +51,13 @@ export default function QuestionsView({
   }
 
   if (!q) {
-    return <p className="text-slate-500">Loading questions…</p>;
+    return (
+      <p className="text-slate-500">
+        {order.length === 0
+          ? "No questions match those filters."
+          : "Loading questions…"}
+      </p>
+    );
   }
 
   if (finished) {
@@ -56,7 +74,16 @@ export default function QuestionsView({
         <p className="mt-1 text-sm text-slate-500">{pct}% correct</p>
         <button
           onClick={() => {
-            setOrder(shuffle(questions.filter((qq) => filter === "all" || qq.domain === filter)));
+            setOrder(
+              shuffle(
+                questions.filter(
+                  (qq) =>
+                    (domainFilter === "all" || qq.domain === domainFilter) &&
+                    (difficultyFilter === "all" ||
+                      (qq.difficulty ?? "intermediate") === difficultyFilter),
+                ),
+              ),
+            );
             setIndex(0);
             setSelected(null);
             setCorrectCount(0);
@@ -89,41 +116,71 @@ export default function QuestionsView({
 
   return (
     <div>
-      <div className="flex flex-wrap gap-1.5">
-        <FilterChip
-          label="All"
-          active={filter === "all"}
-          onClick={() => setFilter("all")}
-        />
-        {domains.map((d) => (
+      <div className="flex flex-col gap-2">
+        <div className="flex flex-wrap items-center gap-1.5">
+          <span className="text-xs font-semibold uppercase tracking-wide text-slate-400">
+            Domain
+          </span>
           <FilterChip
-            key={d}
-            label={d}
-            active={filter === d}
-            onClick={() => setFilter(d)}
+            label="All"
+            active={domainFilter === "all"}
+            onClick={() => setDomainFilter("all")}
           />
-        ))}
+          {domains.map((d) => (
+            <FilterChip
+              key={d}
+              label={d}
+              active={domainFilter === d}
+              onClick={() => setDomainFilter(d)}
+            />
+          ))}
+        </div>
+        <div className="flex flex-wrap items-center gap-1.5">
+          <span className="text-xs font-semibold uppercase tracking-wide text-slate-400">
+            Difficulty
+          </span>
+          <FilterChip
+            label="All"
+            active={difficultyFilter === "all"}
+            onClick={() => setDifficultyFilter("all")}
+          />
+          {difficulties.map((d) => (
+            <FilterChip
+              key={d}
+              label={DIFFICULTY_LABELS[d]}
+              active={difficultyFilter === d}
+              onClick={() => setDifficultyFilter(d)}
+            />
+          ))}
+        </div>
       </div>
 
       <div className="mt-4 flex items-center justify-between text-sm text-slate-500">
         <span>
           Question {index + 1} of {order.length}
         </span>
-        <span className="font-medium text-slate-700">
-          Score: {correctCount}
-        </span>
+        <span className="font-medium text-slate-700">Score: {correctCount}</span>
       </div>
       <div className="mt-2 h-2 overflow-hidden rounded-full bg-slate-200">
         <div
           className="h-full rounded-full bg-blue-600 transition-all"
-          style={{ width: `${((index + (selected !== null ? 1 : 0)) / order.length) * 100}%` }}
+          style={{
+            width: `${((index + (selected !== null ? 1 : 0)) / order.length) * 100}%`,
+          }}
         />
       </div>
 
       <div className="mt-6 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-        <span className="text-xs font-semibold uppercase tracking-wide text-slate-400">
-          {q.domain}
-        </span>
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="text-xs font-semibold uppercase tracking-wide text-slate-400">
+            {q.domain}
+          </span>
+          {q.difficulty && (
+            <span className="rounded-full bg-slate-100 px-2 py-0.5 text-xs font-medium text-slate-500">
+              {DIFFICULTY_LABELS[q.difficulty]}
+            </span>
+          )}
+        </div>
         <h3 className="mt-2 text-lg font-semibold text-slate-900">{q.prompt}</h3>
 
         <div className="mt-5 grid gap-2.5">

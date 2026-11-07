@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import type { Question } from "@/lib/types";
+import { DIFFICULTIES, DIFFICULTY_LABELS } from "@/lib/types";
 
 const COUNT_OPTIONS = [10, 20, 30, 50, 65, 100];
 const MINUTE_OPTIONS = [10, 20, 30, 45, 60, 90, 120];
@@ -18,6 +19,7 @@ export default function ExamView({
   const [phase, setPhase] = useState<Phase>("setup");
   const [count, setCount] = useState(20);
   const [minutes, setMinutes] = useState(30);
+  const [difficulty, setDifficulty] = useState("all");
   const [exam, setExam] = useState<Question[]>([]);
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const [index, setIndex] = useState(0);
@@ -25,6 +27,14 @@ export default function ExamView({
   const [showWrongOnly, setShowWrongOnly] = useState(false);
 
   const totalSeconds = useMemo(() => minutes * 60, [minutes]);
+
+  const pool = useMemo(
+    () =>
+      difficulty === "all"
+        ? questions
+        : questions.filter((q) => (q.difficulty ?? "intermediate") === difficulty),
+    [questions, difficulty],
+  );
 
   useEffect(() => {
     if (phase !== "exam") return;
@@ -41,8 +51,8 @@ export default function ExamView({
   }, [phase]);
 
   function start() {
-    const n = Math.min(count, questions.length);
-    setExam(shuffle(questions).slice(0, n));
+    const n = Math.min(count, pool.length);
+    setExam(shuffle(pool).slice(0, n));
     setAnswers({});
     setIndex(0);
     setSecondsLeft(totalSeconds);
@@ -54,17 +64,16 @@ export default function ExamView({
   }
 
   if (phase === "setup") {
-    const effectiveCount = Math.min(count, questions.length);
+    const effectiveCount = Math.min(count, pool.length);
     return (
       <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
         <h2 className="text-xl font-semibold text-slate-900">Mock Exam</h2>
         <p className="mt-1 text-sm text-slate-500">
-          A timed, exam-style test drawn randomly from the {questions.length}{" "}
-          questions in this course. You'll see which questions you missed at the
-          end.
+          A timed, exam-style test. Filter by difficulty to target the level you
+          want, and review every missed question at the end.
         </p>
 
-        <div className="mt-6 grid gap-6 sm:grid-cols-2">
+        <div className="mt-6 grid gap-6 sm:grid-cols-3">
           <div>
             <label className="text-sm font-medium text-slate-700">
               Number of questions
@@ -79,9 +88,25 @@ export default function ExamView({
                   {n}
                 </option>
               ))}
-              <option value={questions.length}>
-                All ({questions.length})
-              </option>
+              <option value={pool.length}>All ({pool.length})</option>
+            </select>
+          </div>
+
+          <div>
+            <label className="text-sm font-medium text-slate-700">
+              Difficulty
+            </label>
+            <select
+              value={difficulty}
+              onChange={(e) => setDifficulty(e.target.value)}
+              className="mt-1.5 w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5 text-slate-900 focus:border-slate-900 focus:outline-none"
+            >
+              <option value="all">All levels</option>
+              {DIFFICULTIES.map((d) => (
+                <option key={d} value={d}>
+                  {DIFFICULTY_LABELS[d]}
+                </option>
+              ))}
             </select>
           </div>
 
@@ -105,7 +130,8 @@ export default function ExamView({
 
         <button
           onClick={start}
-          className="mt-6 w-full rounded-lg bg-slate-900 px-5 py-3 text-sm font-semibold text-white hover:bg-slate-700 sm:w-auto"
+          disabled={pool.length === 0}
+          className="mt-6 w-full rounded-lg bg-slate-900 px-5 py-3 text-sm font-semibold text-white hover:bg-slate-700 disabled:cursor-not-allowed disabled:opacity-40 sm:w-auto"
         >
           Start exam ({effectiveCount} questions · {minutes} min)
         </button>
@@ -116,8 +142,7 @@ export default function ExamView({
   if (phase === "results") {
     const results = exam.map((q) => {
       const chosen = answers[q.id];
-      const correct = chosen === q.answer;
-      return { q, chosen, correct };
+      return { q, chosen, correct: chosen === q.answer };
     });
     const correctCount = results.filter((r) => r.correct).length;
     const wrongCount = results.length - correctCount;
@@ -169,9 +194,7 @@ export default function ExamView({
             <div
               key={q.id}
               className={`rounded-xl border p-4 shadow-sm ${
-                correct
-                  ? "border-slate-200 bg-white"
-                  : "border-red-200 bg-red-50"
+                correct ? "border-slate-200 bg-white" : "border-red-200 bg-red-50"
               }`}
             >
               <div className="flex items-start gap-3">
@@ -185,15 +208,23 @@ export default function ExamView({
                   {correct ? "✓" : "✗"}
                 </span>
                 <div className="min-w-0 flex-1">
-                  <p className="text-sm font-medium text-slate-900">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="text-xs font-semibold uppercase tracking-wide text-slate-400">
+                      {q.domain}
+                    </span>
+                    {q.difficulty && (
+                      <span className="rounded-full bg-slate-100 px-2 py-0.5 text-xs font-medium text-slate-500">
+                        {DIFFICULTY_LABELS[q.difficulty]}
+                      </span>
+                    )}
+                  </div>
+                  <p className="mt-1 text-sm font-medium text-slate-900">
                     {i + 1}. {q.prompt}
                   </p>
                   <div className="mt-2 text-sm">
                     <p className={correct ? "text-slate-600" : "text-red-700"}>
                       Your answer:{" "}
-                      {chosen == null
-                        ? "(not answered)"
-                        : q.options[chosen]}
+                      {chosen == null ? "(not answered)" : q.options[chosen]}
                     </p>
                     {!correct && (
                       <p className="mt-0.5 font-medium text-emerald-700">
@@ -220,7 +251,9 @@ export default function ExamView({
           ))}
           {visible.length === 0 && (
             <p className="text-sm text-slate-500">
-              {showWrongOnly ? "No incorrect answers — nice work!" : "Nothing here."}
+              {showWrongOnly
+                ? "No incorrect answers — nice work!"
+                : "Nothing here."}
             </p>
           )}
         </div>
@@ -241,7 +274,9 @@ export default function ExamView({
         </span>
         <span
           className={`rounded-lg px-3 py-1 text-sm font-bold tabular-nums ${
-            secondsLeft < 300 ? "bg-red-100 text-red-700" : "bg-slate-100 text-slate-700"
+            secondsLeft < 300
+              ? "bg-red-100 text-red-700"
+              : "bg-slate-100 text-slate-700"
           }`}
         >
           {mm}:{ss}
@@ -256,9 +291,16 @@ export default function ExamView({
       </div>
 
       <div className="mt-6 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-        <span className="text-xs font-semibold uppercase tracking-wide text-slate-400">
-          {q.domain}
-        </span>
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="text-xs font-semibold uppercase tracking-wide text-slate-400">
+            {q.domain}
+          </span>
+          {q.difficulty && (
+            <span className="rounded-full bg-slate-100 px-2 py-0.5 text-xs font-medium text-slate-500">
+              {DIFFICULTY_LABELS[q.difficulty]}
+            </span>
+          )}
+        </div>
         <h3 className="mt-2 text-lg font-semibold text-slate-900">{q.prompt}</h3>
 
         <div className="mt-5 grid gap-2.5">
@@ -267,9 +309,7 @@ export default function ExamView({
             return (
               <button
                 key={i}
-                onClick={() =>
-                  setAnswers((prev) => ({ ...prev, [q.id]: i }))
-                }
+                onClick={() => setAnswers((prev) => ({ ...prev, [q.id]: i }))}
                 className={`flex items-start gap-3 rounded-lg border px-4 py-3 text-left text-sm transition ${
                   isSelected
                     ? "border-blue-500 bg-blue-50"

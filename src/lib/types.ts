@@ -3,6 +3,22 @@ export interface DocLink {
   url: string;
 }
 
+export type Difficulty = "foundational" | "intermediate" | "advanced" | "expert";
+
+export const DIFFICULTIES: Difficulty[] = [
+  "foundational",
+  "intermediate",
+  "advanced",
+  "expert",
+];
+
+export const DIFFICULTY_LABELS: Record<Difficulty, string> = {
+  foundational: "Foundational",
+  intermediate: "Intermediate",
+  advanced: "Advanced",
+  expert: "Expert",
+};
+
 export interface Course {
   id: string;
   code: string;
@@ -31,6 +47,7 @@ export interface Question {
   answer: number;
   explanation: string;
   docs: DocLink[];
+  difficulty?: Difficulty;
 }
 
 export interface CaseStudy {

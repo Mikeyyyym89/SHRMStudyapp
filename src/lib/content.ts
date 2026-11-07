@@ -5,38 +5,53 @@ import type {
   DocGroup,
   Flashcard,
   Question,
+  Difficulty,
 } from "@/lib/types";
 
 import coursesData from "@/content/courses.json";
 
 import cpFlashcards from "@/content/shrm-cp/flashcards.json";
 import cpQuestions from "@/content/shrm-cp/questions.json";
+import cpQuestions2 from "@/content/shrm-cp/questions-2.json";
+import cpHard from "@/content/shrm-cp/questions-hard.json";
+import cpExpert from "@/content/shrm-cp/questions-expert.json";
 import cpCases from "@/content/shrm-cp/case-studies.json";
 import cpDocs from "@/content/shrm-cp/docs.json";
 
 import scpFlashcards from "@/content/shrm-scp/flashcards.json";
 import scpQuestions from "@/content/shrm-scp/questions.json";
+import scpQuestions2 from "@/content/shrm-scp/questions-2.json";
+import scpHard from "@/content/shrm-scp/questions-hard.json";
+import scpExpert from "@/content/shrm-scp/questions-expert.json";
 import scpCases from "@/content/shrm-scp/case-studies.json";
 import scpDocs from "@/content/shrm-scp/docs.json";
 
-import cpQuestions2 from "@/content/shrm-cp/questions-2.json";
-import scpQuestions2 from "@/content/shrm-scp/questions-2.json";
-
-import cpHard from "@/content/shrm-cp/questions-hard.json";
-import scpHard from "@/content/shrm-scp/questions-hard.json";
+function tag(qs: Question[], difficulty: Difficulty): Question[] {
+  return qs.map((q) => ({ ...q, difficulty }));
+}
 
 export const courses: Course[] = coursesData as Course[];
 
 export const courseContent: Record<string, CourseContent> = {
   "shrm-cp": {
     flashcards: cpFlashcards as Flashcard[],
-    questions: [...cpQuestions, ...cpQuestions2, ...cpHard] as Question[],
+    questions: [
+      ...tag(cpQuestions as Question[], "foundational"),
+      ...tag(cpQuestions2 as Question[], "intermediate"),
+      ...tag(cpHard as Question[], "advanced"),
+      ...tag(cpExpert as Question[], "expert"),
+    ],
     caseStudies: cpCases as CaseStudy[],
     docs: cpDocs as DocGroup[],
   },
   "shrm-scp": {
     flashcards: scpFlashcards as Flashcard[],
-    questions: [...scpQuestions, ...scpQuestions2, ...scpHard] as Question[],
+    questions: [
+      ...tag(scpQuestions as Question[], "foundational"),
+      ...tag(scpQuestions2 as Question[], "intermediate"),
+      ...tag(scpHard as Question[], "advanced"),
+      ...tag(scpExpert as Question[], "expert"),
+    ],
     caseStudies: scpCases as CaseStudy[],
     docs: scpDocs as DocGroup[],
   },
