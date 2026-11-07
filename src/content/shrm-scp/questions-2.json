@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "shrm-scp-q21",
+    "domain": "Leadership",
+    "prompt": "A newly appointed CHRO is tasked with leading a company-wide digital transformation. The CEO expects rapid results, but employee surveys show widespread complacency and strong attachment to legacy processes. According to leading change-management models, what should the CHRO do FIRST?",
+    "options": [
+      "Restructure the HR function to signal that change has begun",
+      "Build a compelling case for change that creates a shared sense of urgency",
+      "Deploy the new technology platform to demonstrate momentum",
+      "Replace managers who resist adopting new tools"
+    ],
+    "answer": 1,
+    "explanation": "Kotter's eight-step model begins with establishing a sense of urgency, and without a shared understanding of why change is necessary, subsequent steps will stall. Building a compelling case for change engages stakeholders before structural or technological actions are taken.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q22",
+    "domain": "Leadership",
+    "prompt": "The board of directors has asked the CHRO to recommend the most effective governance mechanism for preventing unethical conduct among senior executives. Which approach should the CHRO recommend?",
+    "options": [
+      "Adding ethics training to the annual leadership curriculum",
+      "Publishing a refreshed code of conduct on the intranet",
+      "Establishing an independent board-level ethics and compliance committee with clear reporting lines",
+      "Requiring executives to sign annual attestations of compliance"
+    ],
+    "answer": 2,
+    "explanation": "Independent board-level oversight is the strongest governance control because it separates accountability from management and ensures objective monitoring of conduct. Training, codes, and attestations are supportive but lack the independent enforcement and visibility that a board committee provides.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q23",
+    "domain": "Leadership",
+    "prompt": "A senior HR executive has deep technical expertise but is perceived by the executive committee as lacking executive presence. To strengthen credibility at the C-suite level, the executive should focus MOST on:",
+    "options": [
+      "Communicating concise, strategically framed insights that connect to business outcomes",
+      "Producing longer, more detailed analytical reports for every meeting",
+      "Deferring to other executives to avoid appearing overconfident",
+      "Increasing the frequency of email updates to the full leadership team"
+    ],
+    "answer": 0,
+    "explanation": "Executive presence is built on the ability to communicate with clarity, confidence, and strategic relevance, not on volume or detail. Concise, outcome-oriented framing signals senior-level judgment and earns credibility with the C-suite.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q24",
+    "domain": "Leadership",
+    "prompt": "During a sudden reputational crisis involving a senior leader's alleged misconduct, the CHRO must advise the CEO. Which action best demonstrates strategic crisis leadership?",
+    "options": [
+      "Withhold all communication until the full investigation is complete",
+      "Directly discipline the executive before reviewing evidence",
+      "Delegate all messaging to the public relations team",
+      "Stabilize the workforce, ensure a fair and thorough investigation, and align communications with legal and board guidance"
+    ],
+    "answer": 3,
+    "explanation": "Crisis leadership requires balancing immediate workforce stabilization with procedural fairness and coordinated stakeholder communication. Acting without evidence or delegating entirely to PR risks compounding the reputational and legal exposure.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q25",
+    "domain": "Leadership",
+    "prompt": "The CHRO wants to drive a culture shift toward greater accountability. Which approach is MOST effective for embedding the new culture at scale?",
+    "options": [
+      "Issuing a new corporate values statement",
+      "Aligning performance management, rewards, and leadership role-modeling with the desired behaviors",
+      "Hosting a one-time town hall to announce the change",
+      "Creating a marketing campaign about the new culture"
+    ],
+    "answer": 1,
+    "explanation": "Culture is reinforced primarily through the systems that reward and measure behavior, supported by visible leadership modeling. Announcements and campaigns create awareness but do not change the underlying incentives that shape day-to-day conduct.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q26",
+    "domain": "Leadership",
+    "prompt": "A board committee is concerned about toxic culture in a business unit. What should the CHRO provide to give the board meaningful oversight?",
+    "options": [
+      "A summary of engagement survey scores from five years ago",
+      "Exit interview anecdotes from a single region",
+      "Leading culture indicators tied to business risk, with trend data and root-cause analysis",
+      "A pledge from the unit leader to improve"
+    ],
+    "answer": 2,
+    "explanation": "Boards need forward-looking, data-driven culture metrics connected to enterprise risk rather than anecdotal or stale information. Trend data with root-cause analysis enables the board to ask informed questions and hold leadership accountable.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q27",
+    "domain": "Leadership",
+    "prompt": "A CHRO is leading a merger integration. Which statement best distinguishes change leadership from change management in this context?",
+    "options": [
+      "Change leadership sets the vision and mobilizes commitment, while change management provides the structured processes to execute the transition",
+      "Change leadership and change management are interchangeable terms",
+      "Change management focuses only on the emotional side of change",
+      "Change leadership is performed only by the CEO"
+    ],
+    "answer": 0,
+    "explanation": "Change leadership is about establishing direction, aligning people, and generating commitment, whereas change management applies structured tools and processes to move the organization through the transition. Both are required for successful integration, but they serve different functions.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q28",
+    "domain": "Leadership",
+    "prompt": "After a strategy shift, the CHRO discovers that regional leaders are still rewarding behaviors that supported the old strategy. What is the appropriate strategic response?",
+    "options": [
+      "Accept the lag as a normal part of transition",
+      "Discipline the regional leaders for noncompliance",
+      "Announce the new strategy again to reinforce the message",
+      "Realign goals, incentives, and performance criteria across regions to support the new strategic direction"
+    ],
+    "answer": 3,
+    "explanation": "When rewards remain tied to the old strategy, they create structural resistance that no amount of communication can overcome. Aligning goals, incentives, and performance measures is the direct lever that translates strategy into consistent behavior.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q29",
+    "domain": "Leadership",
+    "prompt": "A senior leader's decisions have been highly profitable but conflict with the company's stated values. As a steward of the culture, the CHRO should:",
+    "options": [
+      "Ignore the behavior because financial results are strong",
+      "Raise the value misalignment with the CEO and board, framing it as a reputational and culture risk, and recommend consistent accountability",
+      "Anonymously report the leader to a hotline",
+      "Adjust the stated values to reflect actual behavior"
+    ],
+    "answer": 1,
+    "explanation": "Allowing profitable conduct that violates stated values erodes trust and institutionalizes hypocrisy, creating long-term reputational risk. The CHRO's role is to surface the misalignment transparently and advocate for consistent enforcement of values.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q30",
+    "domain": "Leadership",
+    "prompt": "To sustain a large transformation, the CHRO recognizes that a guiding coalition is essential. What best describes an effective guiding coalition?",
+    "options": [
+      "The CEO and CHRO working alone to maintain control",
+      "An external consulting team that owns the change roadmap",
+      "A cross-functional group of influential leaders with the credibility, expertise, and authority to drive the change",
+      "A subset of the HR team dedicated to change communications"
+    ],
+    "answer": 2,
+    "explanation": "Kotter's guiding coalition is a diverse group of influential leaders with the positional and informal authority to overcome inertia and resistance across the organization. A coalition limited to HR or a small group of executives lacks the broad reach needed to sustain change.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q31",
+    "domain": "Leadership",
+    "prompt": "A high-potential executive struggles with self-awareness and receives feedback poorly. The CHRO should recommend:",
+    "options": [
+      "A structured executive coaching engagement focused on emotional intelligence and receptivity to feedback",
+      "Removal of the executive from succession plans immediately",
+      "A remedial disciplinary process",
+      "Assignment of a peer mentor with no formal objectives"
+    ],
+    "answer": 0,
+    "explanation": "Executive coaching is the appropriate developmental intervention for a high-potential leader whose gap is behavioral rather than technical, focusing on self-awareness and feedback receptivity. Removal or discipline is premature when the individual has strong potential and no misconduct.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q32",
+    "domain": "Leadership",
+    "prompt": "The CHRO sits on a committee charged with overseeing the company's environmental, social, and governance (ESG) commitments. To ensure real accountability, which practice is MOST important?",
+    "options": [
+      "Publishing an annual glossy sustainability brochure",
+      "Delegating ESG reporting entirely to marketing",
+      "Relying on voluntary employee-led initiatives only",
+      "Embedding ESG goals into executive performance measures and board-level reporting with independent assurance"
+    ],
+    "answer": 3,
+    "explanation": "Accountability for ESG is achieved by tying goals to executive performance and providing board-level, independently assured reporting, not by marketing artifacts or voluntary initiatives. This creates the governance rigor that investors and regulators expect.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q33",
+    "domain": "Leadership",
+    "prompt": "Which scenario best reflects transformational leadership as opposed to transactional leadership?",
+    "options": [
+      "A manager offering bonuses for meeting quarterly quotas",
+      "A leader inspiring employees around a shared long-term vision and fostering intrinsic motivation to innovate",
+      "A supervisor monitoring attendance and issuing warnings",
+      "A manager exchanging rewards for compliance with procedures"
+    ],
+    "answer": 1,
+    "explanation": "Transformational leadership motivates through vision, inspiration, and individualized consideration, whereas transactional leadership relies on contingent rewards and management by exception. The option describing shared vision and intrinsic motivation captures transformational leadership.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q34",
+    "domain": "Business",
+    "prompt": "The CEO asks the CHRO to demonstrate the business value of a leadership development program. Which approach provides the most credible ROI analysis?",
+    "options": [
+      "Reporting participant satisfaction scores",
+      "Counting the number of training hours delivered",
+      "Isolating the program's impact and converting outcomes such as retention, promotion, and performance into financial terms against program cost",
+      "Surveying managers on whether they enjoyed the program"
+    ],
+    "answer": 2,
+    "explanation": "Credible ROI analysis isolates the program's effect from other factors and monetizes business outcomes relative to cost, following a framework such as the Phillips ROI model. Satisfaction and activity metrics demonstrate usage, not business value.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q35",
+    "domain": "Business",
+    "prompt": "During pre-acquisition due diligence, which human capital issue poses the greatest financial and integration risk?",
+    "options": [
+      "Unfunded pension liabilities and key-person dependencies that could derail value creation",
+      "Differences in office decor between the two companies",
+      "The target's choice of cafeteria vendor",
+      "The acquiring company's logo design"
+    ],
+    "answer": 0,
+    "explanation": "Unfunded pension liabilities create direct balance-sheet risk, while dependence on key individuals threatens the continuity of value after close. These are material to deal valuation and integration planning, unlike superficial cultural artifacts.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q36",
+    "domain": "Business",
+    "prompt": "When presenting a workforce analytics report to the board, the CHRO should:",
+    "options": [
+      "Lead with detailed methodology and a statistical appendix",
+      "Present raw data tables without interpretation",
+      "Focus on HR operational metrics such as time-to-fill",
+      "Frame the findings around business outcomes, risks, and recommended actions in a concise dashboard"
+    ],
+    "answer": 3,
+    "explanation": "Boards engage with insight, not data volume; the CHRO should translate analytics into business impact, risk, and recommended actions. Leading with methodology or raw data obscures the strategic message the board needs to govern effectively.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q37",
+    "domain": "Business",
+    "prompt": "A company competes in a talent-scarce market. How should the CHRO frame talent strategy to the executive team as a source of competitive advantage?",
+    "options": [
+      "Emphasize cost reduction in the HR budget above all else",
+      "Position differentiated talent capabilities and culture as a driver of business performance that competitors cannot easily replicate",
+      "Standardize all roles to industry averages",
+      "Reduce investment in development to free up capital"
+    ],
+    "answer": 1,
+    "explanation": "Competitive advantage arises from capabilities and culture that are valuable, rare, and difficult to imitate. Framing talent as a differentiator, rather than a cost center, aligns HR strategy with business strategy and resource allocation.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q38",
+    "domain": "Business",
+    "prompt": "Workforce data shows that turnover is concentrated in a high-revenue business unit among employees in their third year. The most strategic analytical next step is to:",
+    "options": [
+      "Immediately raise pay across the unit",
+      "Launch a broad engagement survey without a specific hypothesis",
+      "Conduct root-cause analysis to identify the drivers specific to that tenure and segment before designing interventions",
+      "Ignore the data as a normal pattern"
+    ],
+    "answer": 2,
+    "explanation": "Strategic analytics moves from descriptive insight to diagnostic analysis to pinpoint the causal drivers before committing resources to interventions. Acting on pay alone without understanding cause risks an expensive solution to the wrong problem.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q39",
+    "domain": "Business",
+    "prompt": "The CHRO must explain to the CFO how an increase in benefits costs will affect the company's financials. Which statement is accurate?",
+    "options": [
+      "Higher benefits costs increase operating expenses, reducing operating income unless offset by productivity or other savings",
+      "Higher benefits costs reduce cost of goods sold only",
+      "Higher benefits costs have no impact on the income statement",
+      "Higher benefits costs automatically increase revenue"
+    ],
+    "answer": 0,
+    "explanation": "Employee benefits are an operating expense, so increases reduce operating income on the income statement unless offset elsewhere. Accurate financial framing builds the CHRO's credibility in C-suite decisions.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q40",
+    "domain": "Business",
+    "prompt": "Which set of metrics would be MOST appropriate for a strategic HR dashboard presented to the board?",
+    "options": [
+      "Number of resumes received and interview slots filled",
+      "Training hours per employee and cafeteria usage",
+      "Payroll processing error count",
+      "Talent pipeline depth, leadership readiness, retention of critical roles, and workforce productivity trends"
+    ],
+    "answer": 3,
+    "explanation": "Board-level dashboards should reflect strategic workforce risks and drivers of business value, such as succession depth and productivity, rather than administrative activity. Operational metrics are important for management but not for board governance.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q41",
+    "domain": "Business",
+    "prompt": "The CHRO must choose between two equally effective wellness programs. Which factor should dominate the decision?",
+    "options": [
+      "Which vendor has the more attractive sales presentation",
+      "Which program delivers the stronger net present value and total cost of ownership relative to projected health-cost savings",
+      "Which program the HR team personally prefers",
+      "Which program was implemented by a competitor"
+    ],
+    "answer": 1,
+    "explanation": "When effectiveness is equal, the decision should hinge on economic value, namely net present value and total cost of ownership versus projected savings. This disciplined, financially grounded approach is expected at the executive level.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q42",
+    "domain": "Business",
+    "prompt": "Post-merger, two companies with very different cultures are being combined. What is the MOST effective way to manage cultural integration?",
+    "options": [
+      "Impose the acquirer's culture without discussion",
+      "Ignore cultural differences and focus only on systems",
+      "Conduct cultural due diligence, define the desired end-state culture, and lead a deliberate integration plan with visible leadership",
+      "Allow each entity to operate independently with no shared identity"
+    ],
+    "answer": 2,
+    "explanation": "Cultural integration succeeds through intentional due diligence, a clear target culture, and visible, structured leadership rather than through imposition or neglect. Ignoring culture is a leading cause of failed mergers.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q43",
+    "domain": "Business",
+    "prompt": "To advise the CEO on whether to build, buy, or borrow talent for a new capability, the CHRO should first:",
+    "options": [
+      "Assess labor market supply, cost, time-to-productivity, and the strategic criticality of the capability",
+      "Immediately recruit externally regardless of market conditions",
+      "Outsource the entire function to the lowest bidder",
+      "Rely solely on internal promotions without market data"
+    ],
+    "answer": 0,
+    "explanation": "The build-buy-borrow decision requires market data on supply, cost, and speed, weighed against how strategic the capability is to the business. This ensures the talent sourcing approach aligns with competitive strategy.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q44",
+    "domain": "Business",
+    "prompt": "Which of the following is the weakest justification for continuing a leadership development program?",
+    "options": [
+      "Documented improvement in promotion rates among participants",
+      "Measurable reduction in regrettable turnover among participant groups",
+      "Attribution analysis showing financial returns exceeding program cost",
+      "High participant satisfaction ratings alone"
+    ],
+    "answer": 3,
+    "explanation": "Satisfaction, a Level 1 reaction measure, does not demonstrate behavioral or business impact and is the weakest basis for continued investment. Promotion, retention, and financial returns reflect higher levels of evaluation evidence.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q45",
+    "domain": "Business",
+    "prompt": "The CHRO is preparing the annual HR budget during an economic downturn. The most strategically sound approach is to:",
+    "options": [
+      "Apply a uniform percentage cut across all HR programs",
+      "Protect investments that directly support the business strategy and critical capabilities while reducing lower-impact spending",
+      "Cut all learning and development first",
+      "Defer all workforce planning until the economy recovers"
+    ],
+    "answer": 1,
+    "explanation": "Strategic budgeting differentiates between investments that sustain competitive advantage and costs that can be trimmed with lower risk. Uniform or reflexive cuts can damage the very capabilities critical to recovery and growth.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q46",
+    "domain": "Business",
+    "prompt": "A retailer's demand forecasts predict a 30 percent seasonal spike. Which approach best demonstrates strategic, data-driven workforce planning?",
+    "options": [
+      "React to staffing shortages as they occur",
+      "Hire permanent staff at the last minute",
+      "Use predictive modeling of historical seasonal demand to pre-position a flexible workforce and scheduling strategy",
+      "Eliminate overtime regardless of demand"
+    ],
+    "answer": 2,
+    "explanation": "Predictive workforce planning anticipates demand using historical and forward-looking data to shape staffing and scheduling before the peak. Reactive hiring and rigid cost rules expose the business to lost revenue and poor service.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q47",
+    "domain": "Interpersonal",
+    "prompt": "The CHRO needs the CFO to approve funding for a new talent initiative. The CFO is highly data-driven. Which influence approach is MOST effective?",
+    "options": [
+      "Present a rigorous business case quantifying the financial return and the risk of inaction",
+      "Appeal to the CFO's personal loyalty to the CHRO",
+      "Rely on emotional anecdotes from employees",
+      "Warn that attrition will become the CFO's responsibility"
+    ],
+    "answer": 0,
+    "explanation": "Influencing a data-driven executive requires speaking their language, namely quantified business impact and the cost of inaction. Emotional or relational appeals are less persuasive, and threats undermine credibility and trust.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q48",
+    "domain": "Interpersonal",
+    "prompt": "In negotiating a multi-year contract with a benefits provider, the CHRO should:",
+    "options": [
+      "Accept the first offer to preserve the relationship",
+      "Prepare by understanding alternatives (BATNA), the provider's constraints, and value-creating trade-offs before entering negotiations",
+      "Withhold all information to maximize leverage",
+      "Focus solely on price without considering service terms"
+    ],
+    "answer": 1,
+    "explanation": "Effective negotiation is grounded in preparation, namely knowing one's best alternative to a negotiated agreement, the counterpart's interests, and opportunities for mutually beneficial trade-offs. This enables the CHRO to maximize value beyond price alone.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q49",
+    "domain": "Interpersonal",
+    "prompt": "Two C-suite executives are in a persistent conflict that is damaging cross-functional collaboration. The CHRO's most effective role is to:",
+    "options": [
+      "Take sides with the more powerful executive",
+      "Avoid involvement to remain neutral",
+      "Facilitate a structured dialogue to surface interests, reframe the dispute, and build a mutually acceptable resolution",
+      "Publicly reprimand both executives"
+    ],
+    "answer": 2,
+    "explanation": "As a neutral facilitator, the CHRO can help senior leaders move from positional conflict to interest-based problem solving without escalating or taking sides. Avoidance or public reprimand risks deepening the rift and eroding executive trust.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q50",
+    "domain": "Interpersonal",
+    "prompt": "When delivering difficult news about a workforce reduction to the executive team, the CHRO should communicate in a way that:",
+    "options": [
+      "Focuses only on financial savings",
+      "Delays discussion until after the action is implemented",
+      "Uses euphemisms to soften the impact",
+      "Is direct, transparent, and empathetic while clearly explaining the business rationale and support plans"
+    ],
+    "answer": 3,
+    "explanation": "Executives and employees respond to direct, honest, and compassionate communication that explains the rationale and the support available. Opaque or purely financial framing damages trust and increases the risk of litigation and disengagement.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q51",
+    "domain": "Interpersonal",
+    "prompt": "A change initiative has stakeholders with conflicting interests. The CHRO's first step in stakeholder management is to:",
+    "options": [
+      "Map and analyze stakeholder interests, influence, and potential resistance",
+      "Announce the change and hope for consensus",
+      "Ignore low-power stakeholders",
+      "Only communicate with senior leaders"
+    ],
+    "answer": 0,
+    "explanation": "Stakeholder analysis, mapping interests, influence, and resistance, is the foundation for tailoring engagement and communication strategies. Skipping this step leads to blind spots that can stall or derail the initiative.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q52",
+    "domain": "Interpersonal",
+    "prompt": "To persuade a skeptical board of the need for a new HR technology investment, the CHRO should:",
+    "options": [
+      "Overwhelm the board with technical specifications",
+      "Translate the investment into strategic outcomes such as risk reduction, efficiency, and data-driven decisions, with a clear payback period",
+      "Emphasize that competitors use the same system",
+      "Minimize the stated cost to avoid scrutiny"
+    ],
+    "answer": 1,
+    "explanation": "Persuasion succeeds when the audience sees the link between the investment and strategic value with a defensible financial return. Technical detail and competitor mimicry fail to make the case on the board's own terms.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q53",
+    "domain": "Interpersonal",
+    "prompt": "A CHRO must tell a long-tenured executive that they are being removed from a role. The most effective approach is to:",
+    "options": [
+      "Communicate the decision indirectly through a third party",
+      "Combine the message with unrelated criticism to soften it",
+      "Deliver the message privately, directly, and with respect, allowing space for the executive's response",
+      "Announce the change at a large team meeting first"
+    ],
+    "answer": 2,
+    "explanation": "High-stakes conversations require directness, privacy, and respect for the individual's dignity and reaction. Indirect or public delivery compounds harm, violates trust, and increases legal exposure.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q54",
+    "domain": "Interpersonal",
+    "prompt": "To build consensus for a controversial organizational change among resistant executives, the CHRO should:",
+    "options": [
+      "Force a vote to end debate quickly",
+      "Avoid the dissenters and proceed with allies",
+      "Escalate the dispute to the board immediately",
+      "Engage dissenters early, understand their concerns, and incorporate legitimate input to broaden ownership"
+    ],
+    "answer": 3,
+    "explanation": "Consensus is built by engaging skeptics, addressing legitimate concerns, and integrating their input so they share ownership of the outcome. Forcing decisions or bypassing dissenters produces compliance without commitment.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q55",
+    "domain": "Interpersonal",
+    "prompt": "A CHRO observes that a key executive is quietly undermining a new talent initiative. The most effective response is to:",
+    "options": [
+      "Address the behavior directly, understand the executive's underlying concerns, and seek alignment before escalating",
+      "Publicly call out the executive to deter others",
+      "Ignore the behavior and hope it fades",
+      "Immediately report the executive to the CEO as insubordinate"
+    ],
+    "answer": 0,
+    "explanation": "Skilled leaders address resistance directly and diagnose its root cause, which may reveal legitimate concerns that can be resolved. Public confrontation or premature escalation escalates conflict and forecloses collaborative solutions.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q56",
+    "domain": "Interpersonal",
+    "prompt": "As a neutral mediator between two departments in a resource dispute, the CHRO's primary objective is to:",
+    "options": [
+      "Decide which department wins based on seniority",
+      "Help the parties identify shared interests and reach their own mutually acceptable agreement",
+      "Impose a solution quickly to save time",
+      "Refer the matter to legal counsel immediately"
+    ],
+    "answer": 1,
+    "explanation": "Mediation empowers the disputing parties to find a resolution grounded in their shared interests, increasing durability and ownership of the outcome. Imposing a solution or deferring to legal counsel is appropriate only when mediation fails or genuine legal issues arise.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q57",
+    "domain": "Interpersonal",
+    "prompt": "To advance a new diversity initiative that lacks broad support, the CHRO should build a coalition by:",
+    "options": [
+      "Recruiting only HR staff as advocates",
+      "Relying on a single powerful sponsor",
+      "Engaging influential leaders across functions who can champion the initiative within their own networks",
+      "Mandating participation through policy alone"
+    ],
+    "answer": 2,
+    "explanation": "Coalitions gain legitimacy and reach when influential leaders across the organization champion the change in their own spheres. A coalition confined to HR or a single sponsor is fragile and lacks broad grassroots credibility.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q58",
+    "domain": "Interpersonal",
+    "prompt": "Providing upward feedback to the CEO about their communication style requires the CHRO to:",
+    "options": [
+      "Avoid the topic to protect the relationship",
+      "Deliver the feedback publicly for transparency",
+      "Focus only on strengths to maintain morale",
+      "Frame the feedback around business impact, offer specific examples, and deliver it privately with respect"
+    ],
+    "answer": 3,
+    "explanation": "Upward feedback is most effective when it is private, specific, and tied to business impact rather than personal criticism. This balances candor with respect and preserves the trust essential to the CHRO-CEO partnership.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q59",
+    "domain": "Interpersonal",
+    "prompt": "When negotiating for a larger HR budget with the CEO, the strongest opening position is to:",
+    "options": [
+      "Anchor the request with a data-backed proposal showing the return and the risk of underfunding key initiatives",
+      "Ask for the maximum amount without justification",
+      "Threaten to resign if the request is denied",
+      "Downplay the importance of the request to appear flexible"
+    ],
+    "answer": 0,
+    "explanation": "Anchoring with a well-supported proposal frames the negotiation around value and risk rather than cost alone. Justified anchors are more credible and give the CEO a defensible basis for approval.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q60",
+    "domain": "People",
+    "prompt": "A company plans to expand into a new market in three years. Strategic workforce planning should begin by:",
+    "options": [
+      "Posting job openings in the new market immediately",
+      "Forecasting the future demand for critical skills and comparing it against current and projected internal supply",
+      "Freezing all external hiring",
+      "Waiting until the expansion is confirmed before planning"
+    ],
+    "answer": 1,
+    "explanation": "Strategic workforce planning starts with demand forecasting for critical capabilities and a gap analysis against internal supply, informing build, buy, or borrow decisions. Reactive posting or premature freezes are not strategic and waste resources.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q61",
+    "domain": "People",
+    "prompt": "Which practice most strengthens CEO and C-suite succession readiness?",
+    "options": [
+      "Maintaining a confidential list known only to the CEO",
+      "Replacing succession plans annually without development",
+      "Maintaining a board-visible, regularly reviewed pipeline with development plans and both emergency and longer-term successors",
+      "Relying on external search firms at the last minute"
+    ],
+    "answer": 2,
+    "explanation": "Robust succession planning requires board visibility, regular review, defined development plans, and both emergency and longer-term readiness. Secrecy, stale plans, or reactive external search expose the organization to leadership continuity risk.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q62",
+    "domain": "People",
+    "prompt": "A company wants a total rewards strategy that drives retention of critical talent. The strongest approach is to:",
+    "options": [
+      "Offer only base salary increases",
+      "Standardize rewards identically across all roles",
+      "Focus exclusively on non-cash recognition",
+      "Align a differentiated mix of compensation, benefits, and career and recognition programs with what critical talent segments value"
+    ],
+    "answer": 3,
+    "explanation": "Total rewards are most effective when the mix is intentionally differentiated around the preferences and motivations of key segments. Uniform or single-lever approaches fail to engage the talent most critical to business success.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q63",
+    "domain": "People",
+    "prompt": "To reduce legal and reputational risk around pay equity, the CHRO should first:",
+    "options": [
+      "Conduct a pay-equity audit using regression analysis to identify unexplained pay differences after controlling for legitimate factors",
+      "Publicly announce that pay is already fair",
+      "Adjust only the highest-profile executive salaries",
+      "Freeze all pay decisions indefinitely"
+    ],
+    "answer": 0,
+    "explanation": "A statistically rigorous pay-equity audit identifies unexplained disparities attributable to factors such as sex or race after controlling for legitimate drivers like experience and performance. This evidence-based starting point enables targeted, defensible remediation.",
+    "docs": [{ "label": "EEOC", "url": "https://www.eeoc.gov/" }]
+  },
+  {
+    "id": "shrm-scp-q64",
+    "domain": "People",
+    "prompt": "The most effective leadership development strategy builds a pipeline by:",
+    "options": [
+      "Sending all managers to the same one-off seminar",
+      "Combining assessments, experiential assignments, and coaching aligned to future leadership competencies",
+      "Relying on self-study alone",
+      "Promoting based solely on tenure"
+    ],
+    "answer": 1,
+    "explanation": "Effective leadership development integrates assessment, stretch assignments, and coaching tied to the competencies required for future roles, creating applied learning. Isolated training or tenure-based promotion does not build readiness.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q65",
+    "domain": "People",
+    "prompt": "To strengthen its employer brand authentically, an organization should:",
+    "options": [
+      "Exaggerate workplace attributes in recruiting materials",
+      "Copy a competitor's recruitment messaging",
+      "Define and consistently deliver a differentiated employee value proposition grounded in the real employee experience",
+      "Focus branding only on compensation"
+    ],
+    "answer": 2,
+    "explanation": "A credible employer brand is built on a clearly defined employee value proposition that reflects the genuine employee experience and is delivered consistently. Overstating or imitating others creates a brand gap that damages retention and reputation.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q66",
+    "domain": "People",
+    "prompt": "A talent pipeline for critical roles is healthiest when the organization:",
+    "options": [
+      "Has no identified successors",
+      "Depends on a single incumbent in each critical role",
+      "Fills all roles externally",
+      "Maintains multiple ready-now and ready-soon successors with development plans for each critical role"
+    ],
+    "answer": 3,
+    "explanation": "Pipeline health is measured by bench strength, meaning multiple successors at varying readiness levels supported by development plans. Single points of failure or reliance on external hiring signal succession risk.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q67",
+    "domain": "People",
+    "prompt": "For a role that is critical to strategy and scarce in the market, the strongest talent acquisition approach is:",
+    "options": [
+      "A proactive, multi-channel sourcing strategy with a compelling employee value proposition and competitive, market-informed offers",
+      "Posting the role once and waiting for applicants",
+      "Lowering the role requirements until it is easy to fill",
+      "Delegating sourcing to a low-cost vendor with no brief"
+    ],
+    "answer": 0,
+    "explanation": "Scarce, strategic talent requires proactive sourcing across channels, a compelling value proposition, and data-informed offers to compete effectively. Passive, reactive, or diluted approaches under-deliver on critical roles.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q68",
+    "domain": "People",
+    "prompt": "The CHRO wants to redesign performance management to better support agility and development. The best approach is to:",
+    "options": [
+      "Retain a single annual rating tied only to pay",
+      "Shift toward continuous feedback and goal-setting that separates development conversations from compensation decisions",
+      "Eliminate all performance documentation",
+      "Increase the number of annual rating categories"
+    ],
+    "answer": 1,
+    "explanation": "Modern performance management favors continuous feedback and forward-looking goals, decoupling development from pay decisions to reduce defensiveness. Eliminating documentation or adding rating complexity does not support agility or fairness.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q69",
+    "domain": "People",
+    "prompt": "Exit data shows that critical employees leave primarily for development and advancement opportunities, not pay. The most targeted retention strategy is:",
+    "options": [
+      "A broad across-the-board salary increase",
+      "Reducing workloads for everyone",
+      "Creating clear career pathways, internal mobility, and development programs for critical roles",
+      "Increasing the annual bonus for all staff"
+    ],
+    "answer": 2,
+    "explanation": "Retention strategy should address the actual drivers of attrition revealed by the data, in this case development and advancement. Blanket pay or workload changes spend resources without targeting the real cause of critical turnover.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q70",
+    "domain": "People",
+    "prompt": "To set competitive pay for a newly created executive role, the CHRO should:",
+    "options": [
+      "Use the previous incumbent's salary as the benchmark",
+      "Ask candidates their desired salary and pay the lowest",
+      "Set pay arbitrarily to minimize cost",
+      "Benchmark against relevant market data matched by scope, industry, and geography to inform a defensible range"
+    ],
+    "answer": 3,
+    "explanation": "Credible compensation decisions rely on market data matched to the role's scope, industry, and location to establish a competitive, defensible range. Arbitrary or candidate-driven pay creates internal inequity and retention risk.",
+    "docs": [{ "label": "U.S. Bureau of Labor Statistics", "url": "https://www.bls.gov/" }]
+  },
+  {
+    "id": "shrm-scp-q71",
+    "domain": "People",
+    "prompt": "An employee value proposition (EVP) is best described as:",
+    "options": [
+      "The total set of rewards and attributes an employee receives in exchange for their contribution, defining why people join and stay",
+      "A list of company benefits",
+      "The company's marketing slogan for consumers",
+      "A single employee survey"
+    ],
+    "answer": 0,
+    "explanation": "The EVP is the holistic set of offerings, including compensation, benefits, culture, development, and purpose, that defines the employee exchange and differentiates the employer. It is broader than benefits or branding and is validated through ongoing employee insight.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q72",
+    "domain": "People",
+    "prompt": "To close a strategic skills gap, the CHRO should prioritize investments that:",
+    "options": [
+      "Offer the most entertaining training content",
+      "Build the specific critical capabilities linked to business strategy, measured by behavior change and business impact",
+      "Reach the largest number of employees regardless of need",
+      "Have the lowest per-employee cost"
+    ],
+    "answer": 1,
+    "explanation": "Learning investment should be guided by strategic capability needs and evaluated on behavior change and business outcomes, not popularity, volume, or cost alone. This ensures learning and development spending translates into competitive advantage.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q73",
+    "domain": "People",
+    "prompt": "Internal mobility is most effectively encouraged by:",
+    "options": [
+      "Requiring manager approval that discourages transfers",
+      "Keeping job openings confidential",
+      "Transparent posting of internal opportunities, portable skills frameworks, and support for lateral and developmental moves",
+      "Penalizing managers who lose team members to internal moves"
+    ],
+    "answer": 2,
+    "explanation": "Internal mobility flourishes when opportunities are visible, skills are understood across roles, and lateral moves are valued rather than penalized. Restrictive or secretive practices trap talent and drive external turnover.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q74",
+    "domain": "Organization",
+    "prompt": "When diagnosing an organizational design problem, the first consideration should be:",
+    "options": [
+      "Which structure is most popular in the industry",
+      "Reducing headcount to cut costs",
+      "Reorganizing the chart to reward loyal leaders",
+      "How the structure must align with strategy, with structure following strategy"
+    ],
+    "answer": 3,
+    "explanation": "Effective organization design starts with strategy; the structure, capabilities, and processes must enable the intended business model. Copying peers or reorganizing for personal or cost reasons alone produces misalignment.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q75",
+    "domain": "Organization",
+    "prompt": "In the ADKAR model, an employee who understands the reason for a change but lacks the skills to perform the new way is experiencing a barrier at which element?",
+    "options": [
+      "Ability",
+      "Awareness",
+      "Desire",
+      "Knowledge"
+    ],
+    "answer": 0,
+    "explanation": "ADKAR distinguishes Knowledge, understanding how to change, from Ability, the demonstrated skill to perform the new behavior. A gap in practical skill signals an Ability barrier that requires coaching and practice.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q76",
+    "domain": "Organization",
+    "prompt": "Before selecting a new HR technology platform, the CHRO should first:",
+    "options": [
+      "Choose the vendor with the lowest price",
+      "Define the business and workforce outcomes the technology must enable, aligned to HR strategy",
+      "Adopt whatever platform the CFO prefers",
+      "Deploy the most feature-rich system available"
+    ],
+    "answer": 1,
+    "explanation": "Technology selection should be driven by clearly defined business and workforce outcomes, not features or price alone. Starting with desired outcomes prevents purchasing a platform that does not advance HR and business strategy.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q77",
+    "domain": "Organization",
+    "prompt": "A company is redesigning its HR operating model to improve efficiency and strategic impact. The most effective model typically:",
+    "options": [
+      "Centralizes all HR work into one undifferentiated team",
+      "Eliminates all self-service and technology",
+      "Delivers transactional work through shared services or technology, while HR business partners focus on strategic consulting to leaders",
+      "Outsources every HR function"
+    ],
+    "answer": 2,
+    "explanation": "A high-impact HR operating model, such as the Ulrich model, separates transactional delivery via shared services and technology from strategic business-partner support. This balances efficiency with strategic value rather than centralizing everything or outsourcing wholesale.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q78",
+    "domain": "Organization",
+    "prompt": "A culture transformation is most likely to succeed when leaders:",
+    "options": [
+      "Delegate culture change entirely to HR",
+      "Announce the change and remain hands-off",
+      "Focus only on changing the mission statement",
+      "Personally model the target behaviors and consistently reinforce them through systems and decisions"
+    ],
+    "answer": 3,
+    "explanation": "Culture change is led through visible role-modeling by leaders and reinforcement through the systems, symbols, and decisions that signal what is truly valued. Delegating to HR or changing statements alone will not shift embedded behavior.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q79",
+    "domain": "Organization",
+    "prompt": "An organization development (OD) approach differs from a purely structural reorganization in that OD:",
+    "options": [
+      "Takes a systemic, planned, participative approach to improving organizational effectiveness and health over time",
+      "Focuses only on downsizing",
+      "Relies solely on reorganizing the hierarchy",
+      "Ignores culture and human behavior"
+    ],
+    "answer": 0,
+    "explanation": "OD is a planned, systemic, and participative effort to enhance organizational effectiveness and health, emphasizing people, culture, and process alongside structure. Reorganization alone is a structural change, not OD.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q80",
+    "domain": "Organization",
+    "prompt": "To become more agile, an organization is shifting from rigid functional silos to cross-functional teams. A key enabler of this design is:",
+    "options": [
+      "Reinforcing strict command-and-control hierarchies",
+      "Empowering teams with decision rights and clear, outcome-based accountability",
+      "Increasing the number of approval layers",
+      "Standardizing all work into fixed procedures"
+    ],
+    "answer": 1,
+    "explanation": "Agile operating models depend on empowered, cross-functional teams with the authority and accountability to deliver outcomes quickly. Retaining hierarchical control or adding approvals undermines the speed and adaptability the design intends to create.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q81",
+    "domain": "Organization",
+    "prompt": "To reduce HR administrative burden while improving the employee experience, the best lever is:",
+    "options": [
+      "Hiring more HR administrators",
+      "Routing all requests through a single generalist",
+      "Implementing employee self-service and a tiered service model for routine transactions",
+      "Delaying responses to reduce volume"
+    ],
+    "answer": 2,
+    "explanation": "Self-service and a tiered service delivery model push routine transactions to efficient, technology-enabled channels, freeing HR for higher-value work and improving responsiveness. Adding headcount or routing through a generalist does not scale efficiently.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q82",
+    "domain": "Organization",
+    "prompt": "When redesigning a key HR process, the CHRO should first:",
+    "options": [
+      "Automate the existing process as-is",
+      "Copy the process from a larger company",
+      "Focus only on reducing staff",
+      "Map the current process, identify pain points and value, and design the future state around desired outcomes"
+    ],
+    "answer": 3,
+    "explanation": "Process redesign begins with understanding the current state and defining the desired outcomes before deciding on automation or structure. Automating a flawed process merely makes inefficiency faster.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q83",
+    "domain": "Organization",
+    "prompt": "A matrix structure is most appropriate when an organization needs to:",
+    "options": [
+      "Balance dual priorities such as product and functional expertise with strong cross-functional coordination",
+      "Maximize simplicity and single lines of command above all",
+      "Eliminate all coordination complexity",
+      "Reduce accountability for results"
+    ],
+    "answer": 0,
+    "explanation": "A matrix structure is designed to address dual-reporting priorities and enhance cross-functional collaboration, accepting the coordination complexity it creates. Simplicity and single command are characteristics of functional structures, not matrix designs.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q84",
+    "domain": "Organization",
+    "prompt": "A successful digital HR transformation requires the CHRO to lead with:",
+    "options": [
+      "Technology adoption as an end in itself",
+      "A people-first change strategy that pairs new technology with new skills, processes, and behaviors",
+      "Minimal employee involvement to avoid resistance",
+      "A focus on cutting HR staff above all"
+    ],
+    "answer": 1,
+    "explanation": "Digital transformation succeeds when technology is paired with corresponding changes in skills, processes, and behaviors through deliberate change management. Treating technology as an end in itself, or excluding employees, is a common cause of failed transformations.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q85",
+    "domain": "Organization",
+    "prompt": "Resistance to a major change is best addressed by:",
+    "options": [
+      "Ignoring resistors to avoid conflict",
+      "Dismissing resistance as irrational negativity",
+      "Diagnosing its sources and engaging affected stakeholders to address concerns and build support",
+      "Forcing compliance through mandates alone"
+    ],
+    "answer": 2,
+    "explanation": "Resistance often signals legitimate concerns, unmet needs, or poor change design; diagnosing and engaging those affected converts resistance into input and ownership. Ignoring or forcing through resistance produces surface compliance and hidden sabotage.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q86",
+    "domain": "Organization",
+    "prompt": "An engagement survey reveals low scores but no clear cause. The most valuable next step is to:",
+    "options": [
+      "Roll out generic engagement activities",
+      "Ignore the results because scores are aggregate",
+      "Compare scores to industry benchmarks only",
+      "Conduct focused follow-up, such as pulse surveys and focus groups, to identify the specific drivers behind low scores before acting"
+    ],
+    "answer": 3,
+    "explanation": "Aggregate scores alone do not reveal causation; focused diagnostics identify the specific drivers to address. Acting on vague, generic data wastes resources, while benchmarking alone does not explain internal dynamics.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q87",
+    "domain": "Workplace",
+    "prompt": "Investors increasingly evaluate companies on ESG criteria. Within the social (S) dimension, the CHRO is typically accountable for:",
+    "options": [
+      "Workforce practices such as DEI, labor standards, pay equity, and employee well-being, with transparent disclosure",
+      "Corporate tax strategy",
+      "Product pricing decisions",
+      "Marketing campaign design"
+    ],
+    "answer": 0,
+    "explanation": "The social pillar of ESG encompasses workforce-related practices, including DEI, labor standards, pay equity, and well-being, that the CHRO owns and must report transparently. Tax, pricing, and marketing fall outside the CHRO's core ESG remit.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q88",
+    "domain": "Workplace",
+    "prompt": "A multinational company is moving an employee across borders on a long-term assignment. The most critical compliance consideration is:",
+    "options": [
+      "Selecting the employee's preferred airline",
+      "Managing immigration and work authorization, tax equalization, and local employment law compliance for the host country",
+      "Choosing the employee's housing decor",
+      "Deciding the employee's team-building activities"
+    ],
+    "answer": 1,
+    "explanation": "Cross-border mobility triggers immigration, tax, and local employment-law obligations that carry significant legal and financial risk if mishandled. These compliance fundamentals are more critical than logistical preferences.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q89",
+    "domain": "Workplace",
+    "prompt": "In an enterprise risk management framework, the CHRO's role in managing people-related risk is best described as:",
+    "options": [
+      "Eliminating all risk to avoid liability",
+      "Transferring all people risk to insurance",
+      "Identifying, assessing, and mitigating human capital risks such as talent gaps, misconduct, and compliance in alignment with the ERM framework",
+      "Treating people risk as solely a legal department concern"
+    ],
+    "answer": 2,
+    "explanation": "The CHRO integrates human capital risk into the enterprise risk management framework by identifying, assessing, and mitigating exposures such as talent scarcity, misconduct, and compliance failures. Eliminating or transferring all risk is neither possible nor strategic.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q90",
+    "domain": "Workplace",
+    "prompt": "Which approach reflects a mature, business-integrated DEI strategy rather than a compliance-driven program?",
+    "options": [
+      "Conducting training only after a complaint is filed",
+      "Setting diversity quotas for optics",
+      "Focusing exclusively on hiring numbers",
+      "Embedding DEI into talent processes, leadership accountability, and business decision-making with measurable outcomes"
+    ],
+    "answer": 3,
+    "explanation": "Mature DEI strategy integrates inclusion into talent systems, holds leaders accountable, and ties to business outcomes, rather than reacting to complaints or chasing cosmetic quotas. Compliance and hiring metrics alone are necessary but insufficient.",
+    "docs": [{ "label": "EEOC", "url": "https://www.eeoc.gov/" }]
+  },
+  {
+    "id": "shrm-scp-q91",
+    "domain": "Workplace",
+    "prompt": "A strong corporate governance practice regarding executive compensation is to:",
+    "options": [
+      "Establish an independent board compensation committee that sets executive pay with rigorous oversight and clawback provisions",
+      "Allow the CEO to set their own compensation",
+      "Determine executive pay without board review",
+      "Disclose compensation only to internal HR"
+    ],
+    "answer": 0,
+    "explanation": "Independent compensation committee oversight, with clawback provisions, aligns executive pay with performance and shareholder interests and is a hallmark of sound governance. Self-dealing or opaque pay processes invite regulatory and reputational risk.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q92",
+    "domain": "Workplace",
+    "prompt": "A U.S. company opens operations in a country with stricter employment protections than the U.S. The CHRO should:",
+    "options": [
+      "Apply only U.S. employment practices uniformly",
+      "Comply with the more protective local laws while maintaining core company values, consulting local counsel",
+      "Ignore local law in favor of the parent company's handbook",
+      "Ask employees to waive local protections"
+    ],
+    "answer": 1,
+    "explanation": "Cross-border compliance requires adhering to host-country law, especially where it is more protective, while preserving consistent core values, guided by local legal counsel. Applying only home-country rules or seeking waivers of mandatory rights creates serious legal exposure.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q93",
+    "domain": "Workplace",
+    "prompt": "An HR team collects personal data of EU employees. Under the GDPR, the CHRO should ensure:",
+    "options": [
+      "Employee data can be used for any purpose once collected",
+      "Data can be transferred anywhere without safeguards",
+      "Processing is based on a lawful basis, data is minimized, and transfers outside the EU use approved safeguards",
+      "Employees have no rights over their personal data"
+    ],
+    "answer": 2,
+    "explanation": "The GDPR requires a lawful basis for processing, data minimization, and adequate safeguards for cross-border transfers, along with individual rights. Unrestricted use or transfer of personal data violates these core obligations.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q94",
+    "domain": "Workplace",
+    "prompt": "Under U.S. workplace safety law, an employer's core obligation is to:",
+    "options": [
+      "Report injuries only if an employee complains",
+      "Maintain safety only in manufacturing facilities",
+      "Provide training only after an accident occurs",
+      "Furnish a workplace free from recognized hazards likely to cause death or serious harm, and comply with applicable standards"
+    ],
+    "answer": 3,
+    "explanation": "The OSH Act's general duty clause requires employers to provide a workplace free from recognized serious hazards and to comply with OSHA standards. This obligation is proactive and applies across covered industries, not just after incidents.",
+    "docs": [{ "label": "OSHA", "url": "https://www.osha.gov/" }]
+  },
+  {
+    "id": "shrm-scp-q95",
+    "domain": "Workplace",
+    "prompt": "Under the Fair Labor Standards Act (FLSA), a key factor in determining whether an employee is properly classified as exempt from overtime is:",
+    "options": [
+      "Whether the employee's primary duties meet the requirements of a recognized exemption such as executive, administrative, or professional, and are paid on a salary basis",
+      "The employee's job title alone",
+      "Whether the employee prefers to be exempt",
+      "The employee's tenure with the company"
+    ],
+    "answer": 0,
+    "explanation": "FLSA exemption depends on actual job duties and salary-basis pay, not job titles or employee preference. Misclassification based on titles is a common and costly compliance error.",
+    "docs": [{ "label": "U.S. Department of Labor, Wage and Hour Division", "url": "https://www.dol.gov/agencies/whd/flsa" }]
+  },
+  {
+    "id": "shrm-scp-q96",
+    "domain": "Workplace",
+    "prompt": "Under the National Labor Relations Act, an employer may NOT lawfully:",
+    "options": [
+      "Communicate factual information to employees during an organizing campaign",
+      "Threaten, interrogate, or retaliate against employees for engaging in protected concerted activity or union support",
+      "Lawfully express opinions without threats or promises",
+      "Train managers on lawful campaign conduct"
+    ],
+    "answer": 1,
+    "explanation": "The NLRA protects employees' rights to engage in concerted activity and prohibits employer threats, interrogation, or retaliation related to union activity. Expressing opinions and lawful factual communication remain permissible when free of threats and promises.",
+    "docs": [{ "label": "National Labor Relations Board", "url": "https://www.nlrb.gov/" }]
+  },
+  {
+    "id": "shrm-scp-q97",
+    "domain": "Workplace",
+    "prompt": "When assessing the enterprise risk of a potential labor disruption, the CHRO should:",
+    "options": [
+      "Ignore the risk because it has not occurred before",
+      "React only when a strike is imminent",
+      "Assess the likelihood and business impact, and develop contingency plans integrated into the enterprise risk management framework",
+      "Delegate the issue to facilities management"
+    ],
+    "answer": 2,
+    "explanation": "Enterprise risk management requires proactively assessing the likelihood and impact of labor disruptions and preparing contingencies before they occur. Reactive or delegated approaches leave the business exposed to costly disruption.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q98",
+    "domain": "Workplace",
+    "prompt": "As sustainability reporting standards mature, the CHRO is most likely to be responsible for reporting on:",
+    "options": [
+      "Financial derivatives trading",
+      "Product warranty reserves",
+      "IT server uptime",
+      "Workforce metrics such as turnover, diversity, pay equity, and training investment"
+    ],
+    "answer": 3,
+    "explanation": "Emerging sustainability reporting frameworks include human capital disclosures such as turnover, diversity, pay equity, and training. These workforce metrics are squarely within the CHRO's reporting responsibility.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q99",
+    "domain": "Workplace",
+    "prompt": "In jurisdictions with pay transparency laws, a compliant and strategic employer should:",
+    "options": [
+      "Publish salary ranges in job postings and maintain defensible, auditable pay practices",
+      "Conceal pay information to avoid comparisons",
+      "Post ranges that do not reflect actual pay",
+      "Discourage employees from discussing compensation"
+    ],
+    "answer": 0,
+    "explanation": "Pay transparency laws require disclosing salary ranges in postings, making defensible, auditable pay practices essential. Concealing information or posting inaccurate ranges violates these laws and undermines trust.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q100",
+    "domain": "Workplace",
+    "prompt": "To encourage internal reporting of misconduct and reduce whistleblower retaliation risk, the CHRO should:",
+    "options": [
+      "Keep all reports confidential from leadership",
+      "Treat retaliation claims as routine HR matters",
+      "Discourage anonymous reporting channels",
+      "Implement and enforce a robust anti-retaliation policy with multiple confidential reporting channels and independent investigation"
+    ],
+    "answer": 3,
+    "explanation": "A strong speak-up culture relies on multiple confidential reporting channels, independent investigations, and firm enforcement of anti-retaliation policies. This reduces the risk of costly retaliation claims and surfaces problems early.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  }
+]
