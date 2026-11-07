@@ -22,18 +22,21 @@ import scpDocs from "@/content/shrm-scp/docs.json";
 import cpQuestions2 from "@/content/shrm-cp/questions-2.json";
 import scpQuestions2 from "@/content/shrm-scp/questions-2.json";
 
+import cpHard from "@/content/shrm-cp/questions-hard.json";
+import scpHard from "@/content/shrm-scp/questions-hard.json";
+
 export const courses: Course[] = coursesData as Course[];
 
 export const courseContent: Record<string, CourseContent> = {
   "shrm-cp": {
     flashcards: cpFlashcards as Flashcard[],
-    questions: [...cpQuestions, ...cpQuestions2] as Question[],
+    questions: [...cpQuestions, ...cpQuestions2, ...cpHard] as Question[],
     caseStudies: cpCases as CaseStudy[],
     docs: cpDocs as DocGroup[],
   },
   "shrm-scp": {
     flashcards: scpFlashcards as Flashcard[],
-    questions: [...scpQuestions, ...scpQuestions2] as Question[],
+    questions: [...scpQuestions, ...scpQuestions2, ...scpHard] as Question[],
     caseStudies: scpCases as CaseStudy[],
     docs: scpDocs as DocGroup[],
   },

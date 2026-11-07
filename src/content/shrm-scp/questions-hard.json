@@ -1,0 +1,512 @@
+[
+  {
+    "id": "shrm-scp-q101",
+    "domain": "Leadership",
+    "prompt": "The CEO of a $4B publicly traded industrial manufacturer announces unexpectedly that he will retire in 60 days for health reasons. Despite years of CHRO recommendations, the board never approved a formal succession plan. Two internal EVPs have emerged as frontrunners: the EVP of Operations, who has deep product knowledge and operational credibility but whose division has consistently high voluntary attrition and a documented pattern of abusive-manager complaints that were settled without admission; and the EVP of International, who grew overseas revenue 40% but has little domestic or finance experience. An activist investor is publicly demanding an external search, and the board is split. The CHRO is asked to lead the transition. What should the CHRO do FIRST?",
+    "options": [
+      "Launch an external executive search immediately to satisfy the activist investor and neutralize the board's internal disagreement.",
+      "Facilitate the board's agreement on an emergency interim leadership plan and a CEO success profile, then assess both internal candidates against that profile before deciding whether to go external.",
+      "Recommend the EVP of Operations as interim CEO to preserve operational stability while a full external search proceeds.",
+      "Announce the CEO's departure and the succession process to employees immediately to reassure the workforce about leadership continuity."
+    ],
+    "answer": 1,
+    "explanation": "A FIRST question requires the CHRO to assess and establish governance before acting. The correct first step is to secure an emergency interim plan and a board-approved success profile, then assess internal readiness against it; only after that assessment should the external-versus-internal decision be made. Announcing prematurely, launching an external search before defining requirements, or pre-selecting a candidate skips the diagnostic and governance steps and increases risk.",
+    "docs": [
+      { "label": "SHRM — Succession Planning", "url": "https://www.shrm.org/topics-tools/topics/succession-planning" },
+      { "label": "SHRM — CEO Succession", "url": "https://www.shrm.org/topics-tools/tools/hr-answers/pages/ceo-succession-planning.aspx" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q102",
+    "domain": "Leadership",
+    "prompt": "A healthcare system is shifting from fee-for-service to value-based care. The COO and the Chief Medical Officer are in open, escalating conflict: the COO insists that standardizing and centralizing clinical operations is the only way to hit the cost-reduction targets the board has set, while the CMO argues that physician autonomy is essential to care quality and has privately threatened to rally the medical staff against the change. Both are high-value executives the organization cannot easily replace. The CEO, who is conflict-averse, asks the CHRO to 'fix it.' What is the BEST action?",
+    "options": [
+      "Facilitate a structured dialogue to surface each leader's underlying interests and agree on shared clinical and financial metrics, then use those metrics to resolve the structural disagreement.",
+      "Side with the COO, because cost discipline is the strategic priority the board has explicitly emphasized.",
+      "Recommend that the CEO make an immediate unilateral decision on the operating model to end the stalemate before it damages the transformation.",
+      "Escalate the conflict to the full board for resolution, since the operating model is a strategic governance matter beyond HR's scope."
+    ],
+    "answer": 0,
+    "explanation": "The BEST action balances stakeholder interests and addresses the conflict's root cause rather than choosing a winner. Facilitating a structured process to surface interests and establish shared metrics lets the two leaders move from positional bargaining to a data-driven resolution. Taking sides, forcing a unilateral decision, or prematurely escalating to the board ignores the interpersonal and change-management dimensions and risks losing a key leader.",
+    "docs": [
+      { "label": "SHRM — Managing Organizational Conflict", "url": "https://www.shrm.org/topics-tools/tools/hr-answers/pages/managing-organizational-conflict.aspx" },
+      { "label": "SHRM — Change Management", "url": "https://www.shrm.org/topics-tools/topics/change-management" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q103",
+    "domain": "Leadership",
+    "prompt": "The new CEO of a 90-year-old insurance carrier has mandated a 'fail fast, innovate' culture to compete with insurtech startups. Eighteen months later, employee engagement is at an all-time low, voluntary attrition among high performers is 22%, and middle managers are widely blamed for 'resisting change.' The culture-change program the CHRO inherited relied on slogans, town halls, and a values refresh, but did not change how people are rewarded, evaluated, promoted, or empowered to make decisions. The CEO wants faster, more forceful rollout. What should the CHRO do FIRST?",
+    "options": [
+      "Replace the most resistant middle managers with external hires who already model the desired culture.",
+      "Launch a new, more urgent communication campaign to better explain the business case for change.",
+      "Conduct a systematic diagnostic of how current rewards, performance management, and decision-rights structures reward or punish the desired behaviors, and use the findings to redesign those systems.",
+      "Re-survey employees to measure whether the existing change program is improving sentiment."
+    ],
+    "answer": 2,
+    "explanation": "Culture change fails when the operating systems — rewards, performance, decision authority — remain aligned to the old culture. The FIRST step is to diagnose that misalignment before redesigning systems or blaming people. Replacing managers, communicating more, or re-measuring sentiment without understanding the systemic drivers would treat symptoms rather than the cause.",
+    "docs": [
+      { "label": "SHRM — How to Create a Culture of Change", "url": "https://www.shrm.org/topics-tools/tools/hr-answers/pages/how-to-create-a-culture-of-change.aspx" },
+      { "label": "SHRM — Organizational Culture", "url": "https://www.shrm.org/topics-tools/topics/organizational-culture" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q104",
+    "domain": "Leadership",
+    "prompt": "Through the company's confidential ethics hotline, the CHRO receives a detailed and corroborable report that the CEO has maintained a long-running undisclosed romantic relationship with a direct-report EVP, and that the CEO directed the finance team to inflate a key operating metric in the most recent quarterly filing. The CEO is well-liked by the board and has delivered record results for three consecutive years. The report names specific documents and witnesses. What is the BEST action?",
+    "options": [
+      "Meet privately with the CEO to give him an opportunity to explain and self-correct before involving anyone else.",
+      "Set the report aside to protect the company from the reputational harm a public scandal would cause.",
+      "Forward the report to the CFO first, because the alleged metric inflation falls within finance's oversight.",
+      "Ensure a prompt, independent, and confidential investigation is initiated through the appropriate board committee, with outside legal counsel, without alerting the implicated parties."
+    ],
+    "answer": 3,
+    "explanation": "Allegations involving the CEO and financial reporting trigger conflicts of interest and governance obligations that require board-level independent handling. The BEST action is to route the matter to the audit or compensation committee and outside counsel for an independent investigation, while preserving confidentiality so evidence is not compromised. Confronting the CEO first, suppressing the report, or routing it through the CFO (who may be implicated or conflicted) violates governance and ethics obligations and increases legal and reputational risk.",
+    "docs": [
+      { "label": "SHRM — Ethics and Compliance", "url": "https://www.shrm.org/topics-tools/topics/ethics" },
+      { "label": "OSHA — Whistleblower Protection Programs", "url": "https://www.whistleblowers.gov/" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q105",
+    "domain": "Leadership",
+    "prompt": "A private-equity-backed company is preparing for an IPO. The board's compensation committee asks the CHRO to design the new equity incentive plan for senior leadership. Separately, the audit committee asks the CHRO to lead the pre-IPO CEO search to strengthen governance. The CHRO's own compensation will include a substantial equity grant whose value is tied directly to the IPO outcome. What is the BEST action?",
+    "options": [
+      "Accept all three responsibilities to demonstrate strategic value to the new board during the transition.",
+      "Advise the board to engage an independent compensation consultant for the management equity plan and an external search firm for the CEO search, and to establish a conflict-management process, while disclosing the CHRO's own equity interest.",
+      "Personally design the equity plan but delegate the CEO search to an external firm to avoid the appearance of self-dealing.",
+      "Decline the equity grant entirely so the CHRO can perform all duties without any conflict of interest."
+    ],
+    "answer": 1,
+    "explanation": "Best governance practice requires independence in both executive compensation design and CEO succession, especially when the CHRO has a personal financial interest in the IPO. The BEST action is to disclose the conflict and recommend independent advisors plus a conflict-management process. Declining the grant is unnecessary and still leaves the self-dealing risk in the CEO search; personally designing the plan while delegating only the search does not resolve the compensation conflict.",
+    "docs": [
+      { "label": "SHRM — Executive Compensation", "url": "https://www.shrm.org/topics-tools/topics/executive-compensation" },
+      { "label": "SHRM — Governance and the HR Executive", "url": "https://www.shrm.org/topics-tools/topics/corporate-governance" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q106",
+    "domain": "Business",
+    "prompt": "During due diligence on the acquisition of a competitor, the CHRO discovers three material issues: the target's 401(k) plan has uncorrected operational failures that could jeopardize its tax-qualified status; the target contributes to an underfunded multiemployer pension fund with substantial withdrawal-liability exposure; and the target's collective bargaining agreement contains a successorship clause that would bind any acquirer. The deal team wants to close quickly via a stock purchase. What should the CHRO recommend FIRST?",
+    "options": [
+      "Quantify the full labor and benefit liabilities, and advise the deal team to adjust the purchase price or deal structure and negotiate a remediation and integration plan before close.",
+      "Advise proceeding with the stock purchase as planned, because liabilities transfer to the buyer regardless of deal structure.",
+      "Recommend that benefits be excluded from the diligence scope to avoid delaying the closing timeline.",
+      "Direct the target's HR team to quietly correct the 401(k) failures before the transaction closes."
+    ],
+    "answer": 0,
+    "explanation": "The CHRO's first obligation in M&A due diligence is to surface and quantify material labor and benefits risk so the deal team can price, structure, or remediate it. Uncorrected plan failures, multiemployer withdrawal liability, and successorship clauses are exactly the kind of hidden liabilities that must be priced into the deal. Excluding benefits from scope, assuming liabilities transfer regardless of structure, or directing pre-close fixes that may violate diligence or fiduciary boundaries are all unsound.",
+    "docs": [
+      { "label": "SHRM — Mergers and Acquisitions", "url": "https://www.shrm.org/topics-tools/topics/mergers-acquisitions" },
+      { "label": "U.S. DOL — Employee Benefits Security Administration", "url": "https://www.dol.gov/agencies/ebsa" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q107",
+    "domain": "Business",
+    "prompt": "A manufacturer must permanently close a 600-employee plant after losing its largest contract. Senior leadership wants to avoid 'bad morale' and competitor poaching, so they plan to announce the closure and terminate everyone with only 10 days' notice, offering enhanced severance and outplacement to soften the impact. About 200 employees are represented by a union, and the plant is located in a state that has its own 'mini-WARN' statute with stricter notice requirements than federal law. What should the CHRO advise FIRST?",
+    "options": [
+      "Approve the 10-day plan, because the enhanced severance package mitigates the company's legal exposure.",
+      "Delay the announcement until the company secures a replacement contract, so the decision can be revisited.",
+      "Determine the company's obligations under the federal WARN Act and the applicable state mini-WARN law — including required notice periods and recipients such as employees, the union, and government agencies — and build a compliant notice schedule before any communication occurs.",
+      "Announce the closure immediately to give affected employees the maximum possible time to find new work."
+    ],
+    "answer": 2,
+    "explanation": "The FIRST step is to assess legal obligations before communicating. WARN generally requires 60 days' advance notice of a mass layoff or plant closing, and state mini-WARN laws can be stricter; severance does not substitute for notice. The CHRO must determine the precise federal and state notice requirements and recipients before any announcement. Delaying, approving a non-compliant plan, or announcing early without a compliant schedule all create legal and reputational risk.",
+    "docs": [
+      { "label": "U.S. DOL — WARN Act Guide", "url": "https://www.dol.gov/agencies/eta/layoffs/warn" },
+      { "label": "SHRM — WARN Act Compliance", "url": "https://www.shrm.org/topics-tools/tools/hr-answers/pages/worker-adjustment-and-retraining-notification-act-warn.aspx" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q108",
+    "domain": "Business",
+    "prompt": "A U.S. software company plans to expand into Germany and Japan by hiring local sales engineers and sending several U.S. employees on long-term assignments. The leadership team assumes U.S. at-will employment terms and U.S. benefits can simply be 'exported' to the new markets, and asks the CHRO to confirm the workforce plan so hiring can begin. What is the BEST action?",
+    "options": [
+      "Standardize on U.S. employment terms globally to ensure a consistent culture and reduce administrative complexity.",
+      "Advise each country leader to hire exclusively through local staffing agencies so the company avoids any direct employment obligations abroad.",
+      "Approve the existing U.S. template so hiring can proceed quickly, and address local compliance issues as they arise.",
+      "Convene a global mobility and compliance workstream with local counsel to map statutory obligations — notice periods, works councils, social insurance, taxation, and visa/work-authorization requirements — before finalizing hiring or assignment decisions."
+    ],
+    "answer": 3,
+    "explanation": "Global expansion implicates mandatory local employment, works-council, social-insurance, tax, and immigration regimes that U.S. templates do not satisfy. The BEST action is to map statutory obligations with local counsel before committing to hiring or assignment structures. Exporting U.S. terms, routing everyone through staffing agencies to evade employer obligations, or approving a non-compliant template all create significant legal, tax, and reputational exposure.",
+    "docs": [
+      { "label": "SHRM — Global HR", "url": "https://www.shrm.org/topics-tools/topics/global-hr" },
+      { "label": "SHRM — International Assignment Management", "url": "https://www.shrm.org/topics-tools/topics/global-mobility" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q109",
+    "domain": "Business",
+    "prompt": "A multinational consumer-goods company discovers through an internal ESG audit that a key supplier in its supply chain has been using forced labor, and that the company's public sustainability report for the prior year contained an inaccurate claim about supply-chain labor practices. A major institutional investor has already requested the company's supplier-audit data, and an investigative journalist has filed questions. The CEO wants to 'manage the narrative' and is inclined to deny and delay. What is the BEST action?",
+    "options": [
+      "Advise denying the allegations and withholding the audit data until the company's own investigation is complete.",
+      "Advise immediate, transparent engagement: retain independent expertise, correct the prior public disclosure, notify the board and relevant regulators, and communicate a credible remediation and monitoring plan to investors and the public.",
+      "Recommend settling quietly with the supplier and terminating the relationship without any public statement.",
+      "Direct the communications team to publish a favorable counter-narrative emphasizing the company's overall ESG record."
+    ],
+    "answer": 1,
+    "explanation": "ESG and reputational risk involving forced labor and inaccurate public disclosures requires transparent, accountable, and proactive handling. The BEST action is to correct the inaccurate disclosure, engage independent expertise, inform the board and regulators, and communicate a concrete remediation plan. Denying, delaying, quietly cutting ties, or spinning a counter-narrative all compound the reputational and legal risk and undermine stakeholder trust.",
+    "docs": [
+      { "label": "SHRM — Corporate Social Responsibility and ESG", "url": "https://www.shrm.org/topics-tools/topics/corporate-social-responsibility" },
+      { "label": "U.S. DOL — International Labor Affairs", "url": "https://www.dol.gov/agencies/ilab" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q110",
+    "domain": "Business",
+    "prompt": "A CHRO commissioning a pay-equity analysis finds a statistically significant gender gap in base pay in the sales organization that cannot be explained by performance, tenure, or geography. The gap has persisted for years, and some of the affected employees have filed internal complaints. The CEO asks the CHRO for a recommendation before the next compensation cycle. What is the BEST action?",
+    "options": [
+      "Recommend a corrective, documented remediation plan: adjust pay for affected employees, examine hiring and promotion practices that created the gap, and conduct the analysis under attorney-client privilege with legal counsel before the next cycle.",
+      "Recommend adjusting only the most recent hires' pay going forward to avoid a large, visible one-time cost.",
+      "Advise waiting to see whether any external charges are filed before spending on remediation.",
+      "Recommend eliminating the pay-equity analysis from future cycles to avoid creating discoverable evidence of the gap."
+    ],
+    "answer": 0,
+    "explanation": "Once an unexplained pay gap is identified, the BEST action is to remediate it in a legally defensible way: correct pay, address the root-cause practices, and protect the analysis through privilege with counsel. Backward-only or minimal fixes, waiting for charges, or destroying the analysis all ignore legal exposure under the Equal Pay Act and Title VII and increase liability and reputational risk.",
+    "docs": [
+      { "label": "EEOC — Equal Pay/Compensation Discrimination", "url": "https://www.eeoc.gov/statutes/equal-payact-1963" },
+      { "label": "SHRM — Pay Equity", "url": "https://www.shrm.org/topics-tools/topics/pay-equity" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q111",
+    "domain": "Interpersonal",
+    "prompt": "The CHRO is asked to mediate between the General Counsel and the Chief Information Officer, who are deadlocked over who owns the company's data-privacy program. Their teams have stopped sharing information, and two major projects are stalled. Both executives insist the other is the obstacle and each has privately asked the CHRO to take their side. The CEO wants the CHRO to break the deadlock this week. What is the BEST action?",
+    "options": [
+      "Make a decision on the ownership question and communicate it, since the CEO needs resolution quickly.",
+      "Recommend the CEO restructure both departments so the conflict cannot recur.",
+      "Meet with each leader separately to understand their positions and interests, then facilitate a joint session to agree on shared outcomes and a clear decision-rights framework for the data-privacy program.",
+      "Assign ownership to the General Counsel, because legal compliance logically supersedes IT operations."
+    ],
+    "answer": 2,
+    "explanation": "Resolving senior-leader conflict requires understanding each party's interests and facilitating agreement on shared outcomes and decision rights, rather than imposing a solution. The BEST action is to diagnose through separate conversations and then facilitate a joint resolution. Unilaterally deciding, restructuring departments, or awarding ownership based on function skips the interpersonal work and is likely to leave one party disengaged and the conflict unresolved.",
+    "docs": [
+      { "label": "SHRM — Conflict Resolution", "url": "https://www.shrm.org/topics-tools/tools/hr-answers/pages/conflict-resolution.aspx" },
+      { "label": "SHRM — Mediation", "url": "https://www.shrm.org/topics-tools/topics/mediation" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q112",
+    "domain": "Interpersonal",
+    "prompt": "A newly promoted division president is struggling: his 360-degree feedback shows peers and direct reports perceive him as brilliant but dismissive, interrupting others and overruling his team's decisions in meetings. The CEO, who personally mentored this leader, is reluctant to hear criticism of him. The division's attrition is rising. The CHRO is asked to intervene. What is the BEST action?",
+    "options": [
+      "Recommend the CEO issue a direct warning that the leader's style must change immediately.",
+      "Remove the leader from the division and place him in an individual-contributor role where collaboration matters less.",
+      "Arrange confidential, data-based executive coaching focused on the specific behaviors identified in the 360 feedback, with clear developmental goals and follow-up measurement, and coach the CEO on giving candid feedback.",
+      "Wait to see whether the attrition trend self-corrects before acting, to avoid embarrassing a leader the CEO supports."
+    ],
+    "answer": 2,
+    "explanation": "The BEST intervention for a high-potential leader with specific behavioral feedback is confidential, data-based executive coaching with measurable goals, paired with support for the CEO in giving candid feedback. A blunt warning, demotion, or inaction all either ignore the developmental opportunity or damage a valuable leader. Coaching addresses the root behaviors while preserving the leader's value and dignity.",
+    "docs": [
+      { "label": "SHRM — Executive Coaching", "url": "https://www.shrm.org/topics-tools/tools/hr-answers/pages/executive-coaching.aspx" },
+      { "label": "SHRM — 360-Degree Feedback", "url": "https://www.shrm.org/topics-tools/topics/360-degree-assessment" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q113",
+    "domain": "Interpersonal",
+    "prompt": "During a joint-venture negotiation with a potential partner in a high-context, relationship-oriented culture, the U.S. business-development lead repeatedly pushes for a signed term sheet, treats silence during meetings as agreement, and sends a junior analyst to a key dinner with the partner's founders. The partner's leadership has become distant and non-committal. The CHRO is asked to help salvage the relationship. What is the BEST action?",
+    "options": [
+      "Coach the negotiation team on the cultural expectations of the partner — including the meaning of silence, the importance of relationship-building and senior presence — and adjust the negotiation approach before re-engaging.",
+      "Replace the business-development lead with a more senior executive to signal the company's seriousness.",
+      "Have legal counsel send a firm deadline for the term sheet to accelerate the stalled talks.",
+      "Concede on the major commercial terms to quickly rebuild goodwill with the partner."
+    ],
+    "answer": 0,
+    "explanation": "The stalled negotiations stem from a cultural mismatch in communication and relationship expectations. The BEST action is to coach the team on the partner's cultural norms and adapt the approach — treating silence as a cue, ensuring senior-level relationship presence — rather than escalating pressure or conceding terms. Replacing the lead, imposing deadlines, or conceding on substance misdiagnoses the problem and can further damage trust.",
+    "docs": [
+      { "label": "SHRM — Global and Cross-Cultural Communication", "url": "https://www.shrm.org/topics-tools/topics/global-hr" },
+      { "label": "SHRM — Cross-Cultural Competence", "url": "https://www.shrm.org/topics-tools/tools/hr-answers/pages/cultural-competence-in-the-workplace.aspx" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q114",
+    "domain": "Interpersonal",
+    "prompt": "A newly hired CHRO of a family-owned company reports to the CEO but must also build credibility with a board controlled by the founding family, several of whom still hold operating roles. The CHRO's first major proposal — a formal performance-management overhaul — was met with polite silence in the boardroom and has stalled. What is the BEST action?",
+    "options": [
+      "Push the proposal through by presenting a stronger financial business case at the next board meeting.",
+      "Invest time in understanding each board member's and family stakeholder's interests and concerns through individual conversations, then reframe the proposal to connect to their priorities and identify informal influencers who can champion it.",
+      "Ask the CEO to make the decision unilaterally so the CHRO can avoid further board friction.",
+      "Withdraw the proposal entirely and focus on less controversial initiatives."
+    ],
+    "answer": 1,
+    "explanation": "Building influence with a board requires diagnosing stakeholder interests and tailoring proposals to them, not pushing harder or withdrawing. The BEST action is to engage board and family members individually to understand their concerns, identify champions, and reframe the proposal around their priorities. Forcing a decision or abandoning the initiative forfeits the CHRO's strategic credibility.",
+    "docs": [
+      { "label": "SHRM — Building Executive Influence", "url": "https://www.shrm.org/topics-tools/topics/leadership" },
+      { "label": "SHRM — Stakeholder Management", "url": "https://www.shrm.org/topics-tools/tools/hr-answers/pages/stakeholder-management.aspx" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q115",
+    "domain": "Interpersonal",
+    "prompt": "After a reorganization merges two previously competing business units, the two unit presidents continue to run them as separate fiefdoms: duplicating resources, poaching each other's talent, and giving conflicting guidance to shared support teams. The CEO has announced publicly that the merger will deliver $50M in synergies within 18 months, but the presidents privately each blame the other for the failure to integrate. What is the BEST action?",
+    "options": [
+      "Assign one president authority over the other to resolve the ambiguity.",
+      "Reorganize again so each president retains sole control of their original unit.",
+      "Let the units compete internally, since competition may ultimately produce the best-performing structure.",
+      "Recommend the CEO hold both presidents jointly accountable for shared integration metrics tied to the synergy target, with the CHRO facilitating joint planning and a conflict-resolution process."
+    ],
+    "answer": 3,
+    "explanation": "Post-merger unit conflict is best addressed by establishing shared accountability and joint planning around common goals, supported by facilitation. Holding both presidents jointly responsible for integration metrics tied to the synergy target creates mutual stakes and incentives to collaborate. Reverting, allowing continued competition, or picking a winner all undermine the intended integration and the synergy target.",
+    "docs": [
+      { "label": "SHRM — Organizational Integration", "url": "https://www.shrm.org/topics-tools/topics/mergers-acquisitions" },
+      { "label": "SHRM — Managing Conflict", "url": "https://www.shrm.org/topics-tools/tools/hr-answers/pages/managing-organizational-conflict.aspx" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q116",
+    "domain": "People",
+    "prompt": "Immediately after a merger announcement, the acquiring company's CHRO learns that the target's top engineering team — widely regarded as the core value of the deal — has received multiple competing offers, and several key engineers have said they will leave unless they receive clarity on their roles and retention terms within 30 days. The deal team wants to avoid creating expectations among employees who might later be redundant. What should the CHRO recommend FIRST?",
+    "options": [
+      "Identify the critical-talent roles and individuals whose retention is essential to the deal's value, and design targeted, time-bound retention agreements for them before or at close.",
+      "Offer blanket retention bonuses to all target employees to calm the broader workforce.",
+      "Wait until after close to assess retention needs, to avoid overcommitting before roles are finalized.",
+      "Publicly announce that no layoffs are planned to stop the attrition."
+    ],
+    "answer": 0,
+    "explanation": "The first priority in M&A talent management is to identify the individuals whose loss would erode deal value and secure them with targeted, time-bound retention agreements. Blanket bonuses waste resources and signal to non-critical employees, waiting until after close risks losing the very value the deal was purchased for, and a blanket no-layoff promise is often false and legally risky.",
+    "docs": [
+      { "label": "SHRM — Retention in M&A", "url": "https://www.shrm.org/topics-tools/topics/mergers-acquisitions" },
+      { "label": "SHRM — Employee Retention", "url": "https://www.shrm.org/topics-tools/topics/employee-retention" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q117",
+    "domain": "People",
+    "prompt": "The company is sending a high-performing U.S. director to lead its new operation in a country with strict immigration and employment laws. Mid-assignment, the CHRO learns the employee's work-authorization process was mishandled: the employee has been working in-country on the wrong visa category, creating personal legal exposure and potential company liability, and the local business leader wants to conceal the error to avoid disruption. What is the BEST action?",
+    "options": [
+      "Instruct the local business leader to keep the matter confidential while the employee quietly returns to the U.S.",
+      "Terminate the assignment and repatriate the employee immediately without explanation to limit liability.",
+      "Retain immigration counsel immediately to assess the employee's and the company's exposure, correct the visa status through lawful channels where possible, and notify the appropriate internal compliance stakeholders.",
+      "Wait to see whether local authorities raise the issue before taking action."
+    ],
+    "answer": 2,
+    "explanation": "A visa-status violation creates personal and corporate legal exposure that cannot be concealed. The BEST action is to engage immigration counsel promptly, assess exposure, remediate through lawful channels, and inform compliance stakeholders. Concealing the error, unilaterally repatriating, or waiting for authorities all increase risk to both the employee and the organization and violate compliance and duty-of-care obligations.",
+    "docs": [
+      { "label": "SHRM — Global Mobility and Visa Compliance", "url": "https://www.shrm.org/topics-tools/topics/global-mobility" },
+      { "label": "SHRM — Expatriate Duty of Care", "url": "https://www.shrm.org/topics-tools/topics/global-hr" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q118",
+    "domain": "People",
+    "prompt": "The CEO asks the CHRO for a workforce plan to support a new strategy that shifts the company from hardware sales to software subscriptions over three years. Current workforce analytics show 60% of revenue-generating roles are in hardware sales and field service, and the labor market for software engineers and customer-success professionals is highly competitive. The CEO wants an aggressive hiring target for engineers immediately. What should the CHRO do FIRST?",
+    "options": [
+      "Approve the aggressive engineering hiring target to signal commitment to the new strategy.",
+      "Conduct a strategic workforce-planning analysis that forecasts the future demand for new skill sets, the current supply and transferability of existing skills, and the gap — including build, buy, borrow, and reskill options — before setting hiring targets.",
+      "Freeze all external hiring until the strategy is fully validated.",
+      "Begin reskilling the hardware salesforce into software roles immediately."
+    ],
+    "answer": 1,
+    "explanation": "A FIRST step in strategic workforce planning is to diagnose the gap between future demand and current supply, and to evaluate build/buy/borrow/reskill options, before committing to hiring targets. Approving targets without analysis, freezing all hiring, or launching reskilling before understanding skill transferability all substitute action for diagnosis and risk misallocating resources.",
+    "docs": [
+      { "label": "SHRM — Strategic Workforce Planning", "url": "https://www.shrm.org/topics-tools/tools/hr-answers/pages/strategic-workforce-planning.aspx" },
+      { "label": "U.S. BLS — Employment Projections", "url": "https://www.bls.gov/emp/" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q119",
+    "domain": "People",
+    "prompt": "The company's single largest revenue-producing client is owned and led by a charismatic founder whose personal relationships drive the account. That founder has just announced retirement, and the client is expected to consolidate vendors under new leadership. Separately, the company's own CEO and CFO are both approaching retirement age, with no identified internal successors. The CHRO is asked to de-risk these two concentrated exposures. What should the CHRO do FIRST?",
+    "options": [
+      "Immediately recruit external replacements for the CEO and CFO roles.",
+      "Launch a client-retention program to lock in the account before the founder departs.",
+      "Conduct a succession-risk and key-role assessment across both the leadership pipeline and the client-relationship map to identify single points of failure and develop contingency and development plans for each.",
+      "Ask the CEO and CFO to commit to extended retirement dates to buy time."
+    ],
+    "answer": 2,
+    "explanation": "Both exposures are concentrated single-point-of-failure risks. The FIRST step is to assess succession and key-role risk systematically, then build contingency and development plans for leadership roles and the critical client relationship. Immediately hiring, chasing a retention program, or asking executives to delay retirement are solutions pursued before the risk is fully understood.",
+    "docs": [
+      { "label": "SHRM — Succession Planning", "url": "https://www.shrm.org/topics-tools/topics/succession-planning" },
+      { "label": "SHRM — Key Employee Risk", "url": "https://www.shrm.org/topics-tools/tools/hr-answers/pages/key-employee-succession.aspx" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q120",
+    "domain": "People",
+    "prompt": "The board's compensation committee wants to use a large retention grant to keep a CFO who has received a competing offer that includes a guaranteed multi-year payout. The committee proposes an accelerated-vesting equity award that pays out fully on a change in control, reasoning that it aligns the CFO with shareholder value. The CHRO is asked to evaluate the design. What is the BEST recommendation?",
+    "options": [
+      "Approve the accelerated-vesting design as proposed, because it is standard and aligns with shareholder interests.",
+      "Advise that a retention award is not appropriate for a departing-risk executive and recommend letting the CFO leave.",
+      "Recommend allowing the CFO to leave without counteroffer to avoid setting a precedent.",
+      "Recommend a retention award whose vesting and payout are conditioned on continued service and achievement of specific, board-approved performance and tenure milestones, and assess the change-in-control provision for shareholder-alignment and say-on-pay implications."
+    ],
+    "answer": 3,
+    "explanation": "Retention awards for a flight-risk executive should be structured to actually retain — conditioned on continued service and performance — and should be evaluated for governance and say-on-pay implications. A fully accelerated change-in-control payout may reward departure rather than retention. Approving as-is, refusing to counter, or letting the CFO leave without weighing the business impact all fail to balance retention needs with governance and shareholder interests.",
+    "docs": [
+      { "label": "SHRM — Executive Retention", "url": "https://www.shrm.org/topics-tools/topics/executive-compensation" },
+      { "label": "SHRM — Retention Agreements", "url": "https://www.shrm.org/topics-tools/tools/hr-answers/pages/retention-bonus.aspx" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q121",
+    "domain": "Organization",
+    "prompt": "A company is redesigning its operating model to create global shared-services centers for HR, finance, and IT. The CEO wants the new structure announced and implemented in 90 days. The CHRO's analysis shows that many HR activities are highly interdependent with local business-unit leaders, several locations have strong works-council or consultation obligations, and the change affects 1,200 roles across five countries. What should the CHRO do FIRST?",
+    "options": [
+      "Announce the shared-services design immediately to give employees maximum lead time.",
+      "Implement the design in phases starting with the locations with the fewest legal obligations.",
+      "Proceed with the 90-day timeline to honor the CEO's commitment.",
+      "Complete an organizational and change-impact assessment — mapping interdependencies, statutory consultation requirements, and role impacts across countries — and develop a phased transition plan with stakeholder engagement before communicating the new structure."
+    ],
+    "answer": 3,
+    "explanation": "A global restructuring with statutory consultation requirements and complex interdependencies cannot be communicated or implemented before impact is assessed. The FIRST step is to complete a change-impact and compliance assessment and build a phased plan with stakeholder engagement. Announcing early, implementing piecemeal, or honoring an arbitrary timeline without assessment risks non-compliance (including works-council/consultation obligations) and employee-relations damage.",
+    "docs": [
+      { "label": "SHRM — Organizational Restructuring", "url": "https://www.shrm.org/topics-tools/topics/organizational-employee-development" },
+      { "label": "SHRM — Change Management", "url": "https://www.shrm.org/topics-tools/topics/change-management" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q122",
+    "domain": "Organization",
+    "prompt": "Eighteen months after a merger of equals, the combined company still operates with two different cultures, two sets of HR policies, and two performance-management systems. Engagement scores are declining, and employees describe a 'we versus they' dynamic between the legacy organizations. The CEO wants the CHRO to finally unify the organization. What is the BEST action?",
+    "options": [
+      "Impose a single, unified set of policies and systems as quickly as possible to force integration.",
+      "Facilitate a deliberate culture-integration process: assess the two cultures, define the desired combined culture with leadership input, and align policies, systems, and symbols to that target while involving employees in the transition.",
+      "Allow the two cultures to continue operating separately, since both legacy businesses are still performing.",
+      "Adopt the policies of whichever legacy organization is larger to simplify decision-making."
+    ],
+    "answer": 1,
+    "explanation": "Culture integration is a deliberate, facilitated process, not a mandate. The BEST action is to assess both cultures, define a desired combined culture with leadership, and align policies and systems to that target with employee involvement. Imposing one side's systems, leaving the cultures separate, or defaulting to the larger legacy organization all ignore the root cause of the 'we versus they' dynamic and will not produce genuine integration.",
+    "docs": [
+      { "label": "SHRM — Culture Integration After M&A", "url": "https://www.shrm.org/topics-tools/topics/mergers-acquisitions" },
+      { "label": "SHRM — Organizational Culture", "url": "https://www.shrm.org/topics-tools/topics/organizational-culture" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q123",
+    "domain": "Organization",
+    "prompt": "The board's audit committee is reviewing the company's ethics and compliance program after a whistleblower revealed that a regional leader suppressed internal complaints about a supplier's bribery of foreign officials. The CHRO discovers that the current ethics hotline is administered by the same regional leaders who are the subject of complaints, that retaliation concerns have gone uninvestigated, and that the board has never received aggregate hotline data. What is the BEST recommendation?",
+    "options": [
+      "Recommend restructuring the program so that the hotline is independently administered, investigations are handled by a function outside the accused reporting lines, aggregate data and outcomes are reported to the board/audit committee, and a clear anti-retaliation policy with enforcement is established.",
+      "Recommend expanding the existing hotline to more languages without changing its reporting structure.",
+      "Advise keeping the program as-is to avoid signaling distrust of regional leadership.",
+      "Recommend that all ethics complaints be routed through local HR to preserve speed and local context."
+    ],
+    "answer": 0,
+    "explanation": "An effective ethics and compliance program requires independence, board oversight, and protection against retaliation. The BEST recommendation is to make the hotline independent of the reporting lines it monitors, ensure investigations are conducted outside accused chains of command, provide board-level reporting, and enforce anti-retaliation protections. Expanding language support, keeping the status quo, or routing complaints through local HR perpetuates the very conflict of interest that allowed the misconduct to go undetected.",
+    "docs": [
+      { "label": "SHRM — Ethics Hotlines and Whistleblower Programs", "url": "https://www.shrm.org/topics-tools/topics/ethics" },
+      { "label": "OSHA — Whistleblower Protection Programs", "url": "https://www.whistleblowers.gov/" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q124",
+    "domain": "Organization",
+    "prompt": "The CEO asks the CHRO to 'fix the company's DEI problem' after a high-profile lawsuit and a public diversity report revealed underrepresentation of women and people of color in senior leadership despite years of diversity recruiting. The CHRO's review shows the recruiting pipeline is diverse, but promotion rates, sponsorship access, and retention at mid-levels are not. The board wants measurable results. What is the BEST action?",
+    "options": [
+      "Increase diversity recruiting targets at the entry level to further widen the pipeline.",
+      "Conduct an assessment of promotion, sponsorship, and retention practices that stall advancement, and redesign those processes with measurable accountability for leaders.",
+      "Set senior-leadership representation quotas and hold managers to them immediately.",
+      "Launch a company-wide unconscious-bias training program as the primary intervention."
+    ],
+    "answer": 1,
+    "explanation": "The data point to advancement and retention barriers, not a pipeline shortage. The BEST action is to diagnose and redesign the promotion, sponsorship, and retention practices that stall mid-level advancement, with measurable leader accountability. Widening an already-adequate pipeline, imposing immediate quotas, or relying on one-off bias training all target the wrong part of the system or are unlikely to produce durable, defensible change.",
+    "docs": [
+      { "label": "EEOC — Prohibited Employment Practices", "url": "https://www.eeoc.gov/prohibited-employment-policiespractices" },
+      { "label": "SHRM — Diversity, Equity and Inclusion", "url": "https://www.shrm.org/topics-tools/topics/inclusion-diversity" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q125",
+    "domain": "Organization",
+    "prompt": "A company is considering moving to an agile, product-based operating model to speed decision-making, replacing functional silos with cross-functional 'squads.' The CHRO's preliminary analysis finds that the proposed model conflicts with the current job architecture, compensation bands tied to management levels, and performance-management system, and that the CEO has not clarified decision rights between product leaders and functional leaders. What should the CHRO recommend FIRST?",
+    "options": [
+      "Approve the operating-model change and retrofit the HR systems afterward.",
+      "Advise against the change because it is too disruptive to the current people systems.",
+      "Communicate the new model to employees to build momentum before details are finalized.",
+      "Facilitate the design of the target operating model together with the required changes to job architecture, compensation, performance management, and decision rights, and sequence those changes before or alongside rollout."
+    ],
+    "answer": 3,
+    "explanation": "An operating-model change will fail if the underlying people systems and decision rights are not redesigned in tandem. The FIRST recommendation is to design the target model and the required system changes together, and sequence them. Approving first and retrofitting later, rejecting the change outright, or communicating before the design is coherent all ignore the systemic dependencies the CHRO has already identified.",
+    "docs": [
+      { "label": "SHRM — Organizational Design", "url": "https://www.shrm.org/topics-tools/topics/organizational-employee-development" },
+      { "label": "SHRM — Job Architecture", "url": "https://www.shrm.org/topics-tools/topics/compensation" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q126",
+    "domain": "Workplace",
+    "prompt": "A serious safety incident at a manufacturing plant results in an employee fatality. OSHA has opened an inspection. The plant manager, under pressure to maintain production, has instructed supervisors to avoid discussing the incident and to 'keep the area running.' Several employees have told HR they fear retaliation if they speak to investigators. What is the BEST action?",
+    "options": [
+      "Ensure full cooperation with the OSHA investigation, direct managers to stop any instruction that could chill employee participation, and reinforce the company's anti-retaliation policy with all supervisors immediately.",
+      "Wait for OSHA's findings before taking any internal action.",
+      "Support the plant manager's instruction to limit discussion to avoid disrupting production and managing the narrative.",
+      "Conduct the company's own internal investigation first and share it with OSHA only if favorable."
+    ],
+    "answer": 0,
+    "explanation": "Following a workplace fatality, the BEST action is to cooperate fully with the OSHA investigation, immediately correct any conduct that could be perceived as retaliation or interference, and reinforce anti-retaliation protections. Delaying, restricting employee participation, or withholding information violates employees' rights and OSHA requirements and creates serious legal and reputational risk.",
+    "docs": [
+      { "label": "OSHA — Employer Responsibilities", "url": "https://www.osha.gov/workers/employer-responsibilities" },
+      { "label": "OSHA — Whistleblower Protection", "url": "https://www.whistleblowers.gov/" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q127",
+    "domain": "Workplace",
+    "prompt": "An employee files an internal complaint alleging that a highly profitable regional VP sexually harassed a colleague, and that two other employees who reported similar conduct were later given poor evaluations and one was terminated. The VP is a close friend of the CEO and a top revenue producer. The CEO asks the CHRO to 'handle it quietly.' What is the BEST action?",
+    "options": [
+      "Resolve the complaint informally by meeting with the VP and the complainant together.",
+      "Delay the investigation until the current quarter closes to avoid disrupting the sales team.",
+      "Ensure a prompt, thorough, and impartial investigation is conducted by a qualified investigator independent of the VP's reporting line, and separately assess the alleged retaliation, while protecting the complainant from further retaliation.",
+      "Advise the complainant to drop the matter to protect their career, given the VP's influence."
+    ],
+    "answer": 2,
+    "explanation": "Harassment and retaliation complaints involving a senior, high-revenue leader require a prompt, thorough, and impartial investigation independent of the accused's reporting line, with explicit protection against further retaliation. Handling it 'quietly' through informal mediation, delaying for business reasons, or discouraging the complainant all violate the employer's duty to investigate and prevent retaliation under Title VII, and expose the company to significant liability.",
+    "docs": [
+      { "label": "EEOC — Harassment Guidance", "url": "https://www.eeoc.gov/laws/guidance/enforcement-guidance-harassment-workplace" },
+      { "label": "EEOC — Retaliation", "url": "https://www.eeoc.gov/laws/guidance/retaliation" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q128",
+    "domain": "Workplace",
+    "prompt": "A group of employees has begun openly discussing wages and working conditions in a company chat channel and has circulated a petition about scheduling practices. Several managers have responded by telling employees to stop discussing pay, and one manager has threatened discipline for 'disloyalty.' The CHRO learns that a union-organizing campaign is also underway. What should the CHRO do FIRST?",
+    "options": [
+      "Let managers address the conduct through progressive discipline to maintain order.",
+      "Immediately train all supervisors on employees' Section 7 rights under the National Labor Relations Act — including the right to discuss wages and working conditions and to engage in protected concerted activity — and halt any threatened or actual discipline for such activity while consulting labor counsel.",
+      "Launch a counter-campaign highlighting the risks of unionization to employees.",
+      "Poll employees about their union sentiments to gauge the company's risk."
+    ],
+    "answer": 1,
+    "explanation": "Employee discussion of wages and working conditions, and petitions about working conditions, are protected concerted activity under the NLRA, and threatening discipline for such activity is an unfair labor practice. The FIRST action is to educate supervisors on Section 7 rights and immediately stop any discipline or threats, with labor counsel guidance. Allowing discipline, running a counter-campaign, or polling employees all create substantial legal risk.",
+    "docs": [
+      { "label": "NLRB — Protected Concerted Activity", "url": "https://www.nlrb.gov/about-nlrb/rights-we-protect/the-law/employees/concerted-activity" },
+      { "label": "NLRB — National Labor Relations Act", "url": "https://www.nlrb.gov/guidance/key-reference-materials/national-labor-relations-act" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q129",
+    "domain": "Workplace",
+    "prompt": "The company is rolling out a permanent hybrid-work policy across ten countries. The U.S.-designed policy assumes employees can be classified as exempt, that home-office work does not create tax or safety obligations, and that remote work is a flexible option that can be revoked at will. Country HR leaders have flagged conflicts with local laws on work time, health and safety at home, tax residency, and data privacy. The CEO wants a single global policy. What is the BEST action?",
+    "options": [
+      "Adopt a global framework that establishes shared principles while requiring each country to implement localized terms that comply with local employment, working-time, health-and-safety, tax, and data-privacy requirements, validated by local counsel before rollout.",
+      "Enforce the U.S. policy globally to maintain consistency and speed.",
+      "Delay the entire hybrid rollout indefinitely until every country can fully match the U.S. template.",
+      "Exempt non-U.S. employees from the policy and apply it only in the U.S."
+    ],
+    "answer": 0,
+    "explanation": "Global policies must reconcile global principles with local statutory compliance. The BEST action is a framework of shared principles with country-level localization validated by local counsel. Enforcing a U.S. template globally, indefinite delay, or excluding non-U.S. employees all either create legal non-compliance or fail to deliver a coherent, equitable policy.",
+    "docs": [
+      { "label": "SHRM — Global HR and Compliance", "url": "https://www.shrm.org/topics-tools/topics/global-hr" },
+      { "label": "SHRM — Remote Work", "url": "https://www.shrm.org/topics-tools/topics/remote-work" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q130",
+    "domain": "Workplace",
+    "prompt": "The company plans to deploy productivity-monitoring software that tracks remote employees' keystrokes, screen activity, and idle time, and the CHRO is asked to approve the rollout. The proposed vendor solution records screen content, which may capture employees' personal data, and the company has employees in jurisdictions with strict employee-monitoring and data-privacy laws. Leadership wants the monitoring live within a month to address perceived productivity concerns. What is the BEST action?",
+    "options": [
+      "Approve the rollout as proposed to meet the productivity timeline.",
+      "Recommend against any monitoring, because it is never appropriate for exempt employees.",
+      "Approve monitoring only for non-exempt employees to limit legal exposure.",
+      "Recommend a legal and privacy review of the monitoring tools and practices across all applicable jurisdictions, define a lawful, proportionate, and transparent monitoring policy with employee notice and a legitimate business purpose, and reconsider intrusive features before rollout."
+    ],
+    "answer": 3,
+    "explanation": "Employee monitoring raises significant privacy, data-protection, and trust issues and is heavily regulated in many jurisdictions. The BEST action is to conduct a legal and privacy review, adopt a lawful, proportionate, transparent policy with notice and a legitimate business purpose, and reconsider intrusive features. Approving as-is, a blanket ban, or limiting monitoring by exemption status all ignore the underlying compliance and employee-trust considerations.",
+    "docs": [
+      { "label": "SHRM — Employee Monitoring and Privacy", "url": "https://www.shrm.org/topics-tools/topics/technology" },
+      { "label": "U.S. DOL — Wage and Hour Division", "url": "https://www.dol.gov/agencies/whd" }
+    ]
+  }
+]
