@@ -56,8 +56,11 @@ function CaseStudyDetail({
 }) {
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
+  const [activeSection, setActiveSection] = useState(0);
 
   const q = study.questions[index];
+  const sections = study.sections ?? [];
+  const hasSections = sections.length > 0;
 
   function choose(i: number) {
     if (selected !== null) return;
@@ -72,16 +75,42 @@ function CaseStudyDetail({
         <p className="mt-2 text-sm leading-relaxed text-slate-700">
           {study.scenario}
         </p>
-        <div className="mt-4 rounded-lg bg-slate-50 p-4">
-          <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">
-            Requirements
-          </p>
-          <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-slate-700">
-            {study.context.map((c) => (
-              <li key={c}>{c}</li>
-            ))}
-          </ul>
-        </div>
+
+        {hasSections ? (
+          <div className="mt-4">
+            <div className="flex flex-wrap gap-1 border-b border-slate-200">
+              {sections.map((s, i) => (
+                <button
+                  key={s.title}
+                  onClick={() => setActiveSection(i)}
+                  className={`px-3 py-2 text-sm font-medium transition ${
+                    activeSection === i
+                      ? "border-b-2 border-slate-900 text-slate-900"
+                      : "border-b-2 border-transparent text-slate-500 hover:text-slate-700"
+                  }`}
+                >
+                  {s.title}
+                </button>
+              ))}
+            </div>
+            <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-slate-700">
+              {sections[activeSection].content.map((line) => (
+                <li key={line}>{line}</li>
+              ))}
+            </ul>
+          </div>
+        ) : (
+          <div className="mt-4 rounded-lg bg-slate-50 p-4">
+            <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+              Requirements
+            </p>
+            <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-slate-700">
+              {study.context.map((c) => (
+                <li key={c}>{c}</li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
 
       <div className="mt-5 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">

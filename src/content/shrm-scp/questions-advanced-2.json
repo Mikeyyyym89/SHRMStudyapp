@@ -1,0 +1,257 @@
+[
+  {
+    "id": "shrm-scp-q191",
+    "domain": "Leadership",
+    "prompt": "Through a confidential source, the CHRO learns that the CEO is in advanced talks to leave for a direct competitor and has been privately recruiting the CFO and two divisional presidents to join him. The CEO has not disclosed this to the board, and the company is mid-way through a sensitive product launch. The CHRO's source is credible but not fully documented. What should the CHRO do FIRST?",
+    "options": [
+      "Bring the information to the board's lead independent director (or an appropriate board committee) for a confidential, independent assessment and to determine the company's legal options, while ensuring counsel reviews the company's non-solicit, non-compete, and fiduciary protections — without confronting the CEO directly.",
+      "Confront the CEO privately to demand an explanation and a promise to stay.",
+      "Keep the information confidential and take no action, since the source is not fully documented and acting could damage the CEO relationship.",
+      "Immediately place the CFO and divisional presidents on administrative leave to prevent their departure."
+    ],
+    "answer": 0,
+    "explanation": "Credible evidence that the CEO is planning to defect and poach key executives raises fiduciary-duty, non-compete/non-solicit, and business-continuity concerns that belong with the board and counsel, not a private confrontation. The FIRST action is confidential escalation to independent board leadership for assessment and legal review. Confronting the CEO tips him off and risks destruction of evidence; doing nothing fails the duty of loyalty; placing others on leave is premature and unlawful without cause.",
+    "docs": [
+      { "label": "SHRM — Ethics & Compliance", "url": "https://www.shrm.org/topics-tools/topics/ethics" },
+      { "label": "SHRM — Corporate Governance", "url": "https://www.shrm.org/topics-tools/topics/corporate-governance" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q192",
+    "domain": "Leadership",
+    "prompt": "To hit a cost target promised to the board, the CEO directs the CHRO to reclassify 500 full-time employees as independent contractors even though the CHRO's legal review indicates they are clearly employees under the FLSA. The CEO argues 'everyone in our industry does this' and that the savings are essential to the annual plan. What is the BEST action?",
+    "options": [
+      "Comply, since the CEO has authority over the cost plan and the reclassification is a business decision.",
+      "Decline, document the legal risk (FLSA misclassification, wage-and-hour, benefits, and tax exposure), escalate to the board's audit committee and general counsel, and propose lawful cost-saving alternatives.",
+      "Reclassify the employees but continue treating them as employees for payroll-tax purposes, splitting the difference to satisfy both legal and cost goals.",
+      "Quietly prepare a whistleblower complaint to a government agency without first raising the issue internally."
+    ],
+    "answer": 1,
+    "explanation": "Misclassifying employees as contractors is unlawful and creates wage-and-hour, tax, and benefits liability. The BEST action is to refuse, document the legal risk, escalate through governance channels, and offer lawful alternatives. Complying or 'splitting the difference' perpetuates illegality; a premature external complaint without internal escalation is a last resort, not the first step, and may breach internal reporting protocols.",
+    "docs": [
+      { "label": "DOL — FLSA Misclassification", "url": "https://www.dol.gov/agencies/whd/flsa/misclassification" },
+      { "label": "SHRM — Ethics & Compliance", "url": "https://www.shrm.org/topics-tools/topics/ethics" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q193",
+    "domain": "Leadership",
+    "prompt": "A credible news outlet is about to publish a story detailing a pattern of alleged sexual harassment by a senior executive that the company investigated two years ago but resolved quietly through a settlement and a confidentiality agreement. The story will name the company and the executive and will claim the company 'covered it up.' The CEO wants the CHRO to issue an immediate strong denial and attack the accusers' credibility. What is the BEST action?",
+    "options": [
+      "Issue the CEO's requested denial immediately to protect the company's reputation.",
+      "Do nothing and wait for the story to publish, since any response could be used against the company in litigation.",
+      "Work with legal and communications to prepare a response that is truthful, consistent with the prior investigation and settlement, and legally permissible (mindful of confidentiality constraints), and prepare the board and internal stakeholders — correcting the record where possible without defaming or retaliating against accusers.",
+      "Contact the reporter to threaten litigation if the story runs."
+    ],
+    "answer": 2,
+    "explanation": "In a reputational crisis involving prior misconduct, the response must be truthful, coordinated with legal and communications, and respectful of confidentiality and non-retaliation obligations. Attacking accusers or issuing a false denial creates defamation and retaliation exposure; threatening the reporter is counterproductive; doing nothing forfeits control of the narrative. The BEST action is a coordinated, truthful response plus stakeholder preparation.",
+    "docs": [
+      { "label": "EEOC — Harassment", "url": "https://www.eeoc.gov/harassment" },
+      { "label": "SHRM — Ethics & Compliance", "url": "https://www.shrm.org/topics-tools/topics/ethics" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q194",
+    "domain": "Business",
+    "prompt": "A company is forming a 50/50 joint venture with a partner and plans to transfer 600 employees to the new entity. The JV will initially be a non-union, separate legal entity with its own benefit plans, and the parties have not yet decided whether transferred employees' accrued pension, 401(k), equity, and seniority will carry over. The deal team wants to sign the JV agreement in two weeks. What is the BEST action?",
+    "options": [
+      "Sign the JV agreement now and address employee transfer and benefits terms later, since they can be negotiated after formation.",
+      "Terminate the transferring employees and have the JV rehire them as new hires, avoiding any carryover obligations.",
+      "Promise employees full carryover of all benefits and seniority to reassure them during the transition.",
+      "Negotiate and document the treatment of the transferred workforce — compensation, benefits, pension/retirement, equity, seniority, and any severance — in the JV agreement before signing, and plan clear employee communication and retention measures."
+    ],
+    "answer": 3,
+    "explanation": "The treatment of a transferred workforce must be a negotiated term of the JV agreement before signing, not an afterthought. The BEST action documents compensation, benefits, retirement/equity, seniority, and severance up front and plans communication and retention. Addressing it later, forcing a termination/rehire (which can violate plan and employment obligations), or promising unnegotiated carryover all create legal, tax, and employee-relations risk.",
+    "docs": [
+      { "label": "DOL — Employee Benefits Security Administration", "url": "https://www.dol.gov/agencies/ebsa" },
+      { "label": "SHRM — Mergers & Acquisitions", "url": "https://www.shrm.org/topics-tools/topics/mergers-and-acquisitions" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q195",
+    "domain": "Business",
+    "prompt": "A company facing a severe liquidity crisis must reduce its workforce by 25% within weeks to satisfy lenders. The CEO wants to skip advance notice and pay severance 'if and when cash allows,' and to suspend 401(k) employer contributions and delay remitting employee deferrals to preserve cash. The CHRO is asked to advise. What is the BEST action?",
+    "options": [
+      "Advise that the company must still comply with WARN (and state mini-WARN) notice requirements where applicable, must continue to timely remit employee 401(k) deferrals (which are plan assets) and honor benefit obligations, and should structure the reductions and communications lawfully even under financial pressure — with realistic, compliant severance terms.",
+      "Approve skipping WARN notice and suspending 401(k) contributions and deferral remittances temporarily, since the liquidity crisis is an emergency that excuses compliance.",
+      "Pay the CEO and senior executives their retention bonuses first, to keep leadership in place, before addressing workforce obligations.",
+      "Announce the reductions with no notice but promise back-pay later, to preserve maximum cash now."
+    ],
+    "answer": 0,
+    "explanation": "Financial distress does not excuse WARN notice, ERISA fiduciary obligations (employee deferrals are plan assets and must be remitted promptly), or other employment-law duties. The BEST action is to comply with notice and benefits obligations and structure reductions lawfully while managing cash. Suspending compliance or prioritizing executive bonuses over plan assets creates personal liability and fiduciary breaches.",
+    "docs": [
+      { "label": "DOL — WARN Act", "url": "https://www.dol.gov/agencies/eta/layoffs/warn" },
+      { "label": "DOL — Employee Benefits Security Administration", "url": "https://www.dol.gov/agencies/ebsa" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q196",
+    "domain": "Business",
+    "prompt": "A U.S. company is expanding into a European market by hiring 300 employees locally and simultaneously acquiring a small competitor there. The CHRO learns that the host country has strong works-council and co-determination laws requiring information and consultation before certain decisions, and that the local acquisition's works council must be consulted before the planned post-acquisition restructuring. U.S. leadership is unfamiliar with these requirements and wants to move fast. What is the BEST action?",
+    "options": [
+      "Proceed with the restructuring without consultation, since the company is a U.S. entity and local rules do not apply.",
+      "Engage local employment counsel and establish a consultation process that complies with works-council and co-determination obligations, integrate those requirements into the deal timeline, and educate U.S. leadership so decisions are sequenced lawfully.",
+      "Abandon the acquisition and organic hiring in that market entirely, since the consultation requirements are too burdensome.",
+      "Hire the employees through a third-party staffing agency to avoid triggering local employment obligations."
+    ],
+    "answer": 1,
+    "explanation": "In jurisdictions with works councils and co-determination, information and consultation are mandatory and can void or delay decisions and impose penalties. The BEST action is to comply by engaging local counsel, building consultation into the timeline, and educating leadership. Ignoring the rules, abandoning the market, or using staffing agencies to evade them all create legal and reputational risk and may be unlawful.",
+    "docs": [
+      { "label": "SHRM — Global HR", "url": "https://www.shrm.org/topics-tools/topics/global-hr" },
+      { "label": "SHRM — Mergers & Acquisitions", "url": "https://www.shrm.org/topics-tools/topics/mergers-and-acquisitions" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q197",
+    "domain": "Interpersonal",
+    "prompt": "The company has decided to part ways with its CFO, who is well-connected on the board and is demanding a generous severance, a board seat on an affiliate, and a release from a potential non-compete restriction before he will sign a separation agreement. The CEO wants to give in quickly to avoid a fight. Some board members have flagged that the CFO may have engaged in conduct that could justify termination for cause, but that has not been established. What is the BEST action?",
+    "options": [
+      "Give the CFO everything he asks to secure a clean, quiet exit.",
+      "Terminate the CFO for cause immediately based on the unproven conduct allegations, to strengthen the company's negotiating position.",
+      "Negotiate a lawful, defensible separation agreement that is proportionate to the company's interests — evaluating the non-compete and any potential cause findings with counsel, and structuring severance and release terms that protect the company without conceding rights that should be preserved.",
+      "Refuse to negotiate and force the CFO to litigate, to make an example of him."
+    ],
+    "answer": 2,
+    "explanation": "An executive separation should be negotiated with counsel to be lawful, proportionate, and protective of company rights (non-compete, release, cause findings), not conceded wholesale or litigated reflexively. Giving everything away or terminating for unproven cause both create risk; forcing litigation is costly and unpredictable. The BEST action is a measured, counsel-guided negotiation.",
+    "docs": [
+      { "label": "SHRM — Executive Compensation", "url": "https://www.shrm.org/topics-tools/topics/executive-compensation" },
+      { "label": "SHRM — Employee Relations", "url": "https://www.shrm.org/topics-tools/topics/employee-relations" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q198",
+    "domain": "Interpersonal",
+    "prompt": "An individual board member has begun directing the COO and other executives on operational matters, has scheduled his own meetings with division heads, and has instructed the CHRO to begin recruiting for a role the full board has not approved. The CEO is frustrated but reluctant to confront the director, who chairs the compensation committee. What is the BEST action?",
+    "options": [
+      "Comply with the director's instructions, since he chairs a board committee and outranks management.",
+      "Publicly complain to the other directors about the director's behavior at the next full board meeting.",
+      "Instruct employees to ignore the director and document every instance of overreach, without engaging the board.",
+      "Raise the matter with the lead independent director (or board chair) and, if appropriate, the governance committee to clarify board-versus-management roles and re-establish that individual directors do not direct staff — while preserving a constructive working relationship."
+    ],
+    "answer": 3,
+    "explanation": "Individual directors generally have no authority to direct executives or staff; that authority belongs to the board as a whole or the CEO. The BEST action is to escalate to the lead director or governance committee to clarify roles diplomatically. Complying legitimizes the overreach; publicly complaining embarrasses and polarizes; telling employees to ignore the director without board support leaves them caught in the middle.",
+    "docs": [
+      { "label": "SHRM — Corporate Governance", "url": "https://www.shrm.org/topics-tools/topics/corporate-governance" },
+      { "label": "SHRM — Stakeholder Management", "url": "https://www.shrm.org/topics-tools/tools/hr-answers/pages/stakeholder-management.aspx" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q199",
+    "domain": "People",
+    "prompt": "The board's compensation committee wants to create a nonqualified deferred compensation plan and a supplemental executive retirement plan (SERP) for senior executives, but the CHRO's initial review indicates the plan documents as drafted would not comply with Section 409A and could trigger immediate taxation and penalties, and that the SERP's funding arrangement may create ERISA obligations the company has not addressed. What is the BEST action?",
+    "options": [
+      "Engage benefits counsel to redesign the plans for 409A and ERISA compliance, and ensure the committee understands the tax, funding, and disclosure implications before approving the arrangements.",
+      "Approve the plans as drafted, since they are only for a small group of top executives and will rarely be examined.",
+      "Replace the deferred compensation and SERP with a simple cash bonus program to avoid all compliance complexity.",
+      "Defer all compliance questions until the first year's distributions, when the issues will be clearer."
+    ],
+    "answer": 0,
+    "explanation": "Nonqualified deferred compensation is subject to strict Section 409A rules (with harsh tax penalties for noncompliance), and SERPs can trigger ERISA funding, vesting, and reporting obligations. The BEST action is to engage counsel to redesign for compliance before approval. Approving noncompliant plans, replacing them with a cash program (which fails to serve retention and retirement purposes), or deferring compliance all expose executives and the company to significant tax and fiduciary risk.",
+    "docs": [
+      { "label": "DOL — Employee Benefits Security Administration", "url": "https://www.dol.gov/agencies/ebsa" },
+      { "label": "SHRM — Executive Compensation", "url": "https://www.shrm.org/topics-tools/topics/executive-compensation" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q200",
+    "domain": "People",
+    "prompt": "The board has demanded that the company double its internal executive bench depth within three years, but the current high-potential program is little more than an annual list with no development plans, no exposure to board-relevant experiences, and no accountability for outcomes. The CEO wants quick, visible results. What should the CHRO do FIRST?",
+    "options": [
+      "Publicize the current high-potential list broadly to demonstrate the company is investing in its leaders.",
+      "Redesign the high-potential process to be rigorous and outcome-oriented: define leadership competencies tied to future strategy, identify candidates through objective multi-rater assessment, and build individual development plans with stretch assignments, sponsorship, and measurable readiness targets.",
+      "Immediately promote the current high-potentials into open senior roles to deepen the bench quickly.",
+      "Hire external executive coaches for everyone on the list, since coaching alone will accelerate readiness."
+    ],
+    "answer": 1,
+    "explanation": "A FIRST question requires building a rigorous, strategy-aligned process before acting. The CHRO must define competencies, assess candidates objectively, and design development plans with stretch experiences and accountability. Publicizing a list, promoting prematurely, or relying on coaching alone without a coherent framework will not produce a credible, deeper bench.",
+    "docs": [
+      { "label": "SHRM — Succession Planning", "url": "https://www.shrm.org/topics-tools/topics/succession-planning" },
+      { "label": "SHRM — Leadership Development", "url": "https://www.shrm.org/topics-tools/topics/leadership-development" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q201",
+    "domain": "People",
+    "prompt": "An internal audit reveals that several foreign-national employees are working in roles or locations inconsistent with their visa classifications, that some I-9 forms are missing or incorrect, and that a new product team is about to bring on contract workers whose immigration status has not been verified. The business is pressuring for speed on a launch deadline. What should the CHRO do FIRST?",
+    "options": [
+      "Allow the new contractors to start immediately and verify their status after onboarding, to meet the launch deadline.",
+      "Terminate all foreign-national employees whose records are incomplete, to eliminate the risk quickly.",
+      "Engage immigration counsel to assess the visa-classification and work-authorization issues, correct I-9 and record-keeping deficiencies through a defined remediation, and impose a verification gate before any new workers start — while communicating the legal requirements to the business.",
+      "Defer any action until a government audit occurs, since the company's exposure is currently theoretical."
+    ],
+    "answer": 2,
+    "explanation": "Visa-classification violations and I-9 deficiencies carry civil and, in some cases, criminal exposure and must be remediated proactively with counsel, not deferred. The FIRST action is to assess with immigration counsel, correct records through a defined process, and stop bringing on unverified workers. Allowing unverified workers to start, terminating broadly (which risks discrimination claims), or waiting for an audit all increase liability.",
+    "docs": [
+      { "label": "DOL — Foreign Labor Certification", "url": "https://www.dol.gov/agencies/eta/foreign-labor" },
+      { "label": "SHRM — Global Mobility", "url": "https://www.shrm.org/topics-tools/topics/global-mobility" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q202",
+    "domain": "Organization",
+    "prompt": "Following a merger, two legacy companies have overlapping leadership teams: there are two SVPs of Sales, two Chief Marketing Officers, and duplicate regional leaders. The integration steering committee wants to 'pick the best person' for each combined role quickly, but there is no agreed selection criteria, and some legacy leaders are promising their teams that the selection will favor their own people. The CHRO must design the selection process. What is the BEST action?",
+    "options": [
+      "Let each legacy CEO pick their own team, since they know their people best.",
+      "Announce that the acquiring company's incumbents will be retained by default, since they represent continuity.",
+      "Delay the decisions indefinitely to avoid conflict, keeping both teams in place in the interim.",
+      "Establish transparent, job-related selection criteria and a fair, documented assessment process (competency- and performance-based), communicate the process clearly, and provide transition support and retention measures for those not selected — all managed consistently to avoid favoritism and discrimination."
+    ],
+    "answer": 3,
+    "explanation": "Post-merger leadership selection must be transparent, job-related, and consistently applied to avoid favoritism, perceived bias, and disparate-impact claims, while retaining the talent not selected where possible. Deferring to legacy CEOs, defaulting to the acquirer, or delaying indefinitely all invite conflict, attrition, and legal risk. The BEST action is a documented, criteria-based process with clear communication and transition support.",
+    "docs": [
+      { "label": "SHRM — Organizational Design", "url": "https://www.shrm.org/topics-tools/topics/organizational-design" },
+      { "label": "SHRM — Mergers & Acquisitions", "url": "https://www.shrm.org/topics-tools/topics/mergers-and-acquisitions" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q203",
+    "domain": "Organization",
+    "prompt": "After years of acquisitions, a global company has 22 inconsistent job-title systems and 9 different leveling schemes, making it impossible to compare roles across divisions, calibrate pay, or plan succession consistently. Business leaders resist adopting a common framework, fearing it will expose inequities and constrain local flexibility. The CHRO must address it. What is the BEST action?",
+    "options": [
+      "Lead the design of a common job architecture and leveling framework — defining job families, levels, competencies, and titling conventions — and implement it through a phased, stakeholder-engaged process that aligns pay and talent processes to the new structure.",
+      "Impose a single inherited title system from the largest division immediately, to eliminate inconsistency fast.",
+      "Maintain separate systems by division, since each unit operates differently.",
+      "Rename all titles to a generic corporate standard without addressing underlying levels or pay bands."
+    ],
+    "answer": 0,
+    "explanation": "A common job architecture is foundational to consistent pay, talent, and succession processes, but it must be designed and implemented with stakeholder engagement rather than imposed or applied superficially. Imposing one division's system, maintaining fragmentation, or renaming titles without aligning levels and pay all fail to solve the underlying problem and can create new inequities. The BEST action is a designed, phased job-architecture framework aligned to compensation and talent.",
+    "docs": [
+      { "label": "SHRM — Organizational Design", "url": "https://www.shrm.org/topics-tools/topics/organizational-design" },
+      { "label": "SHRM — Compensation", "url": "https://www.shrm.org/topics-tools/topics/compensation" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q204",
+    "domain": "Workplace",
+    "prompt": "A high-performing executive is returning from a medical leave for a serious mental-health condition and has requested a temporary accommodation — a reduced travel schedule and a modified meeting load for six months — which she and her physician say is needed to manage her condition. Some board members question whether she can still perform the role and want to reassign her, while the CEO worries about setting a precedent. The CHRO must advise. What is the BEST action?",
+    "options": [
+      "Reassign the executive to a lower-profile role, since travel and meeting load are essential functions of an executive position.",
+      "Engage in the interactive process under the ADA: evaluate the request and the essential functions of the role with the executive, her physician, and counsel, and determine whether a reasonable accommodation (or an alternative that meets her needs) is feasible without causing undue hardship — documenting the process and avoiding assumptions about her capabilities.",
+      "Deny the request outright, since executives are expected to travel and no accommodation is reasonable at that level.",
+      "Grant the accommodation informally and keep it confidential, without documenting the interactive process."
+    ],
+    "answer": 1,
+    "explanation": "Mental-health conditions can be disabilities under the ADA, and a request for a temporary accommodation triggers the employer's duty to engage in a good-faith interactive process. The BEST action is to evaluate the request and the role's essential functions individually with the employee, her physician, and counsel, documenting the process rather than assuming incapacity or refusing outright. Reassigning without process, denying categorically, or granting informally without documentation all risk disability-discrimination liability.",
+    "docs": [
+      { "label": "EEOC — Reasonable Accommodation", "url": "https://www.eeoc.gov/reasonable-accommodation" },
+      { "label": "EEOC — Disability Discrimination", "url": "https://www.eeoc.gov/disability-discrimination" }
+    ]
+  },
+  {
+    "id": "shrm-scp-q205",
+    "domain": "Workplace",
+    "prompt": "A company is formalizing a permanent hybrid and remote-work policy that will allow employees to work from multiple states, including several with differing wage-and-hour, paid-leave, and timekeeping requirements. The CHRO discovers the company has no system to track where remote employees work or to apply the correct state and local laws, creating overtime, tax, and leave-compliance risk. What should the CHRO do FIRST?",
+    "options": [
+      "Adopt a single national policy based on the state where headquarters is located, to simplify administration.",
+      "Require all remote employees to relocate to headquarters state, to eliminate multi-state compliance complexity.",
+      "Conduct a multi-state compliance assessment — mapping where employees work, and identifying the applicable state and local wage-hour, paid-leave, and tax obligations — then build the policy, tracking systems, and manager training around those requirements before finalizing the hybrid program.",
+      "Finalize the policy now and address state-specific compliance issues only if an employee files a claim."
+    ],
+    "answer": 2,
+    "explanation": "A multi-state remote workforce is governed by the wage-hour, leave, and tax laws of each state where employees actually work, not merely the headquarters state. The FIRST action is to assess where employees work and the applicable obligations, then build the policy and tracking systems around them. A single headquarters-based policy, forced relocation, or deferring compliance until a claim arises all create wage-and-hour and tax liability.",
+    "docs": [
+      { "label": "DOL — Wage and Hour Division", "url": "https://www.dol.gov/agencies/whd" },
+      { "label": "SHRM — Remote Work", "url": "https://www.shrm.org/topics-tools/topics/remote-work" }
+    ]
+  }
+]

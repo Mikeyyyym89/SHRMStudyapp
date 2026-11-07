@@ -50,11 +50,17 @@ export interface Question {
   difficulty?: Difficulty;
 }
 
+export interface CaseStudySection {
+  title: string;
+  content: string[];
+}
+
 export interface CaseStudy {
   id: string;
   title: string;
   scenario: string;
   context: string[];
+  sections?: CaseStudySection[];
   questions: Question[];
 }
 
