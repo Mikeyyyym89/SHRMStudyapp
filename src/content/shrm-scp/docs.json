@@ -1,0 +1,50 @@
+[
+  {
+    "domain": "Leadership",
+    "links": [
+      { "label": "SHRM BASK (Body of Applied Skills & Knowledge)", "url": "https://www.shrm.org/certification/about/bask" },
+      { "label": "SHRM Code of Ethics", "url": "https://www.shrm.org/about-shrm/pages/code-of-ethics.aspx" },
+      { "label": "SHRM Certification overview", "url": "https://www.shrm.org/certification" }
+    ]
+  },
+  {
+    "domain": "Business",
+    "links": [
+      { "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" },
+      { "label": "U.S. Bureau of Labor Statistics", "url": "https://www.bls.gov/" },
+      { "label": "SHRM Certification overview", "url": "https://www.shrm.org/certification" }
+    ]
+  },
+  {
+    "domain": "Interpersonal",
+    "links": [
+      { "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" },
+      { "label": "EEOC harassment guidance", "url": "https://www.eeoc.gov/harassment" },
+      { "label": "SHRM Certification overview", "url": "https://www.shrm.org/certification" }
+    ]
+  },
+  {
+    "domain": "People",
+    "links": [
+      { "label": "EEOC pay/compensation discrimination", "url": "https://www.eeoc.gov/equal-paycompensation-discrimination" },
+      { "label": "FLSA (DOL Wage & Hour Division)", "url": "https://www.dol.gov/agencies/whd/flsa" },
+      { "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }
+    ]
+  },
+  {
+    "domain": "Organization",
+    "links": [
+      { "label": "WARN Act (DOL)", "url": "https://www.dol.gov/agencies/eta/layoffs/warn" },
+      { "label": "National Labor Relations Board", "url": "https://www.nlrb.gov/" },
+      { "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }
+    ]
+  },
+  {
+    "domain": "Workplace",
+    "links": [
+      { "label": "EEOC (Title VII, ADA, ADEA)", "url": "https://www.eeoc.gov/" },
+      { "label": "OSHA", "url": "https://www.osha.gov/" },
+      { "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }
+    ]
+  }
+]

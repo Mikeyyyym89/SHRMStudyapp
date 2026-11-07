@@ -1,0 +1,222 @@
+[
+  {
+    "id": "shrm-cp-case-1",
+    "title": "Brightline Tech — Overtime classification problem",
+    "scenario": "Brightline Tech, a fast-growing startup, classifies all of its customer-support representatives as 'exempt' salaried employees to simplify payroll. The reps routinely work 50–55 hours per week answering tickets and have no managerial duties.",
+    "context": [
+      "Support reps have no supervisory authority and earn a fixed salary.",
+      "Reps regularly work more than 40 hours per week.",
+      "The company has never paid overtime.",
+      "A former employee has filed a complaint with the DOL."
+    ],
+    "questions": [
+      {
+        "id": "shrm-cp-case-1-q1",
+        "domain": "Workplace",
+        "prompt": "Why are the support reps likely misclassified under the FLSA?",
+        "options": [
+          "They perform non-managerial duties and are not exempt, so they must be paid overtime",
+          "All salaried employees are automatically exempt",
+          "Salary amount alone determines exemption",
+          "Startups are exempt from the FLSA"
+        ],
+        "answer": 0,
+        "explanation": "Exemption depends on job duties (and salary basis), not just being salaried. Workers with no managerial/professional duties are non-exempt and entitled to overtime.",
+        "docs": [{ "label": "FLSA overtime (DOL)", "url": "https://www.dol.gov/agencies/whd/flsa" }]
+      },
+      {
+        "id": "shrm-cp-case-1-q2",
+        "domain": "People",
+        "prompt": "What is the most appropriate first step for HR to correct the problem?",
+        "options": [
+          "Reclassify the reps as non-exempt and implement time tracking going forward",
+          "Fire the reps who complained",
+          "Ask reps to sign waivers of overtime",
+          "Ignore the DOL complaint"
+        ],
+        "answer": 0,
+        "explanation": "HR should correct the classification, begin tracking hours, and pay overtime prospectively. Employees cannot waive FLSA rights.",
+        "docs": [{ "label": "FLSA (DOL)", "url": "https://www.dol.gov/agencies/whd/flsa" }]
+      },
+      {
+        "id": "shrm-cp-case-1-q3",
+        "domain": "Leadership",
+        "prompt": "How should HR communicate the change to the affected reps?",
+        "options": [
+          "Explain the correction transparently and set clear expectations for time tracking",
+          "Make the change quietly without explanation",
+          "Blame the employees for the error",
+          "Only tell managers"
+        ],
+        "answer": 0,
+        "explanation": "Transparent communication builds trust and ensures compliance — employees need to understand the new classification and tracking requirements.",
+        "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+      }
+    ]
+  },
+  {
+    "id": "shrm-cp-case-2",
+    "title": "Harbor Health — Reasonable accommodation request",
+    "scenario": "At Harbor Health, a medical-billing specialist develops a repetitive-strain injury and requests a voice-to-text software tool to continue entering billing codes. The manager wants to deny the request because the software costs money.",
+    "context": [
+      "The employee is otherwise qualified for the role.",
+      "The requested software would cost under $1,000.",
+      "The manager is concerned about precedent and cost.",
+      "The employee can still perform the essential functions with the tool."
+    ],
+    "questions": [
+      {
+        "id": "shrm-cp-case-2-q1",
+        "domain": "Workplace",
+        "prompt": "What does the ADA require the employer to do here?",
+        "options": [
+          "Engage in the interactive process to determine an effective accommodation",
+          "Deny the request because it costs money",
+          "Wait for a lawsuit before responding",
+          "Require the employee to pay for the software"
+        ],
+        "answer": 0,
+        "explanation": "The ADA requires a good-faith interactive process to identify a reasonable accommodation; cost alone rarely justifies denial unless it is an undue hardship.",
+        "docs": [{ "label": "EEOC disability discrimination", "url": "https://www.eeoc.gov/disability-discrimination" }]
+      },
+      {
+        "id": "shrm-cp-case-2-q2",
+        "domain": "Business",
+        "prompt": "Is a $1,000 software purchase likely an 'undue hardship' under the ADA?",
+        "options": [
+          "No — undue hardship is assessed against the employer's resources, and this small cost is unlikely to qualify",
+          "Yes, any cost is an undue hardship",
+          "Yes, because it might set a precedent",
+          "Yes, because the manager said so"
+        ],
+        "answer": 0,
+        "explanation": "Undue hardship considers significant difficulty or expense relative to the employer's size and resources. A small one-time cost is rarely an undue hardship.",
+        "docs": [{ "label": "EEOC reasonable accommodation", "url": "https://www.eeoc.gov/disability-discrimination" }]
+      },
+      {
+        "id": "shrm-cp-case-2-q3",
+        "domain": "Interpersonal",
+        "prompt": "How should HR coach the manager who wants to deny the request?",
+        "options": [
+          "Educate the manager on ADA obligations and the interactive process, focusing on the employee's ability to perform",
+          "Support the manager's instinct to deny to save money",
+          "Avoid the manager to prevent conflict",
+          "Tell the manager to make the decision alone"
+        ],
+        "answer": 0,
+        "explanation": "HR should consult with the manager, explain the legal requirements, and guide a fair, individualized process rather than a cost-based reflex.",
+        "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+      }
+    ]
+  },
+  {
+    "id": "shrm-cp-case-3",
+    "title": "Summit Retail — Harassment complaint",
+    "scenario": "A cashier at Summit Retail reports that a supervisor repeatedly makes sexual comments and has offered better shifts in exchange for dates. The employee says they fear retaliation for coming forward.",
+    "context": [
+      "The complaint involves a supervisor, creating a power imbalance.",
+      "The employee fears retaliation.",
+      "There are no witnesses to every incident.",
+      "The company has a written anti-harassment policy."
+    ],
+    "questions": [
+      {
+        "id": "shrm-cp-case-3-q1",
+        "domain": "Workplace",
+        "prompt": "What is HR's most appropriate first action?",
+        "options": [
+          "Launch a prompt, impartial, and confidential investigation",
+          "Move the employee to another store without investigating",
+          "Tell the employee to resolve it with the supervisor",
+          "Dismiss the complaint because there are no witnesses"
+        ],
+        "answer": 0,
+        "explanation": "Employers must promptly and impartially investigate harassment complaints; a supervisor's conduct is especially serious due to the power dynamic.",
+        "docs": [{ "label": "EEOC harassment", "url": "https://www.eeoc.gov/harassment" }]
+      },
+      {
+        "id": "shrm-cp-case-3-q2",
+        "domain": "Leadership",
+        "prompt": "How should the company protect the employee from retaliation?",
+        "options": [
+          "Reassure the employee, monitor for retaliation, and prohibit any adverse action",
+          "Assume retaliation won't happen",
+          "Ask the supervisor to 'go easy' on the employee",
+          "Discourage the employee from escalating"
+        ],
+        "answer": 0,
+        "explanation": "Retaliation is itself unlawful; employers must actively prevent and monitor for it, and communicate a clear non-retaliation policy.",
+        "docs": [{ "label": "EEOC retaliation", "url": "https://www.eeoc.gov/retaliation" }]
+      },
+      {
+        "id": "shrm-cp-case-3-q3",
+        "domain": "Organization",
+        "prompt": "If the investigation substantiates the complaint, what is the appropriate outcome?",
+        "options": [
+          "Take prompt, proportionate corrective action and document it",
+          "Take no action if the supervisor apologizes",
+          "Transfer the complainant and keep the supervisor in place",
+          "Wait to see if it recurs"
+        ],
+        "answer": 0,
+        "explanation": "When harassment is substantiated, the employer must take prompt and effective corrective action to stop the behavior and prevent recurrence.",
+        "docs": [{ "label": "EEOC harassment", "url": "https://www.eeoc.gov/harassment" }]
+      }
+    ]
+  },
+  {
+    "id": "shrm-cp-case-4",
+    "title": "Cedar Grove — Rapid growth onboarding",
+    "scenario": "Cedar Grove, a home-services company, doubled its workforce in six months. New hires are leaving within their first 90 days, and managers complain that new employees seem 'lost' and disengaged.",
+    "context": [
+      "There is no structured onboarding program.",
+      "Turnover among new hires is high in the first 90 days.",
+      "Managers lack the time to train new employees individually.",
+      "The company needs to stabilize and retain its workforce."
+    ],
+    "questions": [
+      {
+        "id": "shrm-cp-case-4-q1",
+        "domain": "People",
+        "prompt": "What is the most likely root cause of the 90-day turnover?",
+        "options": [
+          "A lack of structured onboarding and role clarity",
+          "Generous compensation",
+          "Too much training",
+          "An over-staffed organization"
+        ],
+        "answer": 0,
+        "explanation": "Poor onboarding and unclear expectations are leading causes of early turnover; new hires disengage when they feel unsupported.",
+        "docs": [{ "label": "SHRM onboarding", "url": "https://www.shrm.org/certification/about/bask" }]
+      },
+      {
+        "id": "shrm-cp-case-4-q2",
+        "domain": "Organization",
+        "prompt": "Which solution would best address the problem?",
+        "options": [
+          "Implement a standardized onboarding program with clear milestones and manager check-ins",
+          "Hire more recruiters only",
+          "Reduce pay to save money",
+          "Extend the probation period"
+        ],
+        "answer": 0,
+        "explanation": "A structured onboarding program with clear goals and regular check-ins integrates new hires and improves early retention.",
+        "docs": [{ "label": "SHRM onboarding", "url": "https://www.shrm.org/certification/about/bask" }]
+      },
+      {
+        "id": "shrm-cp-case-4-q3",
+        "domain": "Business",
+        "prompt": "How should HR measure whether the new program is working?",
+        "options": [
+          "Track 90-day turnover, time-to-productivity, and new-hire engagement scores",
+          "Ask managers for their gut feeling only",
+          "Ignore metrics and assume success",
+          "Measure only the number of hires"
+        ],
+        "answer": 0,
+        "explanation": "Meaningful metrics — early turnover, time-to-productivity, and engagement — show whether onboarding is actually improving retention and performance.",
+        "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+      }
+    ]
+  }
+]

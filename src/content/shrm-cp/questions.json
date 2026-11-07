@@ -1,0 +1,267 @@
+[
+  {
+    "id": "shrm-cp-q1",
+    "domain": "Leadership",
+    "prompt": "An HR generalist discovers that a department manager routinely asks employees to keep working through their unpaid lunch breaks. What should the HR generalist do first?",
+    "options": [
+      "Advise the manager that this violates the FLSA and work to correct the practice",
+      "Ignore it because lunch breaks are not legally required",
+      "Reward the manager for maximizing productivity",
+      "Ask employees to sign waivers giving up their breaks"
+    ],
+    "answer": 0,
+    "explanation": "Requiring off-the-clock work violates the Fair Labor Standards Act. HR's first step is to correct the unlawful practice and ensure employees are paid for all hours worked.",
+    "docs": [{ "label": "FLSA (DOL Wage & Hour)", "url": "https://www.dol.gov/agencies/whd/flsa" }]
+  },
+  {
+    "id": "shrm-cp-q2",
+    "domain": "Leadership",
+    "prompt": "Which behavior best demonstrates ethical practice as an HR professional?",
+    "options": [
+      "Maintaining confidentiality and acting with integrity, even under pressure",
+      "Sharing sensitive employee data with anyone who asks internally",
+      "Bending policy to favor a senior leader's friend",
+      "Only following the law when it is convenient"
+    ],
+    "answer": 0,
+    "explanation": "Ethical practice requires protecting confidentiality, acting with integrity, and upholding the SHRM Code of Ethics regardless of pressure.",
+    "docs": [{ "label": "SHRM Code of Ethics", "url": "https://www.shrm.org/about-shrm/pages/code-of-ethics.aspx" }]
+  },
+  {
+    "id": "shrm-cp-q3",
+    "domain": "Leadership",
+    "prompt": "A major change is being rolled out to employees. What is the most effective way for HR to demonstrate leadership and navigation?",
+    "options": [
+      "Communicate transparently, explain the 'why', and support managers through the transition",
+      "Announce the change with no context and move on",
+      "Withhold information to avoid questions",
+      "Let employees hear about it through the grapevine"
+    ],
+    "answer": 0,
+    "explanation": "Leadership and navigation means guiding people through change with clear, honest communication and manager support, which reduces resistance and builds trust.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-cp-q4",
+    "domain": "Business",
+    "prompt": "How can HR best demonstrate business acumen when proposing a new retention program?",
+    "options": [
+      "Use workforce data and a cost-benefit analysis to show the business impact",
+      "Argue from intuition without data",
+      "Ignore financial considerations",
+      "Request funding without any metrics"
+    ],
+    "answer": 0,
+    "explanation": "Business acumen means understanding the business and using data (turnover cost, engagement metrics) to make a compelling, ROI-based case.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-cp-q5",
+    "domain": "Business",
+    "prompt": "A manager wants to terminate an employee for poor performance but has no documentation. What should HR advise?",
+    "options": [
+      "Implement a documented performance improvement process before any termination",
+      "Terminate immediately to avoid conflict",
+      "Ignore the issue and hope it improves",
+      "Transfer the employee to another team without discussion"
+    ],
+    "answer": 0,
+    "explanation": "Consultation means advising managers on fair, defensible practices. A documented improvement process protects the organization and the employee.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-cp-q6",
+    "domain": "Business",
+    "prompt": "Turnover has spiked in one department over two quarters. Which analytical approach should HR take first?",
+    "options": [
+      "Analyze exit data and engagement metrics to identify the root cause",
+      "Immediately raise everyone's salary",
+      "Assume it is a hiring problem and do nothing",
+      "Blame the department manager without data"
+    ],
+    "answer": 0,
+    "explanation": "Analytical aptitude means diagnosing before acting — using exit interviews, engagement surveys, and turnover data to find the real cause.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-cp-q7",
+    "domain": "Interpersonal",
+    "prompt": "HR must communicate a reduction-in-force to a group of employees. What is the most appropriate approach?",
+    "options": [
+      "Deliver the message directly, empathetically, and consistently to all affected employees",
+      "Send a single mass email with no follow-up",
+      "Have managers hint at it informally",
+      "Avoid telling employees until the last possible moment with no support"
+    ],
+    "answer": 0,
+    "explanation": "Effective communication in difficult situations requires directness, empathy, and consistency, along with clear next steps and support.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-cp-q8",
+    "domain": "Interpersonal",
+    "prompt": "How can HR build strong relationship management with line managers?",
+    "options": [
+      "Be a trusted advisor who listens, understands their goals, and provides practical solutions",
+      "Only interact when there is a problem",
+      "Dictate policy without listening",
+      "Avoid managers to stay neutral"
+    ],
+    "answer": 0,
+    "explanation": "Relationship management requires credibility, trust, and partnership — HR should proactively support managers, not just police them.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-cp-q9",
+    "domain": "Interpersonal",
+    "prompt": "A global team spans several countries with different cultural norms around feedback. How should HR approach this?",
+    "options": [
+      "Respect cultural differences and tailor communication while keeping standards consistent",
+      "Force a single communication style on everyone",
+      "Ignore cultural differences entirely",
+      "Avoid giving feedback across cultures"
+    ],
+    "answer": 0,
+    "explanation": "Global and cultural effectiveness means adapting communication to cultural norms while maintaining fairness and consistent expectations.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-cp-q10",
+    "domain": "People",
+    "prompt": "A non-exempt employee works 45 hours in a single workweek. How many hours of overtime pay are owed?",
+    "options": ["5 hours at 1.5x the regular rate", "45 hours at 1.5x", "0 hours", "5 hours at straight time"],
+    "answer": 0,
+    "explanation": "Under the FLSA, non-exempt employees are entitled to overtime pay (1.5x) for hours worked beyond 40 in a workweek — here, 5 hours.",
+    "docs": [{ "label": "FLSA overtime (DOL)", "url": "https://www.dol.gov/agencies/whd/flsa" }]
+  },
+  {
+    "id": "shrm-cp-q11",
+    "domain": "People",
+    "prompt": "Which employee is eligible for FMLA leave?",
+    "options": [
+      "One who worked 1,250 hours in the last 12 months for an employer with 50+ employees within 75 miles",
+      "Any employee regardless of tenure",
+      "One who just started last week",
+      "An independent contractor"
+    ],
+    "answer": 0,
+    "explanation": "FMLA eligibility requires 12 months of service, 1,250 hours worked in the prior 12 months, and a covered employer (50+ employees within 75 miles).",
+    "docs": [{ "label": "FMLA (DOL)", "url": "https://www.dol.gov/agencies/whd/fmla" }]
+  },
+  {
+    "id": "shrm-cp-q12",
+    "domain": "People",
+    "prompt": "What is the difference between internal equity and external equity in compensation?",
+    "options": [
+      "Internal equity compares pay across jobs within the organization; external equity compares pay to the market",
+      "They are the same concept",
+      "Internal equity is about benefits only",
+      "External equity ignores market data"
+    ],
+    "answer": 0,
+    "explanation": "Internal equity ensures fairness across roles inside the organization; external equity benchmarks pay against the external labor market.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-cp-q13",
+    "domain": "People",
+    "prompt": "Which element is most central to a strong employer value proposition (EVP)?",
+    "options": [
+      "The unique set of rewards and experiences that makes the organization attractive to employees",
+      "The company's logo and colors",
+      "Only the salary amount",
+      "The office location alone"
+    ],
+    "answer": 0,
+    "explanation": "An EVP is the full value (compensation, culture, development, work experience) that differentiates the employer and attracts/retains talent.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-cp-q14",
+    "domain": "Organization",
+    "prompt": "Two employees discuss their wages during a break. The employer wants to prohibit such conversations. Is that lawful?",
+    "options": [
+      "Generally no — discussing wages is protected concerted activity under the NLRA",
+      "Yes, employers can always ban wage discussions",
+      "Yes, but only for salaried employees",
+      "It depends on company size only"
+    ],
+    "answer": 0,
+    "explanation": "The NLRA protects employees' rights to discuss wages and working conditions as concerted activity; blanket bans are generally unlawful.",
+    "docs": [{ "label": "NLRB", "url": "https://www.nlrb.gov/" }]
+  },
+  {
+    "id": "shrm-cp-q15",
+    "domain": "Organization",
+    "prompt": "Which initiative best reduces administrative burden and improves data accuracy in HR operations?",
+    "options": [
+      "Implementing an HRIS with self-service and automated workflows",
+      "Keeping all records on paper",
+      "Using multiple disconnected spreadsheets",
+      "Relying on verbal approvals only"
+    ],
+    "answer": 0,
+    "explanation": "An HRIS automates processes and centralizes data, improving accuracy and freeing HR to focus on strategic work.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-cp-q16",
+    "domain": "Organization",
+    "prompt": "What is the primary goal of succession planning?",
+    "options": [
+      "Ensure continuity by developing internal talent for key roles",
+      "Eliminate all external hiring",
+      "Create a paper trail for terminations",
+      "Reduce training budgets to zero"
+    ],
+    "answer": 0,
+    "explanation": "Succession planning identifies and develops internal candidates so critical roles are filled quickly and smoothly when they become vacant.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-cp-q17",
+    "domain": "Workplace",
+    "prompt": "An employee reports that a coworker is making repeated sexual comments. What is HR's most appropriate first step?",
+    "options": [
+      "Promptly and impartially investigate the complaint",
+      "Tell the employee to ignore it",
+      "Punish the employee for complaining",
+      "Wait to see if it happens again"
+    ],
+    "answer": 0,
+    "explanation": "Under Title VII, employers must take harassment complaints seriously and investigate promptly and impartially to prevent and correct harassment.",
+    "docs": [{ "label": "EEOC harassment", "url": "https://www.eeoc.gov/harassment" }]
+  },
+  {
+    "id": "shrm-cp-q18",
+    "domain": "Workplace",
+    "prompt": "An employee with a disability requests an adjustment to their workstation. What is the employer's obligation under the ADA?",
+    "options": [
+      "Engage in the interactive process to explore a reasonable accommodation",
+      "Refuse automatically because it might cost money",
+      "Wait for the employee to file a lawsuit",
+      "Require the employee to pay for the change"
+    ],
+    "answer": 0,
+    "explanation": "The ADA requires engaging in a good-faith interactive process to determine an effective reasonable accommodation, unless it causes undue hardship.",
+    "docs": [{ "label": "EEOC reasonable accommodation", "url": "https://www.eeoc.gov/disability-discrimination" }]
+  },
+  {
+    "id": "shrm-cp-q19",
+    "domain": "Workplace",
+    "prompt": "An employee is terminated and wants to keep their health insurance temporarily. Which law may allow this?",
+    "options": ["COBRA", "FLSA", "NLRA", "HIPAA"],
+    "answer": 0,
+    "explanation": "COBRA allows eligible employees to continue group health coverage for a limited period after a qualifying event such as termination.",
+    "docs": [{ "label": "COBRA (DOL EBSA)", "url": "https://www.dol.gov/agencies/ebsa/laws-and-regulations/laws/cobra" }]
+  },
+  {
+    "id": "shrm-cp-q20",
+    "domain": "Workplace",
+    "prompt": "A selection test eliminates a much higher percentage of minority applicants than others, without business necessity. This is an example of:",
+    "options": ["Adverse (disparate) impact", "Disparate treatment", "Bona fide occupational qualification", "Affirmative action"],
+    "answer": 0,
+    "explanation": "Adverse impact occurs when a neutral practice disproportionately excludes a protected group and is not job-related and consistent with business necessity.",
+    "docs": [{ "label": "EEOC adverse impact", "url": "https://www.eeoc.gov/laws/guidance/employment-tests-and-selection-procedures" }]
+  }
+]

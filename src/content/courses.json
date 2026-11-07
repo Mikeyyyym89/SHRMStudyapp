@@ -1,0 +1,42 @@
+[
+  {
+    "id": "shrm-cp",
+    "code": "SHRM-CP",
+    "name": "SHRM Certified Professional",
+    "shortName": "SHRM Certified Professional",
+    "role": "HR Professional",
+    "level": "Certified Professional",
+    "description": "For early- and mid-career HR practitioners who implement policies, support day-to-day people operations, and apply HR expertise on the ground.",
+    "domains": [
+      "Leadership",
+      "Business",
+      "Interpersonal",
+      "People",
+      "Organization",
+      "Workplace"
+    ],
+    "examUrl": "https://www.shrm.org/certification",
+    "studyGuideUrl": "https://www.shrm.org/certification/about/bask",
+    "accent": "#0e7490"
+  },
+  {
+    "id": "shrm-scp",
+    "code": "SHRM-SCP",
+    "name": "SHRM Senior Certified Professional",
+    "shortName": "SHRM Senior Certified Professional",
+    "role": "HR Leader",
+    "level": "Senior Certified Professional",
+    "description": "For senior HR leaders who set strategy, align people practices to business goals, and lead organization-wide change.",
+    "domains": [
+      "Leadership",
+      "Business",
+      "Interpersonal",
+      "People",
+      "Organization",
+      "Workplace"
+    ],
+    "examUrl": "https://www.shrm.org/certification",
+    "studyGuideUrl": "https://www.shrm.org/certification/about/bask",
+    "accent": "#4338ca"
+  }
+]

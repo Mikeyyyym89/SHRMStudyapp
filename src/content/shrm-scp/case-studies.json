@@ -1,0 +1,222 @@
+[
+  {
+    "id": "shrm-scp-case-1",
+    "title": "Meridian Group — Merger integration",
+    "scenario": "Meridian Group is acquiring a smaller competitor. The two companies have very different cultures, several duplicated functions, and the acquired company's key engineers are rumored to be looking elsewhere. The board wants the integration completed quickly without losing critical talent.",
+    "context": [
+      "Cultures and leadership styles differ significantly between the two firms.",
+      "There is overlap in HR, finance, and engineering roles.",
+      "Key technical talent in the acquired company is at risk of leaving.",
+      "The board expects cost synergies but also continuity of product delivery."
+    ],
+    "questions": [
+      {
+        "id": "shrm-scp-case-1-q1",
+        "domain": "Business",
+        "prompt": "What is HR's most important contribution during due diligence and integration planning?",
+        "options": [
+          "Assess cultural fit, key-talent retention risk, and workforce liabilities before closing",
+          "Only manage payroll integration",
+          "Delay all people decisions until after the deal closes",
+          "Ignore culture because the numbers matter most"
+        ],
+        "answer": 0,
+        "explanation": "HR adds value by evaluating culture, talent, and liabilities early — these factors often determine whether a deal creates or destroys value.",
+        "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+      },
+      {
+        "id": "shrm-scp-case-1-q2",
+        "domain": "People",
+        "prompt": "How should Meridian retain the acquired company's critical engineers?",
+        "options": [
+          "Identify key talent and offer targeted retention agreements and clear career paths",
+          "Let them leave and rehire later",
+          "Freeze all compensation to cut costs",
+          "Ignore the rumors and hope they stay"
+        ],
+        "answer": 0,
+        "explanation": "Proactively identifying and retaining critical talent with retention incentives and clear futures is essential in M&A.",
+        "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+      },
+      {
+        "id": "shrm-scp-case-1-q3",
+        "domain": "Leadership",
+        "prompt": "How should leadership address the cultural differences between the two firms?",
+        "options": [
+          "Define the desired combined culture, communicate it, and align systems to reinforce it",
+          "Force one company's culture on the other immediately",
+          "Ignore culture and focus only on processes",
+          "Let each company keep its own culture forever"
+        ],
+        "answer": 0,
+        "explanation": "Successful integration defines a target culture and aligns leadership, communication, and systems to bring the two organizations together.",
+        "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+      }
+    ]
+  },
+  {
+    "id": "shrm-scp-case-2",
+    "title": "Stonebridge Manufacturing — Turnaround and restructuring",
+    "scenario": "Stonebridge Manufacturing is facing declining demand and must reduce its workforce by 20% to survive. Employees are anxious, morale is low, and rumors are spreading. Leadership wants to act quickly but minimize legal exposure and long-term damage to the brand.",
+    "context": [
+      "A 20% reduction is required across several locations.",
+      "Morale is already low and rumors are circulating.",
+      "The company must comply with WARN Act notice requirements.",
+      "Leadership wants to preserve the employer brand for future hiring."
+    ],
+    "questions": [
+      {
+        "id": "shrm-scp-case-2-q1",
+        "domain": "Leadership",
+        "prompt": "What should leadership do first to manage the change effectively?",
+        "options": [
+          "Communicate the business reality transparently and share a clear plan",
+          "Keep employees in the dark to avoid panic",
+          "Announce layoffs with no rationale",
+          "Leak the plan through managers informally"
+        ],
+        "answer": 0,
+        "explanation": "Transparent communication and a clear plan reduce uncertainty and build trust during a difficult restructuring.",
+        "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+      },
+      {
+        "id": "shrm-scp-case-2-q2",
+        "domain": "Workplace",
+        "prompt": "The reduction will affect many employees at one site. What legal obligation must Stonebridge consider?",
+        "options": [
+          "WARN Act notice requirements for a mass layoff or plant closing",
+          "No legal obligations for layoffs",
+          "HIPAA notice requirements",
+          "FLSA overtime for laid-off employees"
+        ],
+        "answer": 0,
+        "explanation": "The WARN Act requires advance notice (generally 60 days) for covered plant closings and mass layoffs.",
+        "docs": [{ "label": "WARN Act (DOL)", "url": "https://www.dol.gov/agencies/eta/layoffs/warn" }]
+      },
+      {
+        "id": "shrm-scp-case-2-q3",
+        "domain": "Interpersonal",
+        "prompt": "How should HR support managers in delivering the news to affected employees?",
+        "options": [
+          "Train and coach managers to communicate empathetically, consistently, and with clear next steps",
+          "Have managers improvise their own messages",
+          "Send one impersonal email",
+          "Avoid face-to-face conversations"
+        ],
+        "answer": 0,
+        "explanation": "Coaching managers to deliver difficult news with empathy, consistency, and clarity protects dignity and reduces legal risk.",
+        "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+      }
+    ]
+  },
+  {
+    "id": "shrm-scp-case-3",
+    "title": "Aurora Finance — Global expansion",
+    "scenario": "Aurora Finance plans to open operations in a new country and send a team of expatriates to lead the launch, while also hiring local talent. The leadership team has never operated internationally.",
+    "context": [
+      "Several expatriates will be deployed for 2–3 years.",
+      "Local employment laws differ from U.S. law.",
+      "The company must comply with visa and tax requirements in the new country.",
+      "Expatriates and their families need cultural and relocation support."
+    ],
+    "questions": [
+      {
+        "id": "shrm-scp-case-3-q1",
+        "domain": "Workplace",
+        "prompt": "What must HR address before deploying expatriates?",
+        "options": [
+          "Visas/work permits, tax equalization, and local employment compliance",
+          "Only book flights and housing",
+          "Assume U.S. employment law applies",
+          "Skip compliance to launch faster"
+        ],
+        "answer": 0,
+        "explanation": "Global mobility requires managing immigration, tax, and local labor law before deployment to avoid legal and financial penalties.",
+        "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+      },
+      {
+        "id": "shrm-scp-case-3-q2",
+        "domain": "People",
+        "prompt": "How can Aurora improve the success of its expatriate assignments?",
+        "options": [
+          "Provide pre-departure cultural training and family/relocation support",
+          "Send employees with no preparation",
+          "Ignore family considerations",
+          "Assume everyone adapts easily"
+        ],
+        "answer": 0,
+        "explanation": "Cultural preparation and family support significantly improve expatriate assignment success and reduce early returns.",
+        "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+      },
+      {
+        "id": "shrm-scp-case-3-q3",
+        "domain": "Business",
+        "prompt": "How should HR balance using expatriates vs. hiring local talent?",
+        "options": [
+          "Assess where local talent can lead and use expatriates to transfer knowledge, then localize over time",
+          "Use only expatriates indefinitely",
+          "Hire only locals with no knowledge transfer",
+          "Ignore the cost implications"
+        ],
+        "answer": 0,
+        "explanation": "A sustainable model uses expatriates for launch/knowledge transfer and develops local talent to lead over time, balancing cost and capability.",
+        "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+      }
+    ]
+  },
+  {
+    "id": "shrm-scp-case-4",
+    "title": "Beacon Industries — C-suite succession",
+    "scenario": "Beacon Industries' long-tenured CEO announces retirement in 18 months. There is no clear internal successor, and the board wants to ensure a smooth transition without disrupting the business or losing confidence in the market.",
+    "context": [
+      "There is no identified internal successor.",
+      "Two internal candidates are strong but unproven at the CEO level.",
+      "The board wants continuity and a credible transition.",
+      "External candidates may also be considered."
+    ],
+    "questions": [
+      {
+        "id": "shrm-scp-case-4-q1",
+        "domain": "People",
+        "prompt": "What is the most strategic approach to CEO succession?",
+        "options": [
+          "Build a succession plan that develops internal candidates while benchmarking external talent",
+          "Wait until the CEO leaves to start looking",
+          "Appoint an internal candidate immediately without development",
+          "Rely solely on the outgoing CEO's recommendation"
+        ],
+        "answer": 0,
+        "explanation": "Robust succession planning develops internal readiness and benchmarks external options, reducing transition risk.",
+        "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+      },
+      {
+        "id": "shrm-scp-case-4-q2",
+        "domain": "Organization",
+        "prompt": "How should Beacon develop its two internal candidates for the CEO role?",
+        "options": [
+          "Provide stretch assignments, executive coaching, and exposure to the board",
+          "Leave their development to chance",
+          "Give them no new responsibilities",
+          "Only send them to a single seminar"
+        ],
+        "answer": 0,
+        "explanation": "Developing successors requires deliberate experiences, coaching, and board exposure to build readiness and credibility.",
+        "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+      },
+      {
+        "id": "shrm-scp-case-4-q3",
+        "domain": "Interpersonal",
+        "prompt": "How should HR manage communication with the board and stakeholders during the transition?",
+        "options": [
+          "Provide regular, transparent updates and facilitate structured board involvement",
+          "Keep the board out of the process",
+          "Announce the successor without consulting the board",
+          "Avoid communicating until the last moment"
+        ],
+        "answer": 0,
+        "explanation": "Successful succession engages the board and stakeholders with transparent, regular communication throughout the process.",
+        "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+      }
+    ]
+  }
+]

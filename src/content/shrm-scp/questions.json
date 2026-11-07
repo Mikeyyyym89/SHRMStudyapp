@@ -1,0 +1,277 @@
+[
+  {
+    "id": "shrm-scp-q1",
+    "domain": "Leadership",
+    "prompt": "A new CEO wants HR to be a strategic driver of growth. What is the best first step for the CHRO?",
+    "options": [
+      "Align HR strategy with the business strategy and identify the talent capabilities needed",
+      "Launch a new benefits program immediately",
+      "Reduce the HR team to cut costs",
+      "Maintain the status quo until asked otherwise"
+    ],
+    "answer": 0,
+    "explanation": "Strategic HRM begins by aligning people strategy with business goals and identifying the capabilities required to execute them.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q2",
+    "domain": "Leadership",
+    "prompt": "Which approach best leads a cultural transformation in a large organization?",
+    "options": [
+      "Visible leadership commitment, clear narrative, and aligned systems (rewards, processes)",
+      "A one-off training session",
+      "A memo from HR",
+      "Hoping the culture changes on its own"
+    ],
+    "answer": 0,
+    "explanation": "Culture change succeeds through leader role-modeling, a compelling story, and aligning systems (performance, rewards, hiring) to reinforce new behaviors.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q3",
+    "domain": "Leadership",
+    "prompt": "During a public crisis, how should senior HR leadership act ethically?",
+    "options": [
+      "Communicate honestly, act consistently with values, and protect stakeholder interests",
+      "Withhold information to protect the brand",
+      "Prioritize optics over substance",
+      "Delegate all decisions to avoid accountability"
+    ],
+    "answer": 0,
+    "explanation": "Ethical leadership in a crisis means transparent, values-driven decisions that balance the interests of employees and other stakeholders.",
+    "docs": [{ "label": "SHRM Code of Ethics", "url": "https://www.shrm.org/about-shrm/pages/code-of-ethics.aspx" }]
+  },
+  {
+    "id": "shrm-scp-q4",
+    "domain": "Business",
+    "prompt": "How does HR best demonstrate business acumen at the executive level?",
+    "options": [
+      "Use people analytics to show how workforce decisions drive revenue and profitability",
+      "Focus only on compliance checklists",
+      "Avoid financial discussions",
+      "Report HR activity without linking it to business outcomes"
+    ],
+    "answer": 0,
+    "explanation": "Business acumen at the senior level means connecting people metrics to financial and strategic outcomes, not just reporting HR activity.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q5",
+    "domain": "Business",
+    "prompt": "HR is proposing a major talent investment to the board. What should the business case emphasize?",
+    "options": [
+      "Expected ROI, business impact, and alignment with strategy",
+      "The number of HR activities planned",
+      "A request based on industry trends alone",
+      "A vague promise of better culture"
+    ],
+    "answer": 0,
+    "explanation": "A compelling business case ties the investment to measurable ROI and strategic goals, not activity counts.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q6",
+    "domain": "Business",
+    "prompt": "During an acquisition, what is HR's primary role in due diligence?",
+    "options": [
+      "Assess people-related risks, liabilities, culture, and talent retention needs",
+      "Negotiate the purchase price",
+      "Manage only the IT integration",
+      "Stay out of the process"
+    ],
+    "answer": 0,
+    "explanation": "HR due diligence evaluates workforce risks, benefits/liabilities, labor agreements, culture fit, and key talent retention — critical to deal value.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q7",
+    "domain": "Interpersonal",
+    "prompt": "How can HR influence senior leaders who resist a needed change?",
+    "options": [
+      "Build trust, speak their language (business impact), and present data-backed options",
+      "Force the change through without discussion",
+      "Complain to other executives",
+      "Give up on the change"
+    ],
+    "answer": 0,
+    "explanation": "Influencing executives requires credibility, business framing, and data-driven recommendations rather than positional pressure.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q8",
+    "domain": "Interpersonal",
+    "prompt": "Two executives are in conflict over a reorganization. What should HR do?",
+    "options": [
+      "Facilitate a neutral, structured dialogue to surface interests and find common ground",
+      "Take one side",
+      "Let the conflict escalate",
+      "Ignore it because they are executives"
+    ],
+    "answer": 0,
+    "explanation": "At the senior level, HR should facilitate resolution by surfacing underlying interests and guiding a collaborative outcome.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q9",
+    "domain": "Interpersonal",
+    "prompt": "During a company-wide transformation, what communication approach is most effective?",
+    "options": [
+      "Frequent, transparent, two-way communication with clear rationale",
+      "A single announcement and then silence",
+      "Communicating only to managers",
+      "Delaying all communication until decisions are final"
+    ],
+    "answer": 0,
+    "explanation": "Transformations succeed with ongoing, transparent, two-way communication that builds trust and reduces uncertainty.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q10",
+    "domain": "People",
+    "prompt": "A five-year business plan requires skills the organization lacks. What should HR do first?",
+    "options": [
+      "Conduct a workforce-planning gap analysis to compare supply with forecast demand",
+      "Hire for every open role immediately",
+      "Ignore the plan until it is closer",
+      "Cut the training budget"
+    ],
+    "answer": 0,
+    "explanation": "Strategic workforce planning starts with analyzing the gap between future demand and current/internal supply, then deciding to build, buy, or borrow talent.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q11",
+    "domain": "People",
+    "prompt": "The organization has no ready successors for several critical roles. What is the most strategic response?",
+    "options": [
+      "Build a succession pipeline by identifying and developing high-potential internal talent",
+      "Wait for a vacancy to arise",
+      "Hire externally at the last minute only",
+      "Eliminate the roles"
+    ],
+    "answer": 0,
+    "explanation": "A proactive succession pipeline develops internal high-potentials for critical roles, ensuring continuity and reducing risk.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q12",
+    "domain": "People",
+    "prompt": "What is the purpose of a pay-equity analysis?",
+    "options": [
+      "Identify and remediate unjustified pay differences for comparable work across protected groups",
+      "Set everyone's pay to the same amount",
+      "Reduce compensation transparency",
+      "Eliminate performance-based pay"
+    ],
+    "answer": 0,
+    "explanation": "Pay-equity analysis detects and corrects pay disparities that cannot be explained by legitimate factors, reducing legal and reputational risk.",
+    "docs": [{ "label": "EEOC pay discrimination", "url": "https://www.eeoc.gov/equal-paycompensation-discrimination" }]
+  },
+  {
+    "id": "shrm-scp-q13",
+    "domain": "People",
+    "prompt": "Which total-rewards approach best supports a high-growth tech firm competing for scarce talent?",
+    "options": [
+      "A differentiated, market-competitive package tailored to what key talent values",
+      "A one-size-fits-all package",
+      "Below-market pay with no equity",
+      "Eliminating benefits to cut costs"
+    ],
+    "answer": 0,
+    "explanation": "A differentiated total-rewards strategy aligns rewards with the talent market and what critical talent values, supporting attraction and retention.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q14",
+    "domain": "Organization",
+    "prompt": "A reorganization is needed to reduce duplication. What should HR do first?",
+    "options": [
+      "Diagnose the current structure and design the target operating model before acting",
+      "Redraw the org chart immediately without analysis",
+      "Cut roles at random",
+      "Announce the change with no plan"
+    ],
+    "answer": 0,
+    "explanation": "Effective organizational design starts with diagnosis and a clear target operating model, then plans the transition.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q15",
+    "domain": "Organization",
+    "prompt": "Which change-management framework emphasizes building urgency and a guiding coalition?",
+    "options": ["Kotter's 8-step model", "The 4/5ths rule", "FIFO", "SWOT only"],
+    "answer": 0,
+    "explanation": "Kotter's model begins with creating urgency and forming a guiding coalition, then proceeds through vision, communication, and reinforcement.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q16",
+    "domain": "Organization",
+    "prompt": "Which consideration is most important when selecting HR technology at scale?",
+    "options": [
+      "Alignment with business needs, integration, and adoption/change management",
+      "Choosing the cheapest option",
+      "Choosing the most features regardless of fit",
+      "Ignoring end-user adoption"
+    ],
+    "answer": 0,
+    "explanation": "HR technology succeeds when it aligns to business needs, integrates with systems, and is supported by change management for adoption.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q17",
+    "domain": "Workplace",
+    "prompt": "A company wants to formalize its ESG commitments. Where does HR add the most value?",
+    "options": [
+      "Driving the 'Social' and governance elements — workforce DEI, pay equity, labor practices, and disclosure",
+      "Only handling payroll",
+      "Ignoring ESG as outside HR's scope",
+      "Focusing solely on environmental metrics"
+    ],
+    "answer": 0,
+    "explanation": "HR leads the 'S' (social) and parts of 'G' (governance) in ESG: workforce practices, DEI, pay equity, and human-capital reporting.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q18",
+    "domain": "Workplace",
+    "prompt": "The company is sending employees to open a new office abroad. What must HR address?",
+    "options": [
+      "Visas/immigration, taxation, local labor law, and cultural preparation",
+      "Only book flights and hotels",
+      "Assume U.S. law applies everywhere",
+      "Skip compliance review to move faster"
+    ],
+    "answer": 0,
+    "explanation": "Global talent mobility requires managing immigration, tax, local employment law, and cultural readiness to ensure legal and effective deployment.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q19",
+    "domain": "Workplace",
+    "prompt": "Which action best mitigates compliance risk across multiple jurisdictions?",
+    "options": [
+      "Build a compliance framework with audits, training, and monitoring for each jurisdiction",
+      "Assume one policy fits every location",
+      "React only after violations occur",
+      "Leave compliance to local managers without oversight"
+    ],
+    "answer": 0,
+    "explanation": "A structured compliance framework with audits and training proactively reduces risk across jurisdictions rather than reacting after failures.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  },
+  {
+    "id": "shrm-scp-q20",
+    "domain": "Workplace",
+    "prompt": "What distinguishes a strategic DEI initiative from a compliance-only effort?",
+    "options": [
+      "It is leader-owned, data-driven, and embedded into talent and business processes",
+      "It focuses only on meeting quotas",
+      "It exists as a one-time training",
+      "It avoids measuring outcomes"
+    ],
+    "answer": 0,
+    "explanation": "Strategic DEI is integrated into the business, driven by leadership, and measured for outcomes — beyond compliance or one-off programs.",
+    "docs": [{ "label": "SHRM BASK", "url": "https://www.shrm.org/certification/about/bask" }]
+  }
+]
