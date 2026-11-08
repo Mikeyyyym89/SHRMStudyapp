@@ -69,11 +69,19 @@ export interface DocGroup {
   links: DocLink[];
 }
 
+export interface Takeaway {
+  domain: string;
+  summary: string;
+  highYield: string[];
+  memoryAids: string[];
+}
+
 export interface CourseContent {
   flashcards: Flashcard[];
   questions: Question[];
   caseStudies: CaseStudy[];
   docs: DocGroup[];
+  takeaways: Takeaway[];
 }
 
 export interface CourseProgress {

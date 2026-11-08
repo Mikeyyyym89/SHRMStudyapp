@@ -1,0 +1,100 @@
+[
+  {
+    "domain": "Leadership",
+    "summary": "Lead and navigate day-to-day work by modeling the SHRM Code of Ethics, coaching and developing employees, and managing projects and teams with integrity, while making ethical decisions that protect both people and the organization.",
+    "highYield": [
+      "SHRM Code of Ethics six principles — professional responsibility, professional development, ethical leadership, fairness & justice, conflicts of interest, and use of information — scenario questions test applying these to real decisions.",
+      "Ethical Practice = first consider what is fair AND lawful (not just expedient); report unethical conduct through proper channels, keep confidentiality, and never retaliate.",
+      "Leadership & Navigation = coach and develop employees, manage projects, build credibility, and influence without formal authority; use a consultative (not directive) approach with line managers.",
+      "First/best action patterns: gather facts and consult policy before acting; model desired behavior; escalate legal or ethical issues to counsel/leadership instead of deciding alone.",
+      "Show self-awareness and emotional intelligence; adapt your leadership style to the situation (Situational Leadership)."
+    ],
+    "memoryAids": [
+      "SHRM Code of Ethics (6) — 'two Professionals, then Ethical Fair Conflict Use': Professional Responsibility, Professional Development, Ethical Leadership, Fairness & Justice, Conflicts of Interest, Use of Information.",
+      "'Navigate before you act' — in situational questions, diagnose/investigate first, then act.",
+      "Situational Leadership: Telling → Selling → Participating → Delegating (match style to the employee's readiness)."
+    ]
+  },
+  {
+    "domain": "Business",
+    "summary": "Apply business acumen and consultation by understanding the organization's operations, financials, and metrics, then using data and analysis to advise managers and build a business case for HR programs.",
+    "highYield": [
+      "Business Acumen = read and interpret a P&L, budget, and key financial terms (revenue vs. cost vs. profit) and show how HR programs move the bottom line.",
+      "Consultation = diagnose the manager's actual underlying problem before recommending a solution; partner with — never dictate to — line managers.",
+      "Analytical Aptitude = use HR metrics (turnover, time-to-fill, cost-per-hire, engagement) to support decisions; know descriptive vs. predictive analytics.",
+      "Calculate and interpret ROI, cost-benefit, and utility analysis for HR programs; tie every HR initiative to a business-unit goal.",
+      "First/best action: gather and analyze data before recommending a program; present findings in business (dollar) terms, not HR jargon."
+    ],
+    "memoryAids": [
+      "SWOT (Strengths, Weaknesses, Opportunities, Threats) and PESTLE (Political, Economic, Social, Technological, Legal, Environmental) for environmental scans.",
+      "'Metric, not opinion' — support every recommendation with a number.",
+      "ROI = (Benefit − Cost) ÷ Cost; a positive ROI alone is not enough — connect it to a business goal."
+    ]
+  },
+  {
+    "domain": "Interpersonal",
+    "summary": "Build trust and credibility through relationship management, clear communication, and cultural awareness, enabling HR to influence, coach, negotiate, and resolve conflict across a diverse workforce.",
+    "highYield": [
+      "Relationship Management = build trust, credibility, and rapport; use active listening and empathy to uncover root causes before proposing fixes.",
+      "Communication = choose the right channel and audience; deliver clear, timely, confidential messaging; attend to verbal and non-verbal cues.",
+      "Global & Cultural Effectiveness = value diversity, adapt to cultural differences, avoid bias, and demonstrate cultural intelligence (CQ).",
+      "Conflict resolution: use interest-based, problem-solving approaches; mediate objectively; de-escalate and hear all sides before judging.",
+      "First/best action: listen and clarify before responding; stay neutral and protect confidentiality during disputes."
+    ],
+    "memoryAids": [
+      "Active listening 'EAR': Empathize, Ask open questions, Reflect/restate.",
+      "'Seek first to understand, then to be understood' — diagnosis precedes advice.",
+      "Thomas-Kilmann conflict styles: Competing, Collaborating, Compromising, Avoiding, Accommodating — match the style to the situation."
+    ]
+  },
+  {
+    "domain": "People",
+    "summary": "Execute the full employee lifecycle — attracting, hiring, developing, engaging, and rewarding talent — by applying structured, valid, and legally compliant HR practices.",
+    "highYield": [
+      "Talent Acquisition: job analysis → KSAOs (Knowledge, Skills, Abilities, Other) → valid, reliable selection tools; structured interviews outperform unstructured ones.",
+      "Selection validity and reliability; avoid adverse impact (4/5ths or 80% rule) and disparate treatment under Title VII.",
+      "FLSA: exempt vs. non-exempt; overtime at 1.5x for hours over 40; exempt categories (Executive, Administrative, Professional, Computer, Outside Sales) require the salary-basis AND duties tests.",
+      "Total Rewards: compensation, benefits (COBRA 18/36-month continuation, HIPAA privacy), work-life, performance & recognition, and development.",
+      "Performance management cycle (planning, monitoring, developing, rating, rewarding); train with ADDIE and evaluate with Kirkpatrick (Reaction, Learning, Behavior, Results)."
+    ],
+    "memoryAids": [
+      "FLSA exemptions 'EAPCO': Executive, Administrative, Professional, Computer, Outside Sales.",
+      "KSAOs = Knowledge, Skills, Abilities, Other characteristics.",
+      "ADDIE: Analyze, Design, Develop, Implement, Evaluate.",
+      "Kirkpatrick levels 'RLBR': Reaction → Learning → Behavior → Results."
+    ]
+  },
+  {
+    "domain": "Organization",
+    "summary": "Align structure, jobs, work, and technology to strategy by managing job design, workforce planning, change, employee relations, and HRIS — while supporting (not directing) union and labor matters.",
+    "highYield": [
+      "Job analysis and design: define essential functions (ADA-relevant), FLSA status, and job descriptions that drive compensation and selection decisions.",
+      "NLRA Section 7 = employees may engage in concerted activity and organize; Section 8 = employer unfair labor practices; know Weingarten rights (union rep during an investigatory interview).",
+      "Change management: Lewin (Unfreeze → Change → Refreeze) and Kotter's 8 steps; communicate and secure buy-in before implementing.",
+      "Workforce planning and HRIS: use data and systems for forecasting, headcount, and reporting; maintain data accuracy and security.",
+      "First/best action: involve employees and communicate the 'why' of change; document org-structure and job changes consistently."
+    ],
+    "memoryAids": [
+      "Lewin 'UCR': Unfreeze, Change, Refreeze.",
+      "Kotter 8: Urgency, Coalition, Vision, Communicate, Empower, Quick wins, Consolidate, Institutionalize.",
+      "'Section 7 = rights; Section 8 = wrongs (unfair labor practices).'"
+    ]
+  },
+  {
+    "domain": "Workplace",
+    "summary": "Safeguard the workplace through compliant, consistent policies and investigations covering employee relations, safety, security, diversity, and the core federal employment laws.",
+    "highYield": [
+      "Title VII: no discrimination based on Race, Color, Religion, Sex, or National origin (15+ employees); disparate treatment (intentional) vs. adverse/disparate impact (neutral policy; 4/5ths or 80% rule).",
+      "ADA: engage in the interactive process and provide reasonable accommodation for qualified individuals unless it causes undue hardship; the ADA Amendments Act broadly defines 'disability.'",
+      "FMLA: 12 weeks unpaid job-protected leave (26 for military caregiver); eligibility = 12 months employed + 1,250 hours + 50 employees within 75 miles.",
+      "ADEA: protects employees age 40+ (20+ employees); no mandatory retirement (narrow exceptions); OWBPA governs waiver validity.",
+      "OSHA General Duty Clause plus recordkeeping (Forms 300, 300A, 301); WARN requires 60-day notice for mass layoffs/plant closings (100+ employees)."
+    ],
+    "memoryAids": [
+      "Title VII 'RCRSN': Race, Color, Religion, Sex, National origin.",
+      "FMLA '12/1250/75/50': 12 months, 1,250 hours, 75-mile radius, 50 employees.",
+      "ADEA = Age 40+ (think 'four-oh').",
+      "COBRA: termination/reduction in hours = 18 months; divorce/death = 36 months."
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "domain": "Leadership",
+    "summary": "Set the vision, shape culture, and lead organization-wide change as a senior HR leader, embedding ethics and governance into strategy and building executive credibility and influence.",
+    "highYield": [
+      "Leadership & Navigation at the senior level = define and communicate the vision, sponsor large-scale change, and align leadership behaviors to strategy.",
+      "Ethical Practice = establish ethics and compliance governance, model integrity at the top, and manage conflicts of interest and board-level conduct.",
+      "Lead change using Kotter's 8 steps and Lewin's model; anticipate resistance and secure executive sponsorship before rollout.",
+      "Succession and executive development: build the leadership bench, coach the C-suite, and develop high-potential (HiPo) pipelines.",
+      "First/best action: assess organizational readiness and gain leadership sponsorship before launching strategic initiatives; lead with vision and data."
+    ],
+    "memoryAids": [
+      "'Vision → Alignment → Execution': senior leaders set the vision, align culture and structure, then execute.",
+      "Kotter 8: Urgency, Coalition, Vision, Communicate, Empower, Quick wins, Consolidate, Institutionalize.",
+      "VUCA (Volatile, Uncertain, Complex, Ambiguous) — frame strategic decisions in an uncertain environment."
+    ]
+  },
+  {
+    "domain": "Business",
+    "summary": "Act as a strategic partner by translating business strategy into HR strategy, using financial and market analysis, data analytics, and systems thinking to drive competitive advantage and value.",
+    "highYield": [
+      "Business Acumen = understand competitive strategy, market dynamics, P&L and balance sheet, and how workforce capabilities create competitive advantage.",
+      "Consultation at the strategic level = advise executives and the board on the people implications of strategy; frame HR as a value driver, not a cost center.",
+      "Analytical Aptitude = use predictive analytics, workforce analytics, and benchmarking to forecast and inform strategy (beyond the CP's descriptive metrics).",
+      "M&A and restructuring: conduct HR due diligence, culture integration, and talent retention during mergers, acquisitions, and divestitures.",
+      "First/best action: align HR strategy to business strategy first; quantify people risks and opportunities in financial terms for leadership."
+    ],
+    "memoryAids": [
+      "'HR strategy = business strategy through the people lens.'",
+      "Balanced Scorecard: Financial, Customer, Internal Process, Learning & Growth.",
+      "Porter's generic strategies: Cost leadership, Differentiation, Focus."
+    ]
+  },
+  {
+    "domain": "Interpersonal",
+    "summary": "Influence the C-suite and board, build strategic alliances, and communicate across global, diverse stakeholder groups to drive change and protect the organization's employer brand.",
+    "highYield": [
+      "Relationship Management = build and manage senior stakeholder and board relationships; negotiate with executives, unions, and external partners.",
+      "Communication = craft executive-level messaging, manage the organizational narrative during change, and apply strategic communication planning.",
+      "Global & Cultural Effectiveness = lead global and cross-cultural strategy, navigate international labor and cultural norms, and build an inclusive global EVP.",
+      "Conflict at the senior level = manage high-stakes disputes (executive, labor, cross-border) with diplomacy and neutrality.",
+      "First/best action: map and engage key stakeholders before major decisions; align messaging with business goals and values."
+    ],
+    "memoryAids": [
+      "'Stakeholder map first, message second.'",
+      "EVP (Employee Value Proposition) = what the organization offers in exchange for talent.",
+      "Thomas-Kilmann at the senior level: prefer Collaborating for strategic partnerships."
+    ]
+  },
+  {
+    "domain": "People",
+    "summary": "Design and govern the talent strategy — workforce planning, talent pipelines, succession, executive compensation, and total rewards — to build the capabilities the future business needs.",
+    "highYield": [
+      "Strategic workforce planning: forecast future skills and supply vs. demand, and build talent pipelines for critical and hard-to-fill roles.",
+      "Succession planning: identify and develop HiPos and successors for key/executive roles; integrate with performance management and the 9-box (performance × potential).",
+      "Executive and total rewards strategy: design incentive/equity compensation aligned to long-term goals and shareholder value; ensure pay equity and market benchmarking.",
+      "Learning & development strategy: build a learning culture and leadership development aligned to business capabilities; measure impact at Kirkpatrick levels 3–4 (behavior, results).",
+      "First/best action: link talent initiatives to business strategy and measurable outcomes; build capability, not just fill roles."
+    ],
+    "memoryAids": [
+      "'Build, Buy, Borrow' — talent strategy: develop internally, hire, or contract/partner.",
+      "9-box: Performance × Potential.",
+      "Total Rewards (5): Compensation, Benefits, Work-life, Performance & Recognition, Development & Career."
+    ]
+  },
+  {
+    "domain": "Organization",
+    "summary": "Design the organization, culture, and HR operating model for agility and effectiveness, leading transformation, labor strategy, and technology/data governance at enterprise scale.",
+    "highYield": [
+      "Organization design: align structure (functional, divisional, matrix, flat) to strategy; manage spans of control and redesign for agility.",
+      "Culture transformation: define and embed the desired culture; measure culture and engagement; lead change with executive sponsorship.",
+      "Labor strategy: develop union/labor relations strategy, collective bargaining approach, and workforce/restructuring planning (WARN for large layoffs).",
+      "HR technology and people analytics strategy: govern HRIS/HCM, data governance, and analytics to enable decisions.",
+      "First/best action: diagnose the root cause of organizational issues (with data) before restructuring; align structure, process, and culture to strategy."
+    ],
+    "memoryAids": [
+      "'Structure follows strategy' (Chandler).",
+      "Organizational development loop: Diagnose → Design → Intervene → Evaluate.",
+      "Galbraith's Star Model: Strategy, Structure, Processes, Rewards, People."
+    ]
+  },
+  {
+    "domain": "Workplace",
+    "summary": "Set workplace strategy, governance, and risk management for employment-law compliance, safety, global HR, and employee relations — ensuring policies, controls, and a positive, inclusive culture at scale.",
+    "highYield": [
+      "Employment-law strategy: govern compliance across Title VII, ADA, ADEA, FLSA, FMLA, NLRA, and WARN; oversee audits, policies, and training to prevent liability.",
+      "Risk management: identify and mitigate people/legal risks; manage investigations, litigation exposure, and crisis/emergency response.",
+      "Global HR: navigate cross-border employment laws, data privacy (GDPR-style), and expatriate/global mobility issues.",
+      "Diversity, Equity & Inclusion strategy: embed DEI into talent and culture; prevent systemic adverse impact (4/5ths rule) across practices.",
+      "First/best action: establish compliance governance and controls before problems arise; investigate promptly and consistently to limit liability."
+    ],
+    "memoryAids": [
+      "'Prevent, Detect, Correct' — the compliance control loop.",
+      "WARN: 100+ employees, 60-day notice.",
+      "OSHA recordkeeping: Forms 300 (log), 300A (summary), 301 (incident)."
+    ]
+  }
+]

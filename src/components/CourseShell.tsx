@@ -8,6 +8,7 @@ const TABS = [
   { key: "exam", label: "Mock Exam", href: "/exam" },
   { key: "case-studies", label: "Case Studies", href: "/case-studies" },
   { key: "docs", label: "Supporting Docs", href: "/docs" },
+  { key: "takeaways", label: "Key Takeaways", href: "/takeaways" },
 ] as const;
 
 export default function CourseShell({
