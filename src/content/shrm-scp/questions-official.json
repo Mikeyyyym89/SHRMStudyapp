@@ -2,6 +2,7 @@
   {
     "id": "shrm-scp-q201",
     "domain": "Leadership",
+    "hint": "Signal: no succession plan / no agreed criteria -> FIRST define success profile.",
     "prompt": "The CEO of a mid-cap manufacturer tells the CHRO he wants to retire in 18 months and prefers one of two internal division presidents to succeed him. The board, however, has no formal succession plan and no agreed criteria for the role. One candidate leads the most profitable unit but has never worked outside it; the other has broad experience but a history of conflict with two board members. An activist investor has begun pressing the board for clarity on leadership continuity. What should the CHRO do FIRST?",
     "options": [
       "Facilitate board agreement on CEO success criteria first.",
@@ -25,6 +26,7 @@
   {
     "id": "shrm-scp-q202",
     "domain": "Business",
+    "hint": "Signal: pre-close due diligence; undisclosed overtime claim + misclassification audit -> quantify exposure.",
     "prompt": "The company is acquiring a software firm of 900 employees, and the CHRO leads HR due diligence. The target has no disclosure of pending litigation in the data room, but an HR manager casually mentions an unresolved class-action overtime claim and a federal audit of its independent-contractor classifications. The CEO wants the deal announced next week. What should the CHRO do FIRST?",
     "options": [
       "Quantify pending claims and misclassification exposure before advising.",
@@ -48,6 +50,7 @@
   {
     "id": "shrm-scp-q203",
     "domain": "Interpersonal",
+    "hint": "Signal: escalating conflict, no diagnosis yet -> FIRST meet privately to understand interests.",
     "prompt": "Two executive committee members are locked in a public, escalating feud over ownership of a failing digital initiative. Each blames the other in leadership meetings, and their teams have begun withholding information from one another, stalling the program. The CEO, conflict-averse, has let it fester for months and now asks the CHRO to intervene. What is the BEST action?",
     "options": [
       "Meet each leader privately to understand their interests.",
@@ -71,6 +74,7 @@
   {
     "id": "shrm-scp-q204",
     "domain": "People",
+    "hint": "Signal: identified 8% pay disparity -> remediate proactively, don't conceal.",
     "prompt": "An internal pay analysis reveals that women in engineering are paid 8 percent less than men in the same job family after controlling for tenure and performance, and the gap has persisted for three years. The CEO is sympathetic but worried about cost. The general counsel warns against acknowledging any liability. What should the CHRO recommend as the BEST action?",
     "options": [
       "Remediate the disparity and correct the pay practices.",
@@ -94,6 +98,7 @@
   {
     "id": "shrm-scp-q205",
     "domain": "Organization",
+    "hint": "Signal: plant closing / 400 roles -> FIRST confirm WARN notice obligations.",
     "prompt": "A private-equity-backed firm is closing a 400-employee plant in nine weeks to cut costs, and several other sites face later reductions. The CHRO must advise on the workforce transition while preserving employee morale at remaining locations and avoiding litigation. What should the CHRO do FIRST?",
     "options": [
       "Confirm WARN Act notice obligations and affected role scope.",
@@ -117,6 +122,7 @@
   {
     "id": "shrm-scp-q206",
     "domain": "Workplace",
+    "hint": "Signal: union-organizing discussion + discipline -> protected concerted activity; stop retaliation.",
     "prompt": "A warehouse supervisor learns that a group of employees is discussing forming a union through social media and begins issuing minor discipline to the most vocal workers. The CHRO is told the supervisor acted to protect productivity. What should the CHRO do FIRST?",
     "options": [
       "Stop the discipline and reaffirm employees' protected rights.",
@@ -140,6 +146,7 @@
   {
     "id": "shrm-scp-q207",
     "domain": "Leadership",
+    "hint": "Signal: toxic culture / harassment / turnover -> present objective culture-risk data.",
     "prompt": "The board is split over whether to replace a high-performing CEO who has driven strong results but whose leadership has produced a toxic culture, high executive turnover, and several harassment complaints against his direct reports that were quietly settled. The board chair asks the CHRO for a recommendation. What is the BEST action?",
     "options": [
       "Present objective data on culture and risk first.",
@@ -163,6 +170,7 @@
   {
     "id": "shrm-scp-q208",
     "domain": "Business",
+    "hint": "Signal: M&A integration, engineers may defect -> FIRST map talent + culture risks.",
     "prompt": "The board has directed the CHRO to help integrate a recently acquired division whose culture is markedly different, with duplicated functions and rumors that key engineers will defect to a competitor. The CEO wants synergy targets hit within two quarters. What should the CHRO do FIRST?",
     "options": [
       "Map key talent and cultural risks first.",
@@ -186,6 +194,7 @@
   {
     "id": "shrm-scp-q209",
     "domain": "Interpersonal",
+    "hint": "Signal: key leader derailing behavior, reports leaving -> coach impact + retention.",
     "prompt": "A senior leader receives a 360 review showing peers perceive her as brilliant but dismissive; two direct reports have threatened to leave because she interrupts and overrides them in meetings. She is a key revenue driver and dismisses the feedback as soft. The CHRO is asked to help. What is the BEST action?",
     "options": [
       "Coach her on behavior's impact and retention risk.",
@@ -209,6 +218,7 @@
   {
     "id": "shrm-scp-q210",
     "domain": "People",
+    "hint": "Signal: new-country staffing, strict laws -> FIRST assess talent, laws, costs.",
     "prompt": "A company is expanding into two new countries and must decide how to staff leadership roles there. The CHRO is evaluating whether to send expatriates, hire local nationals, or use a hybrid. Each market has strict employment laws, high local compensation benchmarks, and limited internal candidates with language skills. What should the CHRO do FIRST?",
     "options": [
       "Assess each market's talent, laws, and costs.",
@@ -232,6 +242,7 @@
   {
     "id": "shrm-scp-q211",
     "domain": "Organization",
+    "hint": "Signal: restructuring 300 roles cross-border -> build change plan first.",
     "prompt": "A company is centralizing its regional HR and finance functions into shared-services centers, eliminating roughly 300 roles across three countries. The CHRO must sequence the transition while preserving service quality and morale. What should the CHRO do FIRST?",
     "options": [
       "Build change plan with impact and stakeholder analysis.",
@@ -255,6 +266,7 @@
   {
     "id": "shrm-scp-q212",
     "domain": "Workplace",
+    "hint": "Signal: conflict-of-interest whistleblower -> independent confidential investigation first.",
     "prompt": "An employee reports to the ethics hotline that a vice president is steering contracts to a firm owned by his brother-in-law. The VP is the CEO's long-time confidant. The CHRO receives the report and must act. What should the CHRO do FIRST?",
     "options": [
       "Launch an independent, confidential investigation promptly.",
@@ -278,6 +290,7 @@
   {
     "id": "shrm-scp-q213",
     "domain": "Leadership",
+    "hint": "Signal: failed internal promotions / no bench -> assess gaps + readiness first.",
     "prompt": "The CEO has asked the CHRO to design an executive development pipeline because the company has repeatedly failed to promote internal candidates to C-suite roles, forcing expensive external hires. The board is frustrated by the lack of a ready-now bench. What should the CHRO do FIRST?",
     "options": [
       "Assess leadership gaps and readiness against future needs.",
@@ -301,6 +314,7 @@
   {
     "id": "shrm-scp-q214",
     "domain": "Business",
+    "hint": "Signal: supervised FTEs to contractors -> assess FLSA/IRS misclassification risk.",
     "prompt": "The CHRO is asked to quantify the workforce cost and risk of a proposed operating-model change that would convert 250 full-time employees to independent contractors. The CFO expects significant savings, but the roles have fixed schedules, company-provided equipment, and ongoing supervision. What should the CHRO do FIRST?",
     "options": [
       "Assess FLSA and IRS classification risk before endorsing.",
@@ -324,6 +338,7 @@
   {
     "id": "shrm-scp-q215",
     "domain": "Interpersonal",
+    "hint": "Signal: rival VPs -> set shared goals + norms.",
     "prompt": "A new CHRO joins an organization where two veteran HR vice presidents openly undermine each other and compete for the CEO's attention, stalling HR strategy. Both are competent but their rivalry is damaging team trust. The CEO expects the new CHRO to fix the team quickly. What is the BEST action?",
     "options": [
       "Set shared goals and norms addressing rivalry.",
@@ -347,6 +362,7 @@
   {
     "id": "shrm-scp-q216",
     "domain": "People",
+    "hint": "Signal: manager/employee rating disconnect -> diagnose trust gap first.",
     "prompt": "An organization's engagement survey shows that managers rate their teams high on performance but employees report burnout, low psychological safety, and fear of speaking up. Turnover among high performers has risen for two straight quarters. The CHRO must address the disconnect. What should the CHRO do FIRST?",
     "options": [
       "Diagnose trust gap with focus groups and data.",
@@ -370,6 +386,7 @@
   {
     "id": "shrm-scp-q217",
     "domain": "Organization",
+    "hint": "Signal: major reorg, aggressive timeline -> define future-state design first.",
     "prompt": "The board has approved a major reorganization that flattens the structure and removes two executive layers, and the CHRO must lead the design and communication. Several affected leaders are influential and opposed, and the timeline is aggressive. What should the CHRO do FIRST?",
     "options": [
       "Define the future-state design and readiness first.",
@@ -393,6 +410,7 @@
   {
     "id": "shrm-scp-q218",
     "domain": "Workplace",
+    "hint": "Signal: I-9 audit / joint-employer exposure -> assess + correct structure.",
     "prompt": "During a routine I-9 audit the CHRO discovers that a large subset of contractors working on-site are actually treated as employees, with supervisors directing their daily work and providing all equipment. The general counsel warns of joint-employer exposure. What should the CHRO do FIRST?",
     "options": [
       "Assess joint-employment risk and correct the structure.",
@@ -416,6 +434,7 @@
   {
     "id": "shrm-scp-q219",
     "domain": "Leadership",
+    "hint": "Signal: HR seen as compliance, no strategy -> align HR to business priorities.",
     "prompt": "A newly hired CHRO finds that the executive team has no agreed-upon HR strategy, that HR metrics are purely administrative, and that business leaders view HR as a compliance function. The CEO wants HR to become a strategic partner. What should the CHRO do FIRST?",
     "options": [
       "Align HR strategy with business priorities and sponsors.",
@@ -439,6 +458,7 @@
   {
     "id": "shrm-scp-q220",
     "domain": "Business",
+    "hint": "Signal: divestiture, pensions/union -> quantify workforce liabilities first.",
     "prompt": "The board is weighing a divestiture of an underperforming business unit with 1,200 employees, and the CHRO must advise on the workforce implications. The unit has unionized locations, legacy pension obligations, and critical customer-facing skills. What should the CHRO do FIRST?",
     "options": [
       "Quantify workforce liabilities and transition risks first.",
@@ -462,6 +482,7 @@
   {
     "id": "shrm-scp-q221",
     "domain": "Interpersonal",
+    "hint": "Signal: board criticism -> meet privately to understand + align.",
     "prompt": "A board member publicly criticizes the CHRO's talent strategy at a board meeting, implying HR is out of touch with the business. Other directors remain silent, and the CEO says nothing. Afterward, the CHRO is angry and considering resigning. What is the BEST action?",
     "options": [
       "Meet the director privately to understand and align.",
@@ -485,6 +506,7 @@
   {
     "id": "shrm-scp-q222",
     "domain": "People",
+    "hint": "Signal: critical revenue producer at risk -> targeted performance-tied retention.",
     "prompt": "The company's top sales executive is being recruited by a competitor offering a substantial raise, and she is the single biggest revenue producer. The CEO asks the CHRO to retain her without setting a precedent that inflates pay across the sales force. What should the CHRO recommend?",
     "options": [
       "Match offer with retention terms tied to performance.",
@@ -508,6 +530,7 @@
   {
     "id": "shrm-scp-q223",
     "domain": "Organization",
+    "hint": "Signal: operating-model redesign -> clarify design criteria first.",
     "prompt": "A global firm is redesigning its operating model to move from regional autonomy to global business lines, which will shift reporting for thousands of employees and change how work is governed. The CHRO must guide the organization design. What should the CHRO do FIRST?",
     "options": [
       "Clarify design criteria and assess capabilities against them.",
@@ -531,6 +554,7 @@
   {
     "id": "shrm-scp-q224",
     "domain": "Workplace",
+    "hint": "Signal: disability accommodation request -> engage interactive process.",
     "prompt": "An employee files an EEOC charge alleging disability discrimination and requests a reasonable accommodation that the manager has refused as too costly. The CHRO is reviewing the matter before the agency responds. What should the CHRO do FIRST?",
     "options": [
       "Engage the interactive process to assess accommodation needs.",
@@ -554,6 +578,7 @@
   {
     "id": "shrm-scp-q225",
     "domain": "Leadership",
+    "hint": "Signal: founder resists board oversight -> assess governance gaps first.",
     "prompt": "The company's founder-CEO exercises total control, ignores board input, and has driven away two CHROs in three years. The board has engaged the new CHRO to professionalize governance, but the CEO resists any oversight of executive decisions. What should the CHRO do FIRST?",
     "options": [
       "Assess governance gaps and build board alignment first.",
@@ -577,6 +602,7 @@
   {
     "id": "shrm-scp-q226",
     "domain": "Business",
+    "hint": "Signal: skeptical CFO, business case -> link to talent risks + outcomes.",
     "prompt": "The CEO wants the CHRO to justify the return on a proposed leadership academy costing several million dollars. The CFO is skeptical, and the board has asked for a business case before funding. What should the CHRO do FIRST?",
     "options": [
       "Link academy to talent risks and measurable outcomes.",
@@ -600,6 +626,7 @@
   {
     "id": "shrm-scp-q227",
     "domain": "Interpersonal",
+    "hint": "Signal: defensive peer CFO -> private feedback with examples + impact.",
     "prompt": "A CHRO must deliver difficult feedback to the CFO, who is a peer and a close ally of the CEO, about behavior that is alienating the finance team and causing resignations. The CFO is defensive and influential. What is the BEST approach?",
     "options": [
       "Deliver it privately with specific examples and impact.",
@@ -623,6 +650,7 @@
   {
     "id": "shrm-scp-q228",
     "domain": "People",
+    "hint": "Signal: unclear paths + below-market pay -> diagnose + benchmark first.",
     "prompt": "A company's workforce analytics show that its highest-performing engineers leave within 18 months, primarily because promotion paths are unclear and pay is below market. The CHRO must reverse the trend before a critical product launch. What should the CHRO do FIRST?",
     "options": [
       "Diagnose turnover drivers and benchmark pay and paths.",
@@ -646,6 +674,7 @@
   {
     "id": "shrm-scp-q229",
     "domain": "Organization",
+    "hint": "Signal: overlapping territories/comp -> align sales strategy first.",
     "prompt": "After a merger, the CHRO must design a new organizational structure that combines two sales organizations with overlapping territories and different compensation models. Sales leaders from both firms want to keep their own teams intact. What should the CHRO do FIRST?",
     "options": [
       "Align sales strategy, then design structure and pay.",
@@ -669,6 +698,7 @@
   {
     "id": "shrm-scp-q230",
     "domain": "Workplace",
+    "hint": "Signal: under-reported injuries, retaliation -> correct reporting first.",
     "prompt": "A safety audit reveals that a plant has repeatedly under-reported workplace injuries, and two managers are discouraging employees from filing reports to keep the site's safety bonus. The CHRO learns of the pattern and must respond. What should the CHRO do FIRST?",
     "options": [
       "Ensure accurate injury reporting and address manager retaliation.",
@@ -692,6 +722,7 @@
   {
     "id": "shrm-scp-q231",
     "domain": "Leadership",
+    "hint": "Signal: board split internal/external -> agree criteria + philosophy first.",
     "prompt": "The CHRO is asked to develop the board's succession plan for the CEO and other C-suite roles, but several directors disagree on whether to groom internal successors or recruit externally. The board chair wants a recommendation within 90 days. What should the CHRO do FIRST?",
     "options": [
       "Facilitate board agreement on criteria and sourcing philosophy.",
@@ -715,6 +746,7 @@
   {
     "id": "shrm-scp-q232",
     "domain": "Business",
+    "hint": "Signal: cross-border M&A, works councils -> map jurisdiction obligations.",
     "prompt": "The company is pursuing a large international acquisition, and the CHRO is evaluating the target's workforce across three countries, each with different termination, consultation, and works-council requirements. The deal team wants to move quickly. What should the CHRO do FIRST?",
     "options": [
       "Map each jurisdiction's employment and consultation legal obligations.",
@@ -738,6 +770,7 @@
   {
     "id": "shrm-scp-q233",
     "domain": "Interpersonal",
+    "hint": "Signal: personal conflict with GC -> acknowledge impact + ground rules.",
     "prompt": "During a heated executive meeting, the CHRO and the general counsel strongly disagree on how to handle a sensitive employee matter, and the exchange becomes personal in front of the team. The CEO later asks both to repair the working relationship. What is the BEST action?",
     "options": [
       "Acknowledge the impact and agree on ground rules.",
@@ -761,6 +794,7 @@
   {
     "id": "shrm-scp-q234",
     "domain": "People",
+    "hint": "Signal: pay-decision uncertainty -> clarify performance-pay linkage first.",
     "prompt": "A company is implementing a new performance-management system that replaces annual ratings with continuous feedback, and managers are anxious about losing a basis for pay decisions. Some senior leaders want to keep forced ranking. The CHRO must move the change forward. What should the CHRO do FIRST?",
     "options": [
       "Clarify how performance, feedback, and pay will connect.",
@@ -784,6 +818,7 @@
   {
     "id": "shrm-scp-q235",
     "domain": "Organization",
+    "hint": "Signal: incentives reward individuals -> assess structure/incentive conflicts.",
     "prompt": "The company is shifting to a more agile, team-based operating model, but its current structure, roles, and incentives reward individual function performance. The CHRO must align the organization to the new model. What should the CHRO do FIRST?",
     "options": [
       "Assess how current structure, roles, and incentives conflict.",
@@ -807,6 +842,7 @@
   {
     "id": "shrm-scp-q236",
     "domain": "Workplace",
+    "hint": "Signal: discrimination complaint -> prompt impartial investigation first.",
     "prompt": "A manager is accused of race-based discrimination in promotion decisions, and the affected employees have filed internal complaints. The CHRO must respond while the manager denies any bias and is a top performer. What should the CHRO do FIRST?",
     "options": [
       "Launch a prompt, impartial investigation and protect complainants.",
@@ -830,6 +866,7 @@
   {
     "id": "shrm-scp-q237",
     "domain": "Leadership",
+    "hint": "Signal: ESG prioritization -> assess material risks + stakeholders.",
     "prompt": "The CHRO is building the company's first ESG strategy, and the CEO has asked for a recommendation on which workforce element to prioritize to satisfy investors, regulators, and employees. Options include pay equity, DEI, human-rights due diligence, and climate transition skills. What should the CHRO do FIRST?",
     "options": [
       "Assess material workforce risks and stakeholder expectations first.",
@@ -853,6 +890,7 @@
   {
     "id": "shrm-scp-q238",
     "domain": "Business",
+    "hint": "Signal: benefits cost/equity trade-off -> model cost + retention + equity.",
     "prompt": "The CFO asks the CHRO to reduce benefits costs by shifting employees to a lower-cost health plan that would significantly raise out-of-pocket costs for lower-paid workers. The CHRO worries about morale, turnover, and pay-equity perceptions. What should the CHRO do FIRST?",
     "options": [
       "Model cost, retention, and equity impact first.",
@@ -876,6 +914,7 @@
   {
     "id": "shrm-scp-q239",
     "domain": "Interpersonal",
+    "hint": "Signal: territorial CIO -> clarify shared goals + mutual gains.",
     "prompt": "The CHRO is negotiating a partnership between HR and IT to implement a new HRIS, but the CIO is territorial, dismissive of HR's needs, and has previously blocked cross-functional work. The CEO expects the two to collaborate. What is the BEST action?",
     "options": [
       "Clarify shared goals and mutual gains before planning.",
@@ -899,6 +938,7 @@
   {
     "id": "shrm-scp-q240",
     "domain": "People",
+    "hint": "Signal: below-market rewards + turnover -> quantify cost + benchmark.",
     "prompt": "A company's total rewards are misaligned: base pay is below market, bonuses are unpredictable, and benefits are minimal, yet senior leaders resist change citing cost. High turnover in critical roles is accelerating. The CHRO must make the case for redesign. What should the CHRO do FIRST?",
     "options": [
       "Quantify turnover cost and benchmark rewards first.",
@@ -922,6 +962,7 @@
   {
     "id": "shrm-scp-q241",
     "domain": "Organization",
+    "hint": "Signal: failed past culture initiatives -> diagnose + align leaders.",
     "prompt": "The CHRO must lead a culture transformation after an engagement survey revealed low trust, risk aversion, and siloed behavior that is hurting innovation. The CEO wants visible change quickly, but past culture initiatives failed because they were announced and then abandoned. What should the CHRO do FIRST?",
     "options": [
       "Diagnose root causes and align leaders on behaviors.",
@@ -945,6 +986,7 @@
   {
     "id": "shrm-scp-q242",
     "domain": "Workplace",
+    "hint": "Signal: age-based force retirement -> assess performance/safety objectively (ADEA).",
     "prompt": "A long-tenured employee is about to turn 70 and has begun making errors that could pose a safety risk on the production floor. The manager wants to force retirement. The CHRO must advise on the situation. What should the CHRO do FIRST?",
     "options": [
       "Assess performance and safety against job requirements objectively.",
@@ -968,6 +1010,7 @@
   {
     "id": "shrm-scp-q243",
     "domain": "Leadership",
+    "hint": "Signal: competing pet HR projects -> facilitate priorities tied to strategy.",
     "prompt": "The CHRO has identified that the executive team lacks a coherent vision for the workforce of the future, yet each leader has pet HR projects competing for resources. The CEO wants the CHRO to bring focus. What should the CHRO do FIRST?",
     "options": [
       "Facilitate agreement on priorities tied to strategy.",
@@ -991,6 +1034,7 @@
   {
     "id": "shrm-scp-q244",
     "domain": "Business",
+    "hint": "Signal: 5,000 skilled roles, tight market -> model demand + supply gaps.",
     "prompt": "The company's growth plan requires adding 5,000 skilled workers over three years, but the labor market for those skills is tight and attrition is rising. The CHRO must advise the board on how to ensure the talent supply. What should the CHRO do FIRST?",
     "options": [
       "Model future demand, supply gaps, and sourcing options.",
@@ -1014,6 +1058,7 @@
   {
     "id": "shrm-scp-q245",
     "domain": "Interpersonal",
+    "hint": "Signal: BU leader clash -> reframe shared outcomes + listen.",
     "prompt": "A CHRO and the head of a business unit clash over a reorganization that will eliminate some of the unit leader's direct reports. The leader accuses HR of being an obstacle to business success, and the relationship is deteriorating. The CEO expects the two to work it out. What is the BEST action?",
     "options": [
       "Reframe the discussion around shared outcomes and listen.",
@@ -1037,6 +1082,7 @@
   {
     "id": "shrm-scp-q246",
     "domain": "People",
+    "hint": "Signal: title-based to skills-based -> map skills + design transition.",
     "prompt": "A company is moving to a skills-based talent model, but its job descriptions, pay bands, and career paths are all job-title based. Employees fear losing their titles, and managers worry about how to manage a skills framework. What should the CHRO do FIRST?",
     "options": [
       "Map needed skills and design the transition first.",
@@ -1060,6 +1106,7 @@
   {
     "id": "shrm-scp-q247",
     "domain": "Organization",
+    "hint": "Signal: matrix accountability conflict -> clarify decision rights first.",
     "prompt": "A company's matrix structure has created unclear accountability, and two functions are fighting over ownership of a key customer process, causing delays and duplicated work. The CEO asks the CHRO to fix the accountability problem. What should the CHRO do FIRST?",
     "options": [
       "Clarify decision rights and accountabilities for the process.",
@@ -1083,6 +1130,7 @@
   {
     "id": "shrm-scp-q248",
     "domain": "Workplace",
+    "hint": "Signal: gender-identity harassment complaint -> investigate + reinforce policy.",
     "prompt": "A transgender employee reports being repeatedly misgendered and excluded from client meetings by a manager, and the employee has filed an internal complaint. The manager says he did not intend harm. The CHRO must respond. What should the CHRO do FIRST?",
     "options": [
       "Investigate the complaint and reinforce the anti-harassment policy.",
@@ -1106,6 +1154,7 @@
   {
     "id": "shrm-scp-q249",
     "domain": "Leadership",
+    "hint": "Signal: activist on exec pay -> benchmark pay-for-performance alignment.",
     "prompt": "The CHRO has been asked to prepare the board for an activist investor campaign focused on excessive executive pay relative to performance. The investor wants board-level changes. The CEO is defensive. What should the CHRO do FIRST?",
     "options": [
       "Benchmark pay-for-performance alignment and report to board.",
@@ -1129,6 +1178,7 @@
   {
     "id": "shrm-scp-q250",
     "domain": "Business",
+    "hint": "Signal: cheaper vs skilled locations -> analyze total talent cost/quality.",
     "prompt": "The CHRO is asked to support a business case for opening a new facility in one of two locations, one with lower labor costs but weaker talent supply and one with higher costs but stronger skills. The CFO favors the cheaper location. What should the CHRO do FIRST?",
     "options": [
       "Analyze total talent cost, quality, and availability first.",
@@ -1152,6 +1202,7 @@
   {
     "id": "shrm-scp-q251",
     "domain": "Interpersonal",
+    "hint": "Signal: confrontational negotiator -> coach interest-based approach privately.",
     "prompt": "The CHRO is facilitating a high-stakes negotiation between the company and a key labor group, and the lead company negotiator has become confrontational, insulting the other side and stalling progress. The CHRO must keep the negotiation on track. What is the BEST action?",
     "options": [
       "Coach the negotiator privately on an interest-based approach.",
@@ -1175,6 +1226,7 @@
   {
     "id": "shrm-scp-q252",
     "domain": "People",
+    "hint": "Signal: retiring engineers, no knowledge transfer -> identify critical knowledge first.",
     "prompt": "A company's workforce is aging, and 40 percent of its specialized engineers will be retirement-eligible within five years, but there are no documented processes to transfer their knowledge to younger hires. What should the CHRO do FIRST?",
     "options": [
       "Identify critical knowledge and design transfer mechanisms first.",
@@ -1198,6 +1250,7 @@
   {
     "id": "shrm-scp-q253",
     "domain": "Organization",
+    "hint": "Signal: fragmented HR systems -> assess systems + data first.",
     "prompt": "The company has grown through acquisition and now has five separate HR systems, inconsistent policies, and no single source of workforce data, which hampers strategic decisions. The CHRO must address the fragmentation. What should the CHRO do FIRST?",
     "options": [
       "Assess systems and data to define target state.",
@@ -1221,6 +1274,7 @@
   {
     "id": "shrm-scp-q254",
     "domain": "Workplace",
+    "hint": "Signal: adverse action after complaint -> investigate retaliation link.",
     "prompt": "An employee who filed a sexual-harassment complaint last year now receives a negative performance review and is placed on a performance plan, though her prior reviews were strong. She believes it is retaliation and contacts HR. What should the CHRO do FIRST?",
     "options": [
       "Investigate whether adverse actions link to her complaint.",
@@ -1244,6 +1298,7 @@
   {
     "id": "shrm-scp-q255",
     "domain": "Leadership",
+    "hint": "Signal: board reviews only pay -> define talent/culture/succession oversight.",
     "prompt": "The CHRO is building a board-level human capital committee and must recommend its charter and focus. The board is new to human-capital oversight and currently reviews only executive pay. What should the CHRO recommend as the FIRST priority?",
     "options": [
       "Define oversight of talent, culture, and succession risks.",
@@ -1267,6 +1322,7 @@
   {
     "id": "shrm-scp-q256",
     "domain": "Business",
+    "hint": "Signal: HR outsourcing -> cost-benefit + risk analysis first.",
     "prompt": "The company is evaluating whether to outsource its entire HR service-delivery function to a third party to cut costs, but the CHRO is concerned about data security, service quality, and loss of institutional knowledge. What should the CHRO do FIRST?",
     "options": [
       "Conduct a cost-benefit and risk analysis first.",
@@ -1290,6 +1346,7 @@
   {
     "id": "shrm-scp-q257",
     "domain": "Interpersonal",
+    "hint": "Signal: open campaigning for role -> set criteria + address campaigning.",
     "prompt": "A respected senior executive is retiring soon, and two of her direct reports are openly campaigning for her role, criticizing each other to peers and causing the team to fracture. The CHRO must manage the succession while preserving team cohesion. What is the BEST action?",
     "options": [
       "Set succession criteria and address the campaigning directly.",
@@ -1313,6 +1370,7 @@
   {
     "id": "shrm-scp-q258",
     "domain": "People",
+    "hint": "Signal: toxic top producer, CEO reluctant -> present turnover/risk data.",
     "prompt": "A company's exit interviews reveal that employees are leaving primarily because of a toxic manager who is also a top revenue producer and well-connected. The CHRO has documented the pattern but the CEO is reluctant to act. What should the CHRO do FIRST?",
     "options": [
       "Present the documented turnover and risk data.",
@@ -1336,6 +1394,7 @@
   {
     "id": "shrm-scp-q259",
     "domain": "Organization",
+    "hint": "Signal: remote-first but on-site policies -> design model + policies first.",
     "prompt": "The company is adopting a remote-first model, but its policies, performance measures, and office footprint are still built for on-site work. Employees want clarity, and managers want guidance. The CHRO must lead the transition. What should the CHRO do FIRST?",
     "options": [
       "Design the remote work model and policies first.",
@@ -1359,6 +1418,7 @@
   {
     "id": "shrm-scp-q260",
     "domain": "Workplace",
+    "hint": "Signal: wage/condition discussion -> protected concerted activity; stop demand.",
     "prompt": "The CHRO learns that a group of employees is using a private messaging channel to discuss wages and working conditions, and a manager has demanded access to the channel. The employees are upset and considering filing charges. What should the CHRO do FIRST?",
     "options": [
       "Stop the manager's demand and affirm protected rights.",
@@ -1382,6 +1442,7 @@
   {
     "id": "shrm-scp-q261",
     "domain": "Leadership",
+    "hint": "Signal: execs fear framework -> co-design tied to strategy.",
     "prompt": "The CEO has asked the CHRO to develop a leadership competency framework for the executive team that will guide selection, development, and compensation. Several executives fear the framework will be used against them. What should the CHRO do FIRST?",
     "options": [
       "Co-design the framework with executives tied to strategy.",
@@ -1405,6 +1466,7 @@
   {
     "id": "shrm-scp-q262",
     "domain": "Business",
+    "hint": "Signal: board metrics/enterprise value -> identify strategy-driving metrics.",
     "prompt": "The board has asked the CHRO to explain how workforce metrics connect to enterprise value and to propose which metrics the board should track going forward. The current dashboard is purely operational. What should the CHRO do FIRST?",
     "options": [
       "Identify the workforce metrics that drive strategic outcomes.",
@@ -1428,6 +1490,7 @@
   {
     "id": "shrm-scp-q263",
     "domain": "Interpersonal",
+    "hint": "Signal: passed-over executive -> deliver directly + discuss options.",
     "prompt": "The CHRO must tell a longtime, well-liked executive that he is being passed over for the COO role in favor of an external hire. The executive is likely to feel betrayed and may become disruptive. What is the BEST approach?",
     "options": [
       "Deliver the decision directly and discuss his options.",
@@ -1451,6 +1514,7 @@
   {
     "id": "shrm-scp-q264",
     "domain": "People",
+    "hint": "Signal: hi-po program no advancement -> diagnose root cause first.",
     "prompt": "A company's high-potential program has a strong reputation but has produced few actual promotions, and several graduates have left because their development did not lead to advancement. The CEO wants the program revamped. What should the CHRO do FIRST?",
     "options": [
       "Assess why the program produces no advancement.",
@@ -1474,6 +1538,7 @@
   {
     "id": "shrm-scp-q265",
     "domain": "Organization",
+    "hint": "Signal: spin-off/carve-out -> build transition plan first.",
     "prompt": "The company has decided to spin off a division, and the CHRO must design the workforce transition for employees who will move to the new entity, including benefits, systems, and culture. The deal must close in six months. What should the CHRO do FIRST?",
     "options": [
       "Build a transition plan covering benefits and talent.",
@@ -1497,6 +1562,7 @@
   {
     "id": "shrm-scp-q266",
     "domain": "Workplace",
+    "hint": "Signal: religious accommodation denied -> assess undue hardship first.",
     "prompt": "An employee's religious accommodation request to be excused from weekend shifts is denied by a manager, and the employee files a charge. The manager claims granting it would burden the team. The CHRO must advise. What should the CHRO do FIRST?",
     "options": [
       "Assess whether the accommodation imposes an undue hardship.",
@@ -1520,6 +1586,7 @@
   {
     "id": "shrm-scp-q267",
     "domain": "Leadership",
+    "hint": "Signal: controversial CEO stance -> assess stakeholder impact + values.",
     "prompt": "The CHRO is asked to advise the CEO, who wants to publicly take a stand on a controversial social issue that deeply divides employees and could alienate customers and investors. The board is split. What should the CHRO do FIRST?",
     "options": [
       "Assess stakeholder impact and alignment with values first.",
@@ -1543,6 +1610,7 @@
   {
     "id": "shrm-scp-q268",
     "domain": "Business",
+    "hint": "Signal: automation cuts + union -> assess roles + consultation obligations.",
     "prompt": "The company is considering automation that would eliminate 30 percent of a large department's roles, and the CHRO must advise on the workforce implications and timing. Employees are anxious, and the union is demanding consultation. What should the CHRO do FIRST?",
     "options": [
       "Assess affected roles, retraining needs, and consultation obligations.",
@@ -1566,6 +1634,7 @@
   {
     "id": "shrm-scp-q269",
     "domain": "Interpersonal",
+    "hint": "Signal: regional presidents refusing to share -> facilitate joint resolution.",
     "prompt": "The CHRO is mediating a dispute between two regional presidents who each refuse to share resources with the other, harming cross-region customer delivery. Both are persuasive and well-liked by the board. What is the BEST action?",
     "options": [
       "Facilitate a joint resolution on shared customer outcomes.",
@@ -1589,6 +1658,7 @@
   {
     "id": "shrm-scp-q270",
     "domain": "People",
+    "hint": "Signal: low internal mobility -> identify barriers + manager preferences.",
     "prompt": "A company's internal mobility is low, and high-performing employees report they must leave to advance. Meanwhile, hiring managers prefer external candidates. The CHRO wants to shift the talent culture toward internal growth. What should the CHRO do FIRST?",
     "options": [
       "Identify barriers to mobility and manager preferences.",
@@ -1612,6 +1682,7 @@
   {
     "id": "shrm-scp-q271",
     "domain": "Organization",
+    "hint": "Signal: three depts merging -> define objectives + capabilities first.",
     "prompt": "The company is merging three departments into one, and the CHRO must decide the new leadership structure and roles while minimizing disruption and retaining key staff. Department leaders each expect to lead the combined unit. What should the CHRO do FIRST?",
     "options": [
       "Define the new unit's objectives and required capabilities.",
@@ -1635,6 +1706,7 @@
   {
     "id": "shrm-scp-q272",
     "domain": "Workplace",
+    "hint": "Signal: request for confidentiality -> explain limits + duty to investigate.",
     "prompt": "During a workplace investigation, an employee asks the CHRO to guarantee confidentiality before she will share details about harassment by a senior leader. The CHRO must balance her safety with the duty to act. What should the CHRO do FIRST?",
     "options": [
       "Explain confidentiality limits and the duty to investigate.",
@@ -1658,6 +1730,7 @@
   {
     "id": "shrm-scp-q273",
     "domain": "Leadership",
+    "hint": "Signal: trust low after scandal -> listen + acknowledge first.",
     "prompt": "The CHRO must help a new CEO build credibility with the workforce after a predecessor left amid scandal. Employee trust is low, and the new CEO wants to act quickly to rebuild it. What should the CHRO advise the CEO to do FIRST?",
     "options": [
       "Listen to employees and acknowledge issues before fixes.",
@@ -1681,6 +1754,7 @@
   {
     "id": "shrm-scp-q274",
     "domain": "Business",
+    "hint": "Signal: flat revenue budget defense -> tie spend to revenue risks/returns.",
     "prompt": "The CHRO is presenting the annual people budget to the board and must defend a proposed increase in talent-acquisition and development spend during a period of flat revenue. The CFO wants cuts. What should the CHRO do FIRST?",
     "options": [
       "Tie spending to revenue risks and returns.",
@@ -1704,6 +1778,7 @@
   {
     "id": "shrm-scp-q275",
     "domain": "Interpersonal",
+    "hint": "Signal: peer takes credit, feedback failed -> escalate documented incidents.",
     "prompt": "A peer executive repeatedly takes credit for the CHRO's work in front of the CEO and undermines the CHRO in leadership meetings. The CHRO has confronted the peer once, and the behavior continues. What is the BEST action?",
     "options": [
       "Publicly correct the peer each time it happens.",
@@ -1727,6 +1802,7 @@
   {
     "id": "shrm-scp-q276",
     "domain": "People",
+    "hint": "Signal: 35% new hires leave -> diagnose where/why first.",
     "prompt": "A company's new-hire retention is poor, with 35 percent of new employees leaving within a year, and onboarding is inconsistent across divisions. The CHRO must improve first-year retention. What should the CHRO do FIRST?",
     "options": [
       "Diagnose where and why new hires leave early.",
@@ -1750,6 +1826,7 @@
   {
     "id": "shrm-scp-q277",
     "domain": "Organization",
+    "hint": "Signal: scaling HR through M&A -> assess capabilities + scale demands.",
     "prompt": "The company is expanding rapidly through acquisition, and the CHRO must design an operating model for HR that can scale while preserving local compliance and culture. The current model is centralized but strained. What should the CHRO do FIRST?",
     "options": [
       "Assess current capabilities and scale demands before redesigning.",
@@ -1773,6 +1850,7 @@
   {
     "id": "shrm-scp-q278",
     "domain": "Workplace",
+    "hint": "Signal: age-based screening -> investigate + correct criteria.",
     "prompt": "The CHRO discovers that a recruiter has been filtering candidates using criteria that disproportionately exclude older applicants, and hiring managers have relied on that recruiter for years. A candidate has complained. What should the CHRO do FIRST?",
     "options": [
       "Investigate the practices and correct the criteria.",
@@ -1796,6 +1874,7 @@
   {
     "id": "shrm-scp-q279",
     "domain": "Leadership",
+    "hint": "Signal: disruption-era CEO choice -> define future CEO profile first.",
     "prompt": "The CHRO is advising the board on whether to promote an internal candidate to CEO or hire externally, given the company faces major strategic disruption. The internal candidate knows the business deeply but lacks experience with the disruptive technology. What should the CHRO recommend as the FIRST step?",
     "options": [
       "Define the future CEO profile against disruption.",
@@ -1819,6 +1898,7 @@
   {
     "id": "shrm-scp-q280",
     "domain": "Business",
+    "hint": "Signal: joint venture staffing -> define workforce needs + governance.",
     "prompt": "The company is entering a new market through a joint venture, and the CHRO must advise on how to staff and govern the venture's workforce, which will blend employees from both partners with different cultures and policies. What should the CHRO do FIRST?",
     "options": [
       "Define the venture's workforce needs and governance first.",

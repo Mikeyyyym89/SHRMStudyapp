@@ -2,6 +2,7 @@
   {
     "id": "shrm-cp-q201",
     "domain": "Leadership",
+    "hint": "Signal: public resistance + CEO wants compliance → understand concerns before escalating",
     "prompt": "Priya, a newly hired HR manager, must roll out a companywide performance-review process that replaces annual ratings with frequent check-ins. The director of operations, a 25-year veteran, has publicly dismissed the change as 'HR busywork' and told his team to ignore it. Two of his direct reports have quietly told Priya they actually welcome the new process but are afraid to contradict their boss. The CEO supports the change and expects compliance, but Priya also needs the director's cooperation for the rollout to succeed. What is the BEST action?",
     "options": [
       "Meet with the director to understand his concerns",
@@ -25,6 +26,7 @@
   {
     "id": "shrm-cp-q202",
     "domain": "Leadership",
+    "hint": "Signal: medical disclosure + no performance documentation → investigate/gather facts before terminating",
     "prompt": "An operations manager comes to HR demanding the immediate termination of a direct report, Dana, whose productivity has fallen sharply over the past two months. The manager says Dana 'isn't cut out for this role' and wants her gone by Friday. In the same conversation, the manager mentions, in passing, that Dana recently told him she has been diagnosed with a serious medical condition and is awaiting a treatment plan. No performance documentation exists, and Dana has never been coached. What should the HR professional do FIRST?",
     "options": [
       "Approve the termination request to meet the Friday deadline",
@@ -48,6 +50,7 @@
   {
     "id": "shrm-cp-q203",
     "domain": "Leadership",
+    "hint": "Signal: bottom decile skews over 50 + 'fresh talent' remarks → advise adverse-impact (ADEA) risk",
     "prompt": "The CEO wants to launch a 'forced ranking' system that automatically assigns the bottom 10 percent of each division to a performance-improvement plan leading to termination, arguing it will 'raise the bar.' An HR analyst notices that nearly all employees who would fall into the bottom decile are over 50, and the CEO has made remarks about wanting 'fresh, hungry talent.' When HR raises the age pattern, the CEO dismisses it as 'coincidence' and asks HR to prepare the rollout. What is the BEST action?",
     "options": [
       "Implement the forced-ranking plan exactly as the CEO directs",
@@ -71,6 +74,7 @@
   {
     "id": "shrm-cp-q204",
     "domain": "Leadership",
+    "hint": "Signal: hostile work environment + CEO wants payoffs → investigate first, not severance",
     "prompt": "A newly appointed CHRO discovers that the company's stated values emphasize 'integrity and respect,' yet a senior vice president has a documented history of screaming at subordinates, and prior HR leaders filed the complaints without consequence. Two employees have now reported panic symptoms tied to his behavior, and one is considering a claim of a hostile work environment. The CEO privately tells the CHRO that the SVP is 'too valuable' to discipline and suggests a severance package for the complaining employees to sign. What should the CHRO do FIRST?",
     "options": [
       "Negotiate severance agreements with the two complaining employees",
@@ -94,6 +98,7 @@
   {
     "id": "shrm-cp-q205",
     "domain": "Leadership",
+    "hint": "Signal: favoritism + documented promotion policy → follow the objective process",
     "prompt": "The CEO asks the HR director to fast-track a promotion for the CEO's longtime friend, who has average performance ratings and no leadership experience, into a newly created VP role that the organization's succession plan designated for a high-potential internal candidate. Several managers have expressed frustration that the friend 'skips the line.' The company has a documented promotion policy requiring objective qualifications and a formal process. What is the BEST action?",
     "options": [
       "Advise the CEO to follow the documented promotion process",
@@ -117,6 +122,7 @@
   {
     "id": "shrm-cp-q206",
     "domain": "Leadership",
+    "hint": "Signal: RIF + FMLA employees + no manager prep → plan compliant, empathetic communication first",
     "prompt": "The company is restructuring, and HR must announce a reduction in force that will eliminate 40 positions over the next month. The CEO wants a single email sent at 5 p.m. on Friday with no advance notice to managers, reasoning that 'dragging it out only creates anxiety.' HR knows that affected employees include several on FMLA leave and that managers will need talking points and support. The CEO asks HR to proceed. What should the HR leader do FIRST?",
     "options": [
       "Send the single Friday email as the CEO requested",
@@ -140,6 +146,7 @@
   {
     "id": "shrm-cp-q207",
     "domain": "Leadership",
+    "hint": "Signal: culture of fear/favoritism + turnover → diagnose root causes before incentives",
     "prompt": "Employee turnover has reached 45 percent in one division, and engagement survey comments describe a culture of fear, favoritism, and 'punishing honest feedback.' The division leader blames the labor market and asks HR to roll out a referral bonus and retention stipend 'immediately' to stop the bleeding. The CHRO suspects the incentives will not fix the underlying culture but feels pressure to act fast. What should the CHRO do FIRST?",
     "options": [
       "Launch the referral bonus and retention stipend right away",
@@ -163,6 +170,7 @@
   {
     "id": "shrm-cp-q208",
     "domain": "Leadership",
+    "hint": "Signal: backdated reviews after safety complaints → pause terminations and investigate retaliation",
     "prompt": "An HR director learns that a regional manager has been backdating performance reviews and inserting negative comments to build a paper trail against three employees who recently raised safety complaints to the corporate ethics line. The manager asks HR to process the terminations 'quickly and quietly.' The employees are all long-tenured and previously had strong reviews. The HR director suspects the documentation was fabricated to retaliate against the complainants. What is the BEST action?",
     "options": [
       "Process the terminations quietly as the manager requested",
@@ -186,6 +194,7 @@
   {
     "id": "shrm-cp-q209",
     "domain": "Leadership",
+    "hint": "Signal: 'hard quotas' + investor metrics → use flexible goals, avoid reverse discrimination",
     "prompt": "The CEO asks the CHRO to implement 'hard quotas' — requiring every department to hire a specific percentage of employees from underrepresented groups within twelve months — to quickly improve diversity metrics for an upcoming investor presentation. The CHRO supports the goal but knows that rigid numerical quotas can expose the company to reverse-discrimination claims, whereas flexible, goal-based diversity efforts are lawful and sustainable. The CEO insists quotas send a stronger message. What is the BEST action?",
     "options": [
       "Implement the hard quotas exactly as the CEO directs",
@@ -209,6 +218,7 @@
   {
     "id": "shrm-cp-q210",
     "domain": "Leadership",
+    "hint": "Signal: conflicting compliance info + misclassification → verify via independent audit before certifying",
     "prompt": "The board has asked the CHRO to certify that the company is 'in full compliance' with all employment laws before a planned acquisition closes. The CHRO has received conflicting information: the payroll vendor reports two years of unresolved overtime misclassification, while the controller insists those concerns were 'already fixed,' though no audit has been done. Signing a false certification could carry personal and corporate liability. What is the BEST action?",
     "options": [
       "Verify compliance through an independent audit before certifying",
@@ -232,6 +242,7 @@
   {
     "id": "shrm-cp-q211",
     "domain": "Leadership",
+    "hint": "Signal: PIP immediately after cooperating as witness → review timeline and consult counsel",
     "prompt": "A new CHRO discovers that a manager has placed an employee on a performance-improvement plan immediately after the employee cooperated as a witness in an internal harassment investigation, even though the employee's last three reviews were 'exceeds expectations.' The manager asks HR to approve termination for 'performance issues' and insists the timing is coincidental. The CHRO suspects retaliation but has limited experience with such cases. What should the CHRO do FIRST?",
     "options": [
       "Approve the termination to maintain the manager's authority",
@@ -251,6 +262,7 @@
   {
     "id": "shrm-cp-q212",
     "domain": "Leadership",
+    "hint": "Signal: misclassified contractors + CFO 'keep quiet' → escalate through governance channels",
     "prompt": "The HR director has uncovered evidence that the finance team, at the CFO's instruction, reclassified dozens of employees as independent contractors solely to reduce benefit costs, despite the employees working full-time under company control. The CFO tells the HR director that 'everyone does this' and warns against 'causing trouble.' The director's own bonus is partly tied to cost savings. What is the BEST action?",
     "options": [
       "Follow the CFO's instruction and keep the matter quiet",
@@ -274,6 +286,7 @@
   {
     "id": "shrm-cp-q213",
     "domain": "Leadership",
+    "hint": "Signal: low trust + cynicism of top-down → co-create values with employees",
     "prompt": "The CHRO is asked to lead a 'culture transformation' after an engagement survey showed trust in leadership at an all-time low. The executive team has already drafted a new set of five corporate values and wants HR to 'roll them out' with posters and a town hall. Employees have responded to past top-down initiatives with cynicism, and several have said the values will be 'just words.' What is the BEST approach?",
     "options": [
       "Roll out the values with posters and a town hall",
@@ -297,6 +310,7 @@
   {
     "id": "shrm-cp-q214",
     "domain": "Leadership",
+    "hint": "Signal: union employees + state notice/consent laws → advise before secret monitoring",
     "prompt": "The CEO wants HR to help deploy monitoring software that will track remote employees' keystrokes, mouse activity, and webcam images, citing a dip in productivity. Some monitored employees are covered by a collective bargaining agreement, and several work in a state requiring employee notice and consent for electronic monitoring. The CEO insists on 'no notice' deployment to catch people off guard. What is the BEST action?",
     "options": [
       "Deploy the monitoring software secretly as the CEO directs",
@@ -320,6 +334,7 @@
   {
     "id": "shrm-cp-q215",
     "domain": "Business",
+    "hint": "Signal: 'unproven' program + CFO wants cut → build data-driven business case",
     "prompt": "The HR business partner is preparing the annual budget and must defend the leadership-development program, which the CFO has flagged for elimination because its impact is 'unproven.' The program costs $400,000 annually, and the CFO wants the money reallocated to operations. The HRBP believes the program has improved retention and promotion readiness but lacks hard data to prove it. What is the BEST action?",
     "options": [
       "Eliminate the entire program to satisfy the CFO's directive",
@@ -343,6 +358,7 @@
   {
     "id": "shrm-cp-q216",
     "domain": "Business",
+    "hint": "Signal: gut-feel estimate vs analytics → present data-driven workforce projections",
     "prompt": "The company is expanding into a new region in nine months, and HR has been asked to determine staffing needs. The sales VP estimates 'about 200 people' based on gut feel, while HR's analytics show the region will need 85 employees in year one based on comparable-market data and revenue projections. The VP is pressuring HR to support the higher number to 'look aggressive' to the board. What is the BEST action?",
     "options": [
       "Present data-driven staffing projections and challenge inflated estimates",
@@ -366,6 +382,7 @@
   {
     "id": "shrm-cp-q217",
     "domain": "Business",
+    "hint": "Signal: low sticker price vs customization costs → compare total cost of ownership",
     "prompt": "HR is selecting a new human capital management system and has narrowed the choice to two vendors. One offers a low sticker price but requires extensive customization, integration, and training, while the other has a higher license fee but strong out-of-the-box fit. The CFO is leaning toward the cheaper option based on the upfront quote alone. What should the HR leader do FIRST?",
     "options": [
       "Compare total cost of ownership across both options",
@@ -389,6 +406,7 @@
   {
     "id": "shrm-cp-q218",
     "domain": "Business",
+    "hint": "Signal: pension vs 401(k) + age impact → analyze cost, legal, equity before recommending",
     "prompt": "Two firms are merging, and HR has been asked to recommend a benefits harmonization plan. One company offers defined-benefit pensions and generous retiree health coverage; the other offers only a 401(k) match. The deal team wants HR to simply adopt the cheaper plan for everyone to capture synergies, but HR knows the move could trigger age-based disparate-impact concerns and damage morale. What is the BEST action?",
     "options": [
       "Adopt the cheaper benefits plan for all employees",
@@ -412,6 +430,7 @@
   {
     "id": "shrm-cp-q219",
     "domain": "Business",
+    "hint": "Signal: outsourcing + union + WARN → review notice obligations before signing",
     "prompt": "The company is considering outsourcing its entire customer-service function, which would eliminate 120 jobs, about a third of which are represented by a union. The proposal is being fast-tracked, and the COO wants HR to sign off by end of week. HR has not yet reviewed the collective bargaining agreement's subcontracting clause or state WARN notice requirements. What should HR do FIRST?",
     "options": [
       "Approve the outsourcing plan by the Friday deadline",
@@ -435,6 +454,7 @@
   {
     "id": "shrm-cp-q220",
     "domain": "Business",
+    "hint": "Signal: exclude resignations as 'contractors' → report accurate turnover data",
     "prompt": "The HR manager is asked to prepare quarterly metrics for the board. The VP of HR suggests excluding a recent mass resignation of 30 employees from the turnover figure 'because they were contractors anyway,' even though they were on payroll. Reporting the inflated number would make the company look better ahead of the board's compensation review. What is the BEST action?",
     "options": [
       "Report the turnover number excluding the departing workers",
@@ -458,6 +478,7 @@
   {
     "id": "shrm-cp-q221",
     "domain": "Business",
+    "hint": "Signal: flat cut vs retention data → target cuts using usage data",
     "prompt": "The CFO has asked HR to reduce benefits costs by 15 percent without triggering a wave of resignations among hard-to-fill technical roles. HR has usage data showing which benefits are underused and which drive retention. The CFO wants a flat cut across all benefits to be 'fair.' What is the BEST action?",
     "options": [
       "Apply a flat cut to all benefits to be fair",
@@ -481,6 +502,7 @@
   {
     "id": "shrm-cp-q222",
     "domain": "Business",
+    "hint": "Signal: change + fear of job impact → involve employees early in change",
     "prompt": "The company is implementing an AI-driven scheduling tool that will automate shift assignments previously made by frontline supervisors. HR is asked to lead the rollout. Several supervisors fear the tool will undermine their authority, and some hourly employees worry their hours will be cut. The project has a hard go-live date in six weeks. What is the BEST approach?",
     "options": [
       "Involve supervisors and employees early in the change process",
@@ -504,6 +526,7 @@
   {
     "id": "shrm-cp-q223",
     "domain": "Business",
+    "hint": "Signal: below-market pay + turnover → present market data and retention cost",
     "prompt": "HR's compensation analysis shows that software engineers are paid 20 percent below market, driving turnover to competitors. The CFO argues the company 'can't afford' market pay and suggests hiring less experienced engineers instead. HR knows the business depends on senior engineering talent to ship its product. What is the BEST action?",
     "options": [
       "Hire less experienced engineers to reduce costs",
@@ -527,6 +550,7 @@
   {
     "id": "shrm-cp-q224",
     "domain": "Business",
+    "hint": "Signal: sensitive employee data + no breach terms → require data-security provisions before signing",
     "prompt": "HR is about to sign a contract with a new payroll vendor that will store employee Social Security numbers, bank details, and health plan data. The procurement team is focused only on price and wants to sign quickly. HR notices the contract lacks any data-protection, breach-notification, or audit-rights provisions. What should HR do FIRST?",
     "options": [
       "Sign the contract quickly to meet procurement's deadline",
@@ -550,6 +574,7 @@
   {
     "id": "shrm-cp-q225",
     "domain": "Business",
+    "hint": "Signal: state-required harassment training + wage-hour exposure → prioritize compliance training",
     "prompt": "The HR leader must allocate a limited training budget and is receiving competing requests. The compliance team wants harassment-prevention and wage-hour training, a division leader wants advanced sales negotiation training, and another wants a team-building retreat. State law requires annual harassment training, and recent payroll errors suggest wage-hour exposure. What is the BEST action?",
     "options": [
       "Fund the team-building retreat to boost employee morale",
@@ -573,6 +598,7 @@
   {
     "id": "shrm-cp-q226",
     "domain": "Business",
+    "hint": "Signal: set schedules + uniforms + control → apply economic realities test",
     "prompt": "The company wants to launch a gig-economy delivery feature using 'independent contractors' who will work set schedules, wear company uniforms, and be managed through the company's app with discipline for lateness. The product team says contractor status is essential to the business model. HR is concerned the workers meet the legal test for employees under the FLSA. What should HR do FIRST?",
     "options": [
       "Classify the workers as independent contractors as requested",
@@ -596,6 +622,7 @@
   {
     "id": "shrm-cp-q227",
     "domain": "Business",
+    "hint": "Signal: compliance findings + 'keep quiet' → report and quantify liability",
     "prompt": "During acquisition due diligence, HR discovers the target company has never provided meal breaks, has misclassified several managers as exempt, and has pending harassment complaints that were never investigated. The deal team wants to keep the findings quiet to close the deal. What is the BEST action?",
     "options": [
       "Report findings and quantify liability for the deal team",
@@ -619,6 +646,7 @@
   {
     "id": "shrm-cp-q228",
     "domain": "Interpersonal",
+    "hint": "Signal: interpersonal conflict affecting team → facilitate structured conversation",
     "prompt": "Two high-performing engineers, Alex and Jordan, have stopped collaborating after a disagreement over project ownership escalated into a public argument. Their manager reports that the tension is now affecting the entire team's output, and each engineer is lobbying colleagues to take sides. Neither wants to report the other formally; they simply refuse to work together. What is the BEST action?",
     "options": [
       "Choose a winner and reassign the other's project",
@@ -642,6 +670,7 @@
   {
     "id": "shrm-cp-q229",
     "domain": "Interpersonal",
+    "hint": "Signal: new manager + defensive employee → coach specific, timely feedback first",
     "prompt": "A first-time manager asks HR for help: one of her direct reports, Sam, is consistently late with deliverables, but whenever she raises it, Sam becomes defensive and the conversation derails. The manager has started avoiding the topic altogether, and the team's deadlines are slipping. She wants to know whether she should just put Sam on a performance plan. What should HR advise her to do FIRST?",
     "options": [
       "Place Sam on a performance improvement plan now",
@@ -665,6 +694,7 @@
   {
     "id": "shrm-cp-q230",
     "domain": "Interpersonal",
+    "hint": "Signal: pay rumor + confidentiality → gather facts, protect pay privacy",
     "prompt": "An employee tells HR she 'heard from someone' that a coworker is being paid significantly more than everyone else on the team because of a personal relationship with a senior leader. She is upset and threatening to post about it on social media if HR doesn't act immediately. HR has no documentation of the pay claim, and discussing individual compensation with the team is not permitted. What should HR do FIRST?",
     "options": [
       "Confirm the pay rumor and share the coworker's salary",
@@ -688,6 +718,7 @@
   {
     "id": "shrm-cp-q231",
     "domain": "Interpersonal",
+    "hint": "Signal: conflicting priorities from two managers → clarify roles with managers",
     "prompt": "An employee, Maya, is caught between two managers who have given her directly conflicting priorities, and both are now unhappy with her. She feels set up to fail and has told HR she is thinking of quitting. Her performance reviews have always been strong, but she has started receiving negative feedback from both managers in the last month. What is the BEST action?",
     "options": [
       "Tell Maya to prioritize whichever manager is senior",
@@ -711,6 +742,7 @@
   {
     "id": "shrm-cp-q232",
     "domain": "Interpersonal",
+    "hint": "Signal: anxiety/depression + fears job loss → support and explore accommodations confidentially",
     "prompt": "An employee tells HR in confidence that she has been struggling with severe anxiety and depression, that it is affecting her focus, and that she is afraid she will lose her job if her manager finds out. She has not requested anything specific, but she has recently missed several deadlines. She asks HR to 'keep this between us' and not tell her manager. What should HR do FIRST?",
     "options": [
       "Provide support and explore reasonable accommodations confidentially",
@@ -734,6 +766,7 @@
   {
     "id": "shrm-cp-q233",
     "domain": "Interpersonal",
+    "hint": "Signal: fear of retribution + no formal complaints → coach manager, gather details",
     "prompt": "Several employees on one team have privately told HR that their manager rules by fear, publicly criticizes mistakes, and 'writes people off' who disagree. The manager is technically excellent and has delivered strong results, and leadership sees him as a star. The employees are reluctant to file formal complaints for fear of retribution. What is the BEST action?",
     "options": [
       "Coach the manager on respectful leadership, gather details",
@@ -757,6 +790,7 @@
   {
     "id": "shrm-cp-q234",
     "domain": "Interpersonal",
+    "hint": "Signal: generational friction + conflicting expectations → facilitate expectations conversation",
     "prompt": "A younger employee and a veteran manager are in constant friction. The manager micromanages and expects in-office presence, while the employee prefers autonomy and flexible hours and has started working around the manager by seeking approvals elsewhere. Both have complained to HR about the other. Performance from both is otherwise acceptable. What is the BEST action?",
     "options": [
       "Side with the manager to preserve authority",
@@ -780,6 +814,7 @@
   {
     "id": "shrm-cp-q235",
     "domain": "Interpersonal",
+    "hint": "Signal: national-origin harassment + fear of retaliation → explain duty to investigate",
     "prompt": "An employee confides to HR that a coworker repeatedly made offensive comments about her accent and told her to 'go back where you came from.' She is distraught but insists HR 'promise not to tell anyone or do anything' because she fears retaliation. HR recognizes this as potential national-origin harassment that the company has a duty to address once aware. What should HR do FIRST?",
     "options": [
       "Promise confidentiality and take no further action",
@@ -803,6 +838,7 @@
   {
     "id": "shrm-cp-q236",
     "domain": "Interpersonal",
+    "hint": "Signal: competing complaints + lawyers → impartial, documented investigation of both",
     "prompt": "Two coworkers have filed competing complaints: one alleges the other is 'bullying' her and creating a hostile environment, while the other claims the first is spreading false rumors that could damage her career. Both have hired lawyers and threatened formal charges. The manager wants HR to 'pick a side and move on.' What should HR do FIRST?",
     "options": [
       "Choose the more credible employee's version of events",
@@ -826,6 +862,7 @@
   {
     "id": "shrm-cp-q237",
     "domain": "Interpersonal",
+    "hint": "Signal: sharp decline after personal trauma → meet employee to understand before discipline",
     "prompt": "An employee's performance has declined sharply after a personal trauma, and her manager is frustrated and wants to move straight to termination. The employee has not disclosed anything to HR but recently confided to a peer that she is 'barely holding it together.' She has a strong six-year record and had no performance issues before the recent events. What is the BEST action?",
     "options": [
       "Approve the termination to respect the manager's call",
@@ -849,6 +886,7 @@
   {
     "id": "shrm-cp-q238",
     "domain": "Interpersonal",
+    "hint": "Signal: 'attitude' termination + no documentation → gather facts before acting",
     "prompt": "A manager wants to terminate an employee for a 'bad attitude' after the employee challenged the manager's decision in a team meeting and called it 'short-sighted.' There is no performance documentation, and the employee's work quality is strong. The manager says the challenge was insubordination and wants HR to process the termination today. What should HR do FIRST?",
     "options": [
       "Process the termination immediately as clear insubordination",
@@ -872,6 +910,7 @@
   {
     "id": "shrm-cp-q239",
     "domain": "Interpersonal",
+    "hint": "Signal: microaggressions + no formal complaint → address climate through training/coaching",
     "prompt": "A team of employees tells HR they experience frequent 'microaggressions' — being interrupted, having their ideas credited to others, and being excluded from key meetings — but none wants to file a formal complaint. They ask HR to 'just make it stop' without naming anyone. HR wants to respond constructively without forcing employees into a process they fear. What is the BEST action?",
     "options": [
       "Tell them nothing can be done without a complaint",
@@ -895,6 +934,7 @@
   {
     "id": "shrm-cp-q240",
     "domain": "Interpersonal",
+    "hint": "Signal: favoritism skews against women/people of color → investigate bias in decisions",
     "prompt": "Employees on a team complain that their manager shows clear favoritism, giving plum assignments and promotions only to a small inner circle, and that everyone else's ideas are ignored. The excluded employees are disproportionately women and people of color, and one has pointed out that the inner circle is all men. The manager denies any bias and says he simply rewards 'fit.' What should HR do FIRST?",
     "options": [
       "Investigate whether assignment and promotion decisions reflect bias",
@@ -918,6 +958,7 @@
   {
     "id": "shrm-cp-q241",
     "domain": "People",
+    "hint": "Signal: nonexempt + after-hours email → pay all hours worked",
     "prompt": "A manager asks HR to confirm it is fine for her nonexempt team members to answer work emails from home on weekends 'since they're salaried.' HR confirms the employees are nonexempt and must be paid for all hours worked, including after-hours email time. The manager argues the work is 'minor' and the team 'doesn't mind.' What is the BEST action?",
     "options": [
       "Allow off-the-clock email to keep the entire team happy",
@@ -941,6 +982,7 @@
   {
     "id": "shrm-cp-q242",
     "domain": "People",
+    "hint": "Signal: ten months + 30 employees → determine FMLA eligibility first",
     "prompt": "An employee requests twelve weeks of leave to care for her seriously ill mother and mentions she has worked for the company for ten months, full-time, at a site with 30 employees. The manager wants to approve the leave immediately 'out of compassion,' but HR is unsure whether FMLA applies given the employee's tenure and the site's headcount. What should HR do FIRST?",
     "options": [
       "Determine FMLA eligibility and provide the required notices",
@@ -964,6 +1006,7 @@
   {
     "id": "shrm-cp-q243",
     "domain": "People",
+    "hint": "Signal: disability accommodation denied for 'special treatment' → engage interactive process",
     "prompt": "An employee with a documented back condition asks to work a modified schedule with frequent standing breaks and a sit-stand desk. The manager denies it, saying the role requires continuous sitting at a call desk and 'special treatment' would upset coworkers. The employee can perform all essential functions with these adjustments. What is the BEST action?",
     "options": [
       "Uphold the manager's denial to maintain team consistency",
@@ -987,6 +1030,7 @@
   {
     "id": "shrm-cp-q244",
     "domain": "People",
+    "hint": "Signal: no written warning + 'meets expectations' → document expectations before terminating",
     "prompt": "A manager wants to terminate an employee for repeated errors and missed deadlines. HR reviews the file and finds the employee has never received a written warning, has no performance plan on record, and was given a 'meets expectations' rating just four months ago. The manager claims verbal warnings were given but nothing was documented. What should HR do FIRST?",
     "options": [
       "Terminate the employee based on the manager's word",
@@ -1010,6 +1054,7 @@
   {
     "id": "shrm-cp-q245",
     "domain": "People",
+    "hint": "Signal: pay gap after controls → remediate and adjust pay practices",
     "prompt": "A pay equity audit reveals that women in a particular department earn on average 8 percent less than men in the same role with similar experience and performance, even after controlling for tenure. The compensation team attributes the gap to 'historical negotiation differences.' HR is asked what to do. What is the BEST action?",
     "options": [
       "Remediate the pay gaps and adjust future pay practices",
@@ -1033,6 +1078,7 @@
   {
     "id": "shrm-cp-q246",
     "domain": "People",
+    "hint": "Signal: exit data cites schedules/supervisor → address root causes",
     "prompt": "Turnover among customer-service representatives has hit 60 percent, and the contact-center manager blames 'young employees with no work ethic.' Exit interviews, however, cite rigid schedules, mandatory overtime, and a hostile supervisor. HR must recommend a plan. What is the BEST action?",
     "options": [
       "Replace the entire customer-service team with fresh new hires",
@@ -1056,6 +1102,7 @@
   {
     "id": "shrm-cp-q247",
     "domain": "People",
+    "hint": "Signal: early attrition + no onboarding/mentors → improve onboarding",
     "prompt": "Three of the last four new hires in a department left within their first ninety days, and the one remaining hire is already showing signs of disengagement. The manager says the hires 'weren't a good fit,' but HR notices the department has no structured onboarding or assigned mentors, unlike other teams. What is the BEST action?",
     "options": [
       "Cease all hiring for the department entirely",
@@ -1079,6 +1126,7 @@
   {
     "id": "shrm-cp-q248",
     "domain": "People",
+    "hint": "Signal: internal mobility policy + manager blocking → facilitate move per policy",
     "prompt": "A high-potential employee has requested a lateral move to a different department to build skills, but her current manager is blocking the transfer, saying he 'can't lose her.' Company policy encourages internal mobility after twelve months, and the employee meets the criteria. The employee is now considering an outside offer. What is the BEST action?",
     "options": [
       "Deny the move to satisfy the current manager's needs",
@@ -1102,6 +1150,7 @@
   {
     "id": "shrm-cp-q249",
     "domain": "People",
+    "hint": "Signal: FMLA-certified absences → don't count protected leave against employee",
     "prompt": "A manager wants to discipline an employee for attendance after the employee had multiple intermittent absences. HR's records show every absence was certified under the employee's approved FMLA leave for migraines. The manager insists the absences are 'hurting the team' and wants a written warning. What is the BEST action?",
     "options": [
       "Issue the warning because attendance is a team issue",
@@ -1125,6 +1174,7 @@
   {
     "id": "shrm-cp-q250",
     "domain": "People",
+    "hint": "Signal: lifting restriction after injury → assess essential functions, consider accommodation",
     "prompt": "An employee returning from a work-related injury brings a note restricting lifting to ten pounds for six weeks. His role requires regularly lifting up to forty pounds. The manager wants to send him home 'until he's 100 percent.' HR must decide how to proceed. What should HR do FIRST?",
     "options": [
       "Send him home until he is fully recovered",
@@ -1148,6 +1198,7 @@
   {
     "id": "shrm-cp-q251",
     "domain": "People",
+    "hint": "Signal: morale issue + no skills data → conduct needs assessment first",
     "prompt": "A department head asks HR to purchase an expensive leadership-training program for her entire team, claiming morale is low. HR has no data on what skills are actually missing and suspects the real issue is workload and unclear priorities. The department head wants to book the vendor immediately. What should HR do FIRST?",
     "options": [
       "Conduct a needs assessment to identify actual gaps",
@@ -1171,6 +1222,7 @@
   {
     "id": "shrm-cp-q252",
     "domain": "People",
+    "hint": "Signal: inflated ratings across team → calibrate with consistent standards",
     "prompt": "At calibration, HR notices one manager rated all ten of her direct reports 'exceeds expectations' while the company-wide distribution averages 10 percent at that level. When asked, she says she 'doesn't like giving bad news.' The inflated ratings will affect bonuses and promotion decisions. What is the BEST action?",
     "options": [
       "Accept the ratings to avoid the manager's conflict",
@@ -1194,6 +1246,7 @@
   {
     "id": "shrm-cp-q253",
     "domain": "People",
+    "hint": "Signal: single expert retiring + no backup → succession and knowledge-transfer plan",
     "prompt": "The company's only expert in a critical regulatory function has announced retirement in six months, and no one else is trained to perform the role. The business is at risk of compliance failures during the transition. Leadership wants to 'figure it out later.' What is the BEST action?",
     "options": [
       "Wait to address the gap after the retirement",
@@ -1217,6 +1270,7 @@
   {
     "id": "shrm-cp-q254",
     "domain": "People",
+    "hint": "Signal: top driver = career development → act on the survey finding",
     "prompt": "An engagement survey shows the top driver of dissatisfaction is lack of career development, yet leadership wants to respond by holding a company picnic. Employees have said they are tired of 'surface' responses, and several have threatened to leave. HR must recommend how to respond to the survey. What is the BEST action?",
     "options": [
       "Act on the survey by addressing career development",
@@ -1240,6 +1294,7 @@
   {
     "id": "shrm-cp-q255",
     "domain": "Organization",
+    "hint": "Signal: pay-talk prohibition → revise to protect concerted activity (NLRA)",
     "prompt": "HR is updating the employee handbook and the draft includes a policy that broadly prohibits employees from discussing their pay or complaining about working conditions on social media. HR is aware that such rules may infringe on employees' rights under the National Labor Relations Act to engage in protected concerted activity. What is the BEST action?",
     "options": [
       "Keep the broad policy to protect company reputation",
@@ -1263,6 +1318,7 @@
   {
     "id": "shrm-cp-q256",
     "domain": "Organization",
+    "hint": "Signal: inconsistent records + pending charge → implement consistent recordkeeping/retention",
     "prompt": "An internal audit finds employee personnel files are kept inconsistently: some managers store records in personal email, others in unlocked cabinets, and retention schedules are ignored. The company is subject to federal recordkeeping rules and has a pending charge that may require producing documents. What is the BEST action?",
     "options": [
       "Ignore the inconsistencies until litigation begins",
@@ -1286,6 +1342,7 @@
   {
     "id": "shrm-cp-q257",
     "domain": "Organization",
+    "hint": "Signal: restructure + unmapped pay/compliance impacts → assess impacts before announcing",
     "prompt": "The CEO wants to flatten the organization by removing two layers of management and merging three departments, effective next quarter. HR has been asked to implement it. The change will alter reporting lines for 200 employees, and HR has not yet mapped which roles are affected or assessed impacts on pay, span of control, or protected-class composition. What should HR do FIRST?",
     "options": [
       "Announce the restructuring immediately to all of the employees",
@@ -1309,6 +1366,7 @@
   {
     "id": "shrm-cp-q258",
     "domain": "Organization",
+    "hint": "Signal: different state leave/final-pay laws → comply with each state",
     "prompt": "The company is expanding into three new states, each with different paid-sick-leave and final-pay timing requirements. The current PTO policy is a single national policy that does not comply with the new states' laws. HR must update it. What is the BEST action?",
     "options": [
       "Keep the single policy and hope for compliance",
@@ -1332,6 +1390,7 @@
   {
     "id": "shrm-cp-q259",
     "domain": "Organization",
+    "hint": "Signal: conflicting headcount data → fix data and standardize entry",
     "prompt": "The HR team's quarterly reports contain conflicting headcount numbers, and an analyst discovers the HRIS has duplicate records, missing termination dates, and inconsistent job titles because three departments enter data differently. Leadership is making headcount decisions based on these reports. What should HR do FIRST?",
     "options": [
       "Correct the data and standardize entry processes",
@@ -1355,6 +1414,7 @@
   {
     "id": "shrm-cp-q260",
     "domain": "Organization",
+    "hint": "Signal: inconsistent enforcement + recently returned mother → enforce consistently, coach manager",
     "prompt": "HR learns that a manager enforces the attendance policy strictly for some employees while allowing frequent late arrivals for favorites, and one disciplined employee is a woman who recently returned from maternity leave. The inconsistencies create legal risk and erode trust. What is the BEST action?",
     "options": [
       "Stop enforcing the attendance policy for all employees",
@@ -1378,6 +1438,7 @@
   {
     "id": "shrm-cp-q261",
     "domain": "Organization",
+    "hint": "Signal: unclear HRBP/COE/SS roles → clarify roles and SLAs",
     "prompt": "After an HR reorganization, business leaders are confused about whom to call for what: the HR business partner, the centers of excellence, or the shared-services team. Requests are falling through the cracks, and a recent compliance issue went unaddressed because no one owned it. What is the BEST action?",
     "options": [
       "Dissolve the centers of excellence entirely",
@@ -1401,6 +1462,7 @@
   {
     "id": "shrm-cp-q262",
     "domain": "Organization",
+    "hint": "Signal: injury spike + safety complaints → investigate promptly",
     "prompt": "OSHA logs show a sharp rise in ergonomic injuries on a production line over the past quarter, and two employees have filed safety complaints alleging the line speed was increased without adjusting workstations. The plant manager denies any problem and wants HR to 'stay out of operations.' What should HR do FIRST?",
     "options": [
       "Stay out of it to avoid conflict with operations",
@@ -1424,6 +1486,7 @@
   {
     "id": "shrm-cp-q263",
     "domain": "Organization",
+    "hint": "Signal: AI trained on mostly-male hires → validate tool for bias",
     "prompt": "The recruiting team wants to deploy an AI résumé-screening tool that was trained on the company's historical hires, a pool that is mostly male and from a few universities. HR is concerned the tool could systematically screen out women and candidates from underrepresented schools. The recruiting VP wants to launch it immediately. What is the BEST action?",
     "options": [
       "Launch the tool immediately to speed hiring",
@@ -1447,6 +1510,7 @@
   {
     "id": "shrm-cp-q264",
     "domain": "Organization",
+    "hint": "Signal: policy exception for one employee → apply policy consistently",
     "prompt": "The CEO asks HR to grant a top salesperson an exception to the travel-expense policy, allowing first-class flights and luxury hotels, while every other employee follows standard limits. HR knows this could create perceptions of favoritism and set a precedent. What is the BEST action?",
     "options": [
       "Apply the policy consistently and explain the rationale",
@@ -1470,6 +1534,7 @@
   {
     "id": "shrm-cp-q265",
     "domain": "Organization",
+    "hint": "Signal: outdated job descriptions + ADA process → update essential functions",
     "prompt": "While reviewing an accommodation request, HR discovers the company's job descriptions are years out of date and do not accurately list essential functions, which complicates the ADA interactive process. The HR team wants to fix this but the effort is large. What should HR do FIRST?",
     "options": [
       "Update job descriptions to reflect accurate essential functions",
@@ -1493,6 +1558,7 @@
   {
     "id": "shrm-cp-q266",
     "domain": "Organization",
+    "hint": "Signal: contingent workers + misclassification claim → establish compliance governance",
     "prompt": "The company relies heavily on temporary and contract workers, but HR discovers there is no consistent process for vetting staffing agencies, no tracking of worker tenure limits, and no clarity on co-employment risks. A contract worker has now filed a claim alleging misclassification. What is the BEST action?",
     "options": [
       "Ignore the claim and hope it disappears",
@@ -1516,6 +1582,7 @@
   {
     "id": "shrm-cp-q267",
     "domain": "Organization",
+    "hint": "Signal: distrust + untrained managers → train and address concerns",
     "prompt": "A new performance-management system is being rolled out, and adoption is low because employees distrust the tool and managers were never trained. The project is behind schedule, and the sponsor wants HR to mandate usage and threaten consequences. What is the BEST action?",
     "options": [
       "Mandate usage and discipline all noncompliant managers",
@@ -1539,6 +1606,7 @@
   {
     "id": "shrm-cp-q268",
     "domain": "Workplace",
+    "hint": "Signal: specific harassment complaint + witness → prompt impartial investigation",
     "prompt": "An employee submits a complaint alleging a senior manager made repeated sexual comments and unwanted advances toward her over several months, and that she fears reporting has already cost her a promotion. The complaint names specific dates and a witness. The accused manager is a top performer. What should HR do FIRST?",
     "options": [
       "Confront the manager and demand a resignation",
@@ -1562,6 +1630,7 @@
   {
     "id": "shrm-cp-q269",
     "domain": "Workplace",
+    "hint": "Signal: adverse actions after OSHA report → investigate retaliation",
     "prompt": "Shortly after an employee reported a safety violation to OSHA, her manager excluded her from key meetings, reassigned her best accounts, and gave her the first negative review of her twelve-year career. The manager says the changes are 'unrelated' and performance-based. HR is asked to review. What is the BEST action?",
     "options": [
       "Accept the manager's explanation without review",
@@ -1585,6 +1654,7 @@
   {
     "id": "shrm-cp-q270",
     "domain": "Workplace",
+    "hint": "Signal: RIF skews over 50 + subjective ratings → review for age adverse impact",
     "prompt": "A reduction in force will eliminate 30 positions, and HR reviews the selection list. The selections skew heavily toward employees over 50, and the managers used subjective 'future potential' ratings that were never documented. HR must decide how to proceed before the layoff is announced. What is the BEST action?",
     "options": [
       "Approve the list to meet the deadline",
@@ -1608,6 +1678,7 @@
   {
     "id": "shrm-cp-q271",
     "domain": "Workplace",
+    "hint": "Signal: Sabbath observance request → evaluate as religious accommodation",
     "prompt": "An employee requests every Saturday off to observe his Sabbath. The store is busiest on Saturdays, and the manager wants to deny the request, saying everyone must be available weekends. The employee offers to work Sundays and evenings instead, and other employees are willing to swap. What is the BEST action?",
     "options": [
       "Evaluate the request as a religious accommodation",
@@ -1631,6 +1702,7 @@
   {
     "id": "shrm-cp-q272",
     "domain": "Workplace",
+    "hint": "Signal: pregnancy as reason to deny promotion → correct manager, pregnancy is unlawful basis",
     "prompt": "A manager tells HR he is not selecting a pregnant employee for a promotion because she will 'be out on leave soon' and the role needs continuity. The employee is the most qualified candidate on paper and has expressed interest. HR recognizes this reasoning is unlawful. What is the BEST action?",
     "options": [
       "Support the manager's decision to ensure team continuity",
@@ -1654,6 +1726,7 @@
   {
     "id": "shrm-cp-q273",
     "domain": "Workplace",
+    "hint": "Signal: manager bans pay discussion → correct and protect NLRA rights",
     "prompt": "A manager overhears employees discussing their pay during a break and tells them to stop, saying 'salary discussions are prohibited and anyone who continues will be written up.' One employee reports this to HR. HR knows the NLRA protects employees' right to discuss wages. What is the BEST action?",
     "options": [
       "Enforce the manager's prohibition on pay discussions",
@@ -1677,6 +1750,7 @@
   {
     "id": "shrm-cp-q274",
     "domain": "Workplace",
+    "hint": "Signal: telework accommodation denied + past remote success → assess via interactive process",
     "prompt": "An employee with an autoimmune condition requests to work from home three days a week as an accommodation. Her manager denies it, claiming 'presence is essential for collaboration,' though the employee has successfully worked remotely during the pandemic and the role is largely independent. What is the BEST action?",
     "options": [
       "Uphold the denial because collaboration matters",
@@ -1700,6 +1774,7 @@
   {
     "id": "shrm-cp-q275",
     "domain": "Workplace",
+    "hint": "Signal: manager texting during FMLA leave → stop interference, educate manager",
     "prompt": "While an employee is on approved FMLA leave for surgery, her manager repeatedly texts and calls her with work questions, pressures her to 'check in' daily, and implies her job may be at risk if she is unreachable. The employee complains to HR. What is the BEST action?",
     "options": [
       "Ask the employee to stay reachable during leave",
@@ -1723,6 +1798,7 @@
   {
     "id": "shrm-cp-q276",
     "domain": "Workplace",
+    "hint": "Signal: repeated misgendering + derogatory remarks → investigate promptly",
     "prompt": "A transgender employee reports being repeatedly misgendered and addressed by a former name by coworkers despite repeated corrections, and says one coworker made derogatory remarks about her in a team chat. She has documented the incidents. HR recognizes this as potential harassment. What is the BEST action?",
     "options": [
       "Investigate promptly and address the harassing conduct",
@@ -1746,6 +1822,7 @@
   {
     "id": "shrm-cp-q277",
     "domain": "Workplace",
+    "hint": "Signal: apparent intoxication + forklift → ensure safety, follow testing policy",
     "prompt": "A supervisor reports that an employee appears intoxicated at work, slurring speech and smelling of alcohol while operating a forklift. The supervisor wants the employee removed and tested. The company has a drug-free workplace policy and an employee assistance program. What should HR do FIRST?",
     "options": [
       "Terminate the employee immediately for appearing intoxicated",
@@ -1769,6 +1846,7 @@
   {
     "id": "shrm-cp-q278",
     "domain": "Workplace",
+    "hint": "Signal: rescind based on background check → follow FCRA adverse-action process",
     "prompt": "The company plans to rescind a job offer based on a background check that revealed a criminal record. The candidate says the record is inaccurate and outdated. HR is aware the Fair Credit Reporting Act requires specific notice and adverse-action procedures before finalizing the decision. What is the BEST action?",
     "options": [
       "Follow the FCRA pre-adverse and adverse action process",
@@ -1792,6 +1870,7 @@
   {
     "id": "shrm-cp-q279",
     "domain": "Workplace",
+    "hint": "Signal: veiled threat + history of outbursts → assess threat, implement safety plan",
     "prompt": "An employee reports that a coworker made a veiled threat, saying 'people here will get what's coming to them,' after being passed over for a promotion. The coworker has a history of angry outbursts, and the reporting employee is frightened. HR must respond. What should HR do FIRST?",
     "options": [
       "Dismiss it as venting and take no action",
@@ -1815,6 +1894,7 @@
   {
     "id": "shrm-cp-q280",
     "domain": "Workplace",
+    "hint": "Signal: off-duty posts mocking disability/slurs → address via harassment policy",
     "prompt": "Employees are upset about a coworker's social media posts that mock a colleague's disability and use racial slurs, which have circulated widely inside the team and harmed the targeted colleague. The posts were made outside work hours. HR must respond. What is the BEST action?",
     "options": [
       "Ignore the posts because they occurred off duty",
