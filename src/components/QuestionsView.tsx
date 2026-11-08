@@ -53,6 +53,8 @@ export default function QuestionsView({
 
   const q = order[index];
 
+  const shuffledSteps = useMemo(() => shuffle(q?.steps ?? []), [q?.id]);
+
   if (questions.length === 0) {
     return <p className="text-slate-500">No questions for this course yet.</p>;
   }
@@ -108,7 +110,6 @@ export default function QuestionsView({
 
   const isOrder = q.type === "order";
   const steps = q.steps ?? [];
-  const shuffledSteps = useMemo(() => shuffle(steps), [steps, q.id]);
   const correct =
     isOrder
       ? chosen.join("|") === steps.join("|")
