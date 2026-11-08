@@ -28,13 +28,12 @@ export default function ExamView({
 
   const totalSeconds = useMemo(() => minutes * 60, [minutes]);
 
-  const pool = useMemo(
-    () =>
-      difficulty === "all"
-        ? questions
-        : questions.filter((q) => (q.difficulty ?? "intermediate") === difficulty),
-    [questions, difficulty],
-  );
+  const pool = useMemo(() => {
+    const base = questions.filter((q) => q.type !== "order");
+    return difficulty === "all"
+      ? base
+      : base.filter((q) => (q.difficulty ?? "expert") === difficulty);
+  }, [questions, difficulty]);
 
   useEffect(() => {
     if (phase !== "exam") return;
@@ -235,6 +234,11 @@ export default function ExamView({
                   <p className="mt-2 text-sm leading-relaxed text-slate-600">
                     {q.explanation}
                   </p>
+                  {q.hint && (
+                    <p className="mt-1 text-sm font-medium text-blue-700">
+                      🔑 {q.hint}
+                    </p>
+                  )}
                   {q.docs.length > 0 && (
                     <a
                       href={q.docs[0].url}

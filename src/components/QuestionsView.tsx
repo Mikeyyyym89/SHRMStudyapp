@@ -18,7 +18,7 @@ export default function QuestionsView({
   );
 
   const difficulties = useMemo(() => {
-    const present = new Set(questions.map((q) => q.difficulty ?? "intermediate"));
+    const present = new Set(questions.map((q) => q.difficulty ?? "expert"));
     return DIFFICULTIES.filter((d) => present.has(d));
   }, [questions]);
 
@@ -26,20 +26,26 @@ export default function QuestionsView({
   const [difficultyFilter, setDifficultyFilter] = useState("all");
   const [order, setOrder] = useState<Question[]>([]);
   const [index, setIndex] = useState(0);
-  const [selected, setSelected] = useState<number | null>(null);
   const [correctCount, setCorrectCount] = useState(0);
   const [finished, setFinished] = useState(false);
+
+  // per-question state
+  const [selected, setSelected] = useState<number | null>(null);
+  const [chosen, setChosen] = useState<string[]>([]);
+  const [revealed, setRevealed] = useState(false);
 
   useEffect(() => {
     const list = questions.filter(
       (q) =>
         (domainFilter === "all" || q.domain === domainFilter) &&
         (difficultyFilter === "all" ||
-          (q.difficulty ?? "intermediate") === difficultyFilter),
+          (q.difficulty ?? "expert") === difficultyFilter),
     );
     setOrder(shuffle(list));
     setIndex(0);
     setSelected(null);
+    setChosen([]);
+    setRevealed(false);
     setCorrectCount(0);
     setFinished(false);
   }, [domainFilter, difficultyFilter, questions]);
@@ -80,12 +86,14 @@ export default function QuestionsView({
                   (qq) =>
                     (domainFilter === "all" || qq.domain === domainFilter) &&
                     (difficultyFilter === "all" ||
-                      (qq.difficulty ?? "intermediate") === difficultyFilter),
+                      (qq.difficulty ?? "expert") === difficultyFilter),
                 ),
               ),
             );
             setIndex(0);
             setSelected(null);
+            setChosen([]);
+            setRevealed(false);
             setCorrectCount(0);
             setFinished(false);
           }}
@@ -97,21 +105,45 @@ export default function QuestionsView({
     );
   }
 
-  function choose(i: number) {
-    if (selected !== null) return;
-    setSelected(i);
-    const correct = i === q.answer;
-    if (correct) setCorrectCount((c) => c + 1);
-    recordAnswer(courseId, q.id, correct);
-  }
+  const isOrder = q.type === "order";
+  const steps = q.steps ?? [];
+  const shuffledSteps = useMemo(() => shuffle(steps), [steps, q.id]);
+  const correct =
+    isOrder
+      ? chosen.join("|") === steps.join("|")
+      : selected === q.answer;
 
   function next() {
     setSelected(null);
+    setChosen([]);
+    setRevealed(false);
     if (index + 1 >= order.length) {
       setFinished(true);
     } else {
       setIndex((i) => i + 1);
     }
+  }
+
+  function chooseMcq(i: number) {
+    if (revealed) return;
+    setSelected(i);
+    setRevealed(true);
+    const c = i === q.answer;
+    if (c) setCorrectCount((x) => x + 1);
+    recordAnswer(courseId, q.id, c);
+  }
+
+  function pickStep(s: string) {
+    if (revealed) return;
+    setChosen((prev) => (prev.includes(s) ? prev : [...prev, s]));
+  }
+
+  function checkOrder() {
+    if (revealed || chosen.length !== steps.length) return;
+    const c = chosen.join("|") === steps.join("|");
+    if (c) setCorrectCount((x) => x + 1);
+    recordAnswer(courseId, q.id, c);
+    setRevealed(true);
   }
 
   return (
@@ -164,9 +196,7 @@ export default function QuestionsView({
       <div className="mt-2 h-2 overflow-hidden rounded-full bg-slate-200">
         <div
           className="h-full rounded-full bg-blue-600 transition-all"
-          style={{
-            width: `${((index + (selected !== null ? 1 : 0)) / order.length) * 100}%`,
-          }}
+          style={{ width: `${((index + (revealed ? 1 : 0)) / order.length) * 100}%` }}
         />
       </div>
 
@@ -180,48 +210,123 @@ export default function QuestionsView({
               {DIFFICULTY_LABELS[q.difficulty]}
             </span>
           )}
+          {isOrder && (
+            <span className="rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-700">
+              Put in order
+            </span>
+          )}
         </div>
         <h3 className="mt-2 text-lg font-semibold text-slate-900">{q.prompt}</h3>
 
-        <div className="mt-5 grid gap-2.5">
-          {q.options.map((opt, i) => {
-            const isAnswer = i === q.answer;
-            const isSelected = i === selected;
-            let cls =
-              "border-slate-200 bg-white hover:border-slate-400 hover:bg-slate-50";
-            if (selected !== null) {
-              if (isAnswer) cls = "border-emerald-500 bg-emerald-50";
-              else if (isSelected) cls = "border-red-400 bg-red-50";
-              else cls = "border-slate-200 bg-white opacity-60";
-            }
-            return (
+        {isOrder ? (
+          <div className="mt-5">
+            {chosen.length > 0 && (
+              <ol className="mb-3 space-y-1 rounded-lg bg-slate-50 p-3">
+                {chosen.map((s, i) => (
+                  <li key={s} className="text-sm text-slate-800">
+                    <span className="mr-1.5 font-semibold text-slate-500">
+                      {i + 1}.
+                    </span>
+                    {s}
+                  </li>
+                ))}
+              </ol>
+            )}
+            <div className="flex flex-wrap gap-2">
+              {shuffledSteps
+                .filter((s) => !chosen.includes(s))
+                .map((s) => (
+                  <button
+                    key={s}
+                    onClick={() => pickStep(s)}
+                    disabled={revealed}
+                    className="rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm text-slate-800 transition hover:border-slate-400 hover:bg-slate-50 disabled:opacity-50"
+                  >
+                    {s}
+                  </button>
+                ))}
+            </div>
+            <div className="mt-3 flex gap-2">
               <button
-                key={i}
-                onClick={() => choose(i)}
-                disabled={selected !== null}
-                className={`flex items-start gap-3 rounded-lg border px-4 py-3 text-left text-sm transition ${cls}`}
+                onClick={checkOrder}
+                disabled={revealed || chosen.length !== steps.length}
+                className="rounded-lg bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-700 disabled:opacity-40"
               >
-                <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-slate-300 text-xs font-semibold text-slate-500">
-                  {String.fromCharCode(65 + i)}
-                </span>
-                <span className="text-slate-800">{opt}</span>
+                Check order
               </button>
-            );
-          })}
-        </div>
+              <button
+                onClick={() => {
+                  setChosen([]);
+                  setRevealed(false);
+                }}
+                className="rounded-lg border border-slate-300 px-4 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50"
+              >
+                Reset
+              </button>
+            </div>
+          </div>
+        ) : (
+          <div className="mt-5 grid gap-2.5">
+            {q.options.map((opt, i) => {
+              const isAnswer = i === q.answer;
+              const isSelected = i === selected;
+              let cls =
+                "border-slate-200 bg-white hover:border-slate-400 hover:bg-slate-50";
+              if (revealed) {
+                if (isAnswer) cls = "border-emerald-500 bg-emerald-50";
+                else if (isSelected) cls = "border-red-400 bg-red-50";
+                else cls = "border-slate-200 bg-white opacity-60";
+              }
+              return (
+                <button
+                  key={i}
+                  onClick={() => chooseMcq(i)}
+                  disabled={revealed}
+                  className={`flex items-start gap-3 rounded-lg border px-4 py-3 text-left text-sm transition ${cls}`}
+                >
+                  <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-slate-300 text-xs font-semibold text-slate-500">
+                    {String.fromCharCode(65 + i)}
+                  </span>
+                  <span className="text-slate-800">{opt}</span>
+                </button>
+              );
+            })}
+          </div>
+        )}
 
-        {selected !== null && (
+        {revealed && (
           <div
             className={`mt-5 rounded-lg p-4 ${
-              selected === q.answer
+              correct
                 ? "bg-emerald-50 text-emerald-900"
                 : "bg-red-50 text-red-900"
             }`}
           >
             <p className="text-sm font-semibold">
-              {selected === q.answer ? "Correct!" : "Not quite."}
+              {correct
+                ? isOrder
+                  ? "Correct order!"
+                  : "Correct!"
+                : isOrder
+                  ? "Not quite — see the correct order below."
+                  : "Not quite."}
             </p>
+            {isOrder && !correct && (
+              <ol className="mt-2 list-decimal space-y-1 pl-5 text-sm">
+                {steps.map((s) => (
+                  <li key={s}>{s}</li>
+                ))}
+              </ol>
+            )}
             <p className="mt-1 text-sm leading-relaxed">{q.explanation}</p>
+            {q.hint && (
+              <div className="mt-2 rounded-lg bg-blue-50 p-3 text-blue-800">
+                <p className="text-xs font-semibold uppercase tracking-wide">
+                  Keyword signal
+                </p>
+                <p className="mt-0.5 text-sm">{q.hint}</p>
+              </div>
+            )}
             {q.docs.length > 0 && (
               <div className="mt-3">
                 <p className="text-xs font-semibold uppercase tracking-wide opacity-70">
@@ -250,7 +355,7 @@ export default function QuestionsView({
       <div className="mt-4 flex justify-end">
         <button
           onClick={next}
-          disabled={selected === null}
+          disabled={!revealed}
           className="rounded-lg bg-slate-900 px-5 py-2.5 text-sm font-semibold text-white hover:bg-slate-700 disabled:cursor-not-allowed disabled:opacity-40"
         >
           {index + 1 >= order.length ? "Finish" : "Next →"}

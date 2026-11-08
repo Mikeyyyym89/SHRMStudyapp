@@ -19,6 +19,8 @@ export const DIFFICULTY_LABELS: Record<Difficulty, string> = {
   expert: "Expert",
 };
 
+export type QuestionType = "mcq" | "order";
+
 export interface Course {
   id: string;
   code: string;
@@ -42,10 +44,13 @@ export interface Flashcard {
 export interface Question {
   id: string;
   domain: string;
+  type?: QuestionType;
   prompt: string;
   options: string[];
+  steps?: string[];
   answer: number;
   explanation: string;
+  hint?: string;
   docs: DocLink[];
   difficulty?: Difficulty;
 }
@@ -82,6 +87,14 @@ export interface CourseContent {
   caseStudies: CaseStudy[];
   docs: DocGroup[];
   takeaways: Takeaway[];
+}
+
+export interface CertificationPath {
+  id: string;
+  name: string;
+  level: string;
+  description: string;
+  courses: string[];
 }
 
 export interface CourseProgress {
