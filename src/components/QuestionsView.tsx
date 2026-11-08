@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import type { Question } from "@/lib/types";
 import { DIFFICULTIES, DIFFICULTY_LABELS } from "@/lib/types";
 import { recordAnswer } from "@/lib/store";
+import { reportIssueUrl } from "@/lib/report";
 
 export default function QuestionsView({
   courseId,
@@ -327,6 +328,14 @@ export default function QuestionsView({
                 <p className="mt-0.5 text-sm">{q.hint}</p>
               </div>
             )}
+            <a
+              href={reportIssueUrl(courseId, q)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 inline-block text-xs text-slate-400 hover:text-slate-600"
+            >
+              Report an issue with this question ↗
+            </a>
             {q.docs.length > 0 && (
               <div className="mt-3">
                 <p className="text-xs font-semibold uppercase tracking-wide opacity-70">

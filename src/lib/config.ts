@@ -26,3 +26,5 @@ export const STORAGE_KEYS = {
   unlocked: "shrm.unlocked",
   progress: "shrm.progress",
 } as const;
+
+export const REPORT_REPO = "Mikeyyyym89/SHRMStudyapp";

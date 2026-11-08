@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { Question } from "@/lib/types";
 import { DIFFICULTIES, DIFFICULTY_LABELS } from "@/lib/types";
+import { reportIssueUrl } from "@/lib/report";
 
 const COUNT_OPTIONS = [10, 20, 30, 50, 65, 100];
 const MINUTE_OPTIONS = [10, 20, 30, 45, 60, 90, 120];
@@ -239,6 +240,14 @@ export default function ExamView({
                       🔑 {q.hint}
                     </p>
                   )}
+                  <a
+                    href={reportIssueUrl(courseId, q)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-1 inline-block text-xs text-slate-400 hover:text-slate-600"
+                  >
+                    Report an issue with this question ↗
+                  </a>
                   {q.docs.length > 0 && (
                     <a
                       href={q.docs[0].url}
