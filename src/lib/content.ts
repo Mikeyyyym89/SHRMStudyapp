@@ -10,6 +10,7 @@ import type {
 } from "@/lib/types";
 
 import coursesData from "@/content/courses.json";
+import verifiedData from "@/content/verified.json";
 
 import cpFlashcards from "@/content/shrm-cp/flashcards.json";
 import cpOfficial from "@/content/shrm-cp/questions-official.json";
@@ -45,6 +46,17 @@ export const courseContent: Record<string, CourseContent> = {
     takeaways: scpTakeaways as Takeaway[],
   },
 };
+
+// Apply "verified" flags to questions that have been manually reviewed/verified.
+{
+  const verifiedMap = verifiedData as Record<string, string[]>;
+  for (const courseId of Object.keys(courseContent)) {
+    const set = new Set(verifiedMap[courseId] ?? []);
+    courseContent[courseId].questions = courseContent[courseId].questions.map(
+      (q) => ({ ...q, verified: set.has(q.id) }),
+    );
+  }
+}
 
 export function getCourse(id: string): Course | undefined {
   return courses.find((c) => c.id === id);

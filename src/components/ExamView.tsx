@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { Question } from "@/lib/types";
 import { DIFFICULTIES, DIFFICULTY_LABELS } from "@/lib/types";
-import { reportIssueUrl } from "@/lib/report";
+import ReportIssueButton from "@/components/ReportIssueButton";
 import { SCORE_MIN, SCORE_MAX, PASSING_SCORE } from "@/lib/config";
 
 const COUNT_OPTIONS = [10, 20, 30, 50, 65, 100];
@@ -236,6 +236,11 @@ export default function ExamView({
                         {DIFFICULTY_LABELS[q.difficulty]}
                       </span>
                     )}
+                    {q.verified && (
+                      <span className="rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-medium text-emerald-700">
+                        ✓ Verified
+                      </span>
+                    )}
                   </div>
                   <p className="mt-1 text-sm font-medium text-slate-900">
                     {i + 1}. {q.prompt}
@@ -259,14 +264,9 @@ export default function ExamView({
                       🔑 {q.hint}
                     </p>
                   )}
-                  <a
-                    href={reportIssueUrl(courseId, q)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-1 inline-block text-xs text-slate-400 hover:text-slate-600"
-                  >
-                    Report an issue with this question ↗
-                  </a>
+                  <div className="mt-1">
+                    <ReportIssueButton courseId={courseId} question={q} />
+                  </div>
                   {q.docs.length > 0 && (
                     <a
                       href={q.docs[0].url}

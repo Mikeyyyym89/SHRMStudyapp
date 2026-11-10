@@ -62,6 +62,7 @@ export interface Question {
   hint?: string;
   docs: DocLink[];
   difficulty?: Difficulty;
+  verified?: boolean;
 }
 
 export interface CaseStudySection {
