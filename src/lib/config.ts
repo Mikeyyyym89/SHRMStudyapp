@@ -31,3 +31,7 @@ export const REPORT_REPO = "Mikeyyyym89/SHRMStudyapp";
 
 export const BETA_DISCLAIMER =
   "Beta project — results are not guaranteed. Shared privately with friends of Michael Myers.";
+
+export const SCORE_MIN = 120;
+export const SCORE_MAX = 200;
+export const PASSING_SCORE = 200;

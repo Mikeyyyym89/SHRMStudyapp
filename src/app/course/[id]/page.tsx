@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { courses, getCourse, getCourseContent } from "@/lib/content";
 import CourseShell from "@/components/CourseShell";
 import ProgressWidget from "@/components/ProgressWidget";
+import DomainAnalytics from "@/components/DomainAnalytics";
 
 export function generateStaticParams() {
   return courses.map((c) => ({ id: c.id }));
@@ -68,6 +69,10 @@ export default async function CourseOverview({
           totalQuestions={content.questions.length}
           totalFlashcards={content.flashcards.length}
         />
+      </div>
+
+      <div className="mt-6">
+        <DomainAnalytics courseId={id} questions={content.questions} />
       </div>
 
       <h2 className="mt-8 text-lg font-semibold text-slate-900">

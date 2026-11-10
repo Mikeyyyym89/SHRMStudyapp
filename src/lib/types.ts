@@ -21,6 +21,15 @@ export const DIFFICULTY_LABELS: Record<Difficulty, string> = {
 
 export type QuestionType = "mcq" | "order";
 
+export type FlashcardRating = 0 | 1 | 2 | 3; // Again, Hard, Good, Easy
+
+export interface FlashcardReview {
+  n: number;
+  ef: number;
+  interval: number;
+  due: number;
+}
+
 export interface Course {
   id: string;
   code: string;

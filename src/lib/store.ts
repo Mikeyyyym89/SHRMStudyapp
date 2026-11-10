@@ -1,4 +1,4 @@
-import type { CourseProgress } from "@/lib/types";
+import type { CourseProgress, FlashcardReview, FlashcardRating } from "@/lib/types";
 import { STORAGE_KEYS } from "@/lib/config";
 
 // All state is stored in the browser's localStorage. This keeps the app 100%
@@ -142,12 +142,96 @@ export function computeStats(
   const answeredIds = Object.keys(p.results);
   const answered = answeredIds.length;
   const correct = answeredIds.filter((id) => p.results[id]).length;
+  const mastered = Object.values(getFlashcardReviews(courseId)).filter(
+    (r) => r.n >= 2,
+  ).length;
   return {
     answered,
     total: totalQuestions,
     correct,
     percent: answered === 0 ? 0 : Math.round((correct / answered) * 100),
-    known: p.known.length,
+    known: mastered,
     totalFlashcards,
   };
+}
+
+// --- Spaced repetition (SM-2) flashcards ---
+
+const FLASHCARD_REVIEWS_KEY = "acp.flashcardReviews";
+
+function readFlashcardReviews(): Record<string, Record<string, FlashcardReview>> {
+  const raw = read(FLASHCARD_REVIEWS_KEY);
+  if (!raw) return {};
+  try {
+    return JSON.parse(raw) as Record<string, Record<string, FlashcardReview>>;
+  } catch {
+    return {};
+  }
+}
+
+function writeFlashcardReviews(
+  value: Record<string, Record<string, FlashcardReview>>,
+): void {
+  write(FLASHCARD_REVIEWS_KEY, JSON.stringify(value));
+}
+
+export function getFlashcardReviews(
+  courseId: string,
+): Record<string, FlashcardReview> {
+  return readFlashcardReviews()[courseId] ?? {};
+}
+
+export function sm2(
+  prev: FlashcardReview | undefined,
+  rating: FlashcardRating,
+): FlashcardReview {
+  const ef = prev?.ef ?? 2.5;
+  const n = prev?.n ?? 0;
+  const prevInterval = prev?.interval ?? 0;
+
+  let nextN = n;
+  let interval = prevInterval;
+
+  if (rating === 0) {
+    // Again — relearn
+    nextN = 0;
+    interval = 0;
+  } else if (rating === 1) {
+    // Hard
+    interval = Math.max(1, Math.round(prevInterval * 1.2));
+  } else if (rating === 2) {
+    // Good
+    nextN = n + 1;
+    interval = n === 0 ? 1 : n === 1 ? 3 : Math.round(prevInterval * ef);
+  } else {
+    // Easy
+    nextN = n + 1;
+    interval = n === 0 ? 3 : Math.round(prevInterval * ef * 1.3);
+  }
+
+  let nextEf = ef;
+  if (rating === 0) nextEf = Math.max(1.3, ef - 0.2);
+  else if (rating === 3) nextEf = Math.min(2.5, ef + 0.1);
+
+  return { n: nextN, ef: nextEf, interval, due: Date.now() + interval * 86400000 };
+}
+
+export function rateFlashcard(
+  courseId: string,
+  term: string,
+  rating: FlashcardRating,
+): FlashcardReview {
+  const all = readFlashcardReviews();
+  const course = all[courseId] ?? {};
+  const review = sm2(course[term], rating);
+  course[term] = review;
+  all[courseId] = course;
+  writeFlashcardReviews(all);
+  return review;
+}
+
+export function resetFlashcardReviews(courseId: string): void {
+  const all = readFlashcardReviews();
+  delete all[courseId];
+  writeFlashcardReviews(all);
 }

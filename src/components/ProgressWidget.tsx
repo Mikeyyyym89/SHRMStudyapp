@@ -82,7 +82,7 @@ export default function ProgressWidget({
 
         <div>
           <div className="flex items-baseline justify-between text-sm">
-            <span className="text-slate-500">Flashcards known</span>
+            <span className="text-slate-500">Flashcards mastered</span>
             <span className="font-semibold text-slate-900">
               {stats.known}/{stats.totalFlashcards}
             </span>

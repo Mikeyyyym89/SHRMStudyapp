@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import type { Question } from "@/lib/types";
 import { DIFFICULTIES, DIFFICULTY_LABELS } from "@/lib/types";
 import { reportIssueUrl } from "@/lib/report";
+import { SCORE_MIN, SCORE_MAX, PASSING_SCORE } from "@/lib/config";
 
 const COUNT_OPTIONS = [10, 20, 30, 50, 65, 100];
 const MINUTE_OPTIONS = [10, 20, 30, 45, 60, 90, 120];
@@ -150,6 +151,14 @@ export default function ExamView({
       results.length === 0
         ? 0
         : Math.round((correctCount / results.length) * 100);
+    const scaled =
+      results.length === 0
+        ? SCORE_MIN
+        : Math.round(
+            SCORE_MIN +
+              (SCORE_MAX - SCORE_MIN) * (correctCount / results.length),
+          );
+    const passed = scaled >= PASSING_SCORE;
     const visible = showWrongOnly ? results.filter((r) => !r.correct) : results;
 
     return (
@@ -157,10 +166,20 @@ export default function ExamView({
         <div className="rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm">
           <p className="text-sm text-slate-500">Your score</p>
           <p className="mt-1 text-5xl font-bold text-slate-900">
-            {correctCount}
-            <span className="text-2xl text-slate-400">/{results.length}</span>
+            {scaled}
+            <span className="text-2xl text-slate-400">/{SCORE_MAX}</span>
           </p>
-          <p className="mt-1 text-lg font-medium text-slate-700">{pct}%</p>
+          <p
+            className={`mt-1 text-lg font-semibold ${
+              passed ? "text-emerald-600" : "text-red-600"
+            }`}
+          >
+            {passed ? "Pass" : "Not yet"} · {correctCount}/{results.length}{" "}
+            correct ({pct}%)
+          </p>
+          <p className="mt-1 text-xs text-slate-400">
+            Approximate scaled score — passing is {PASSING_SCORE}.
+          </p>
           <p className="mt-2 text-sm text-slate-500">
             {wrongCount === 0
               ? "Perfect — no questions missed!"
