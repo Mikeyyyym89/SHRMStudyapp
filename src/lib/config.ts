@@ -32,6 +32,9 @@ export const REPORT_REPO = "Mikeyyyym89/SHRMStudyapp";
 export const BETA_DISCLAIMER =
   "Beta project — results are not guaranteed. Shared privately with friends of Michael Myers.";
 
+export const PRIVACY_NOTICE =
+  "Privacy: your progress and results are stored only in this browser, on your device. Nothing is sent to or stored on any server, and we collect no data. Clearing your browser data erases your progress, and it does not sync across devices or browsers.";
+
 export const SCORE_MIN = 120;
 export const SCORE_MAX = 200;
 export const PASSING_SCORE = 200;

@@ -4,7 +4,8 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { courses } from "@/lib/content";
 import { isUnlocked, unlock, lock, sha256Hex } from "@/lib/store";
-import { ACCESS_CODE_HASH, APP_NAME, APP_TAGLINE, BETA_DISCLAIMER } from "@/lib/config";
+import { ACCESS_CODE_HASH, APP_NAME, APP_TAGLINE, BETA_DISCLAIMER, PRIVACY_NOTICE } from "@/lib/config";
+import ProfileSwitcher from "@/components/ProfileSwitcher";
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
@@ -90,6 +91,9 @@ export default function Home() {
           <p className="mt-3 border-t border-slate-100 pt-3 text-center text-xs text-amber-600">
             {BETA_DISCLAIMER}
           </p>
+          <p className="mt-2 text-center text-xs text-slate-400">
+            {PRIVACY_NOTICE}
+          </p>
         </div>
       </div>
     );
@@ -108,12 +112,15 @@ export default function Home() {
               <p className="text-xs text-slate-500">{APP_TAGLINE}</p>
             </div>
           </div>
-          <button
-            onClick={handleLock}
-            className="rounded-md border border-slate-300 px-3 py-1.5 text-sm font-medium text-slate-600 hover:bg-slate-50"
-          >
-            Lock
-          </button>
+          <div className="flex items-center gap-3">
+            <ProfileSwitcher />
+            <button
+              onClick={handleLock}
+              className="rounded-md border border-slate-300 px-3 py-1.5 text-sm font-medium text-slate-600 hover:bg-slate-50"
+            >
+              Lock
+            </button>
+          </div>
         </div>
       </header>
 
@@ -171,9 +178,12 @@ export default function Home() {
           ))}
         </div>
 
-        <p className="mt-8 border-t border-slate-200 pt-6 text-center text-xs text-slate-400">
-          {BETA_DISCLAIMER}
-        </p>
+        <div className="mt-8 border-t border-slate-200 pt-6 text-center">
+          <p className="text-xs text-slate-400">{BETA_DISCLAIMER}</p>
+          <p className="mx-auto mt-1 max-w-xl text-xs text-slate-400">
+            {PRIVACY_NOTICE}
+          </p>
+        </div>
       </main>
     </div>
   );

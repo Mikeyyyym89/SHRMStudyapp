@@ -1,8 +1,11 @@
-import type { CourseProgress, FlashcardReview, FlashcardRating } from "@/lib/types";
+import type {
+  CourseProgress,
+  FlashcardReview,
+  FlashcardRating,
+} from "@/lib/types";
 import { STORAGE_KEYS } from "@/lib/config";
 
-// All state is stored in the browser's localStorage. This keeps the app 100%
-// static (no backend) while remembering each user's progress on their device.
+// --- low-level localStorage helpers ---
 
 function read(key: string): string | null {
   if (typeof window === "undefined") return null;
@@ -22,7 +25,16 @@ function write(key: string, value: string): void {
   }
 }
 
-// --- Access gate -----------------------------------------------------------
+function remove(key: string): void {
+  if (typeof window === "undefined") return;
+  try {
+    window.localStorage.removeItem(key);
+  } catch {
+    // ignore
+  }
+}
+
+// --- Access gate ---
 
 export function isUnlocked(): boolean {
   return read(STORAGE_KEYS.unlocked) === "1";
@@ -33,12 +45,7 @@ export function unlock(): void {
 }
 
 export function lock(): void {
-  if (typeof window === "undefined") return;
-  try {
-    window.localStorage.removeItem(STORAGE_KEYS.unlocked);
-  } catch {
-    // ignore
-  }
+  remove(STORAGE_KEYS.unlocked);
 }
 
 export async function sha256Hex(input: string): Promise<string> {
@@ -49,9 +56,59 @@ export async function sha256Hex(input: string): Promise<string> {
     .join("");
 }
 
-// --- Progress --------------------------------------------------------------
+// --- Profiles (local, on-device only) ---
 
-type AllProgress = Record<string, CourseProgress>;
+const PROFILE_KEY = "acp.profile";
+const PROFILES_KEY = "acp.profiles";
+
+export function getProfiles(): string[] {
+  const raw = read(PROFILES_KEY);
+  if (!raw) return ["Default"];
+  try {
+    const arr = JSON.parse(raw) as string[];
+    return Array.isArray(arr) && arr.length > 0 ? arr : ["Default"];
+  } catch {
+    return ["Default"];
+  }
+}
+
+export function getCurrentProfile(): string {
+  const current = read(PROFILE_KEY);
+  const profiles = getProfiles();
+  if (current && profiles.includes(current)) return current;
+  return profiles[0];
+}
+
+export function setCurrentProfile(name: string): void {
+  write(PROFILE_KEY, name);
+}
+
+export function addProfile(name: string): void {
+  const profiles = getProfiles();
+  if (!profiles.includes(name)) {
+    profiles.push(name);
+    write(PROFILES_KEY, JSON.stringify(profiles));
+  }
+  setCurrentProfile(name);
+}
+
+export function deleteProfile(name: string): void {
+  const profiles = getProfiles().filter((p) => p !== name);
+  write(PROFILES_KEY, JSON.stringify(profiles));
+  const progress = readAllProgress();
+  delete progress[name];
+  writeAllProgress(progress);
+  const reviews = readAllReviews();
+  delete reviews[name];
+  writeAllReviews(reviews);
+  if (getCurrentProfile() === name) {
+    write(PROFILE_KEY, profiles[0] ?? "Default");
+  }
+}
+
+// --- Progress (per profile) ---
+
+type AllProgress = Record<string, Record<string, CourseProgress>>;
 
 function emptyProgress(): CourseProgress {
   return { results: {}, known: [], caseResults: {} };
@@ -67,12 +124,12 @@ function readAllProgress(): AllProgress {
   }
 }
 
-function writeAllProgress(progress: AllProgress): void {
-  write(STORAGE_KEYS.progress, JSON.stringify(progress));
+function writeAllProgress(value: AllProgress): void {
+  write(STORAGE_KEYS.progress, JSON.stringify(value));
 }
 
 export function getCourseProgress(courseId: string): CourseProgress {
-  return readAllProgress()[courseId] ?? emptyProgress();
+  return readAllProgress()[getCurrentProfile()]?.[courseId] ?? emptyProgress();
 }
 
 export function recordAnswer(
@@ -81,9 +138,10 @@ export function recordAnswer(
   correct: boolean,
 ): void {
   const all = readAllProgress();
-  const current = all[courseId] ?? emptyProgress();
-  current.results[questionId] = correct;
-  all[courseId] = current;
+  const profile = getCurrentProfile();
+  const course = all[profile]?.[courseId] ?? emptyProgress();
+  course.results[questionId] = correct;
+  all[profile] = { ...(all[profile] ?? {}), [courseId]: course };
   writeAllProgress(all);
 }
 
@@ -94,35 +152,108 @@ export function recordCaseAnswer(
   correct: boolean,
 ): void {
   const all = readAllProgress();
-  const current = all[courseId] ?? emptyProgress();
-  if (!current.caseResults[caseId]) current.caseResults[caseId] = {};
-  current.caseResults[caseId][questionId] = correct;
-  all[courseId] = current;
+  const profile = getCurrentProfile();
+  const course = all[profile]?.[courseId] ?? emptyProgress();
+  if (!course.caseResults[caseId]) course.caseResults[caseId] = {};
+  course.caseResults[caseId][questionId] = correct;
+  all[profile] = { ...(all[profile] ?? {}), [courseId]: course };
   writeAllProgress(all);
-}
-
-export function toggleKnown(courseId: string, term: string): boolean {
-  const all = readAllProgress();
-  const current = all[courseId] ?? emptyProgress();
-  const idx = current.known.indexOf(term);
-  let nowKnown: boolean;
-  if (idx >= 0) {
-    current.known.splice(idx, 1);
-    nowKnown = false;
-  } else {
-    current.known.push(term);
-    nowKnown = true;
-  }
-  all[courseId] = current;
-  writeAllProgress(all);
-  return nowKnown;
 }
 
 export function resetCourse(courseId: string): void {
   const all = readAllProgress();
-  delete all[courseId];
-  writeAllProgress(all);
+  const profile = getCurrentProfile();
+  if (all[profile]) {
+    delete all[profile][courseId];
+    writeAllProgress(all);
+  }
 }
+
+// --- Spaced repetition flashcards (per profile) ---
+
+const FLASHCARD_REVIEWS_KEY = "acp.flashcardReviews";
+
+type AllReviews = Record<
+  string,
+  Record<string, Record<string, FlashcardReview>>
+>;
+
+function readAllReviews(): AllReviews {
+  const raw = read(FLASHCARD_REVIEWS_KEY);
+  if (!raw) return {};
+  try {
+    return JSON.parse(raw) as AllReviews;
+  } catch {
+    return {};
+  }
+}
+
+function writeAllReviews(value: AllReviews): void {
+  write(FLASHCARD_REVIEWS_KEY, JSON.stringify(value));
+}
+
+export function getFlashcardReviews(
+  courseId: string,
+): Record<string, FlashcardReview> {
+  return readAllReviews()[getCurrentProfile()]?.[courseId] ?? {};
+}
+
+export function sm2(
+  prev: FlashcardReview | undefined,
+  rating: FlashcardRating,
+): FlashcardReview {
+  const ef = prev?.ef ?? 2.5;
+  const n = prev?.n ?? 0;
+  const prevInterval = prev?.interval ?? 0;
+
+  let nextN = n;
+  let interval = prevInterval;
+
+  if (rating === 0) {
+    nextN = 0;
+    interval = 0;
+  } else if (rating === 1) {
+    interval = Math.max(1, Math.round(prevInterval * 1.2));
+  } else if (rating === 2) {
+    nextN = n + 1;
+    interval = n === 0 ? 1 : n === 1 ? 3 : Math.round(prevInterval * ef);
+  } else {
+    nextN = n + 1;
+    interval = n === 0 ? 3 : Math.round(prevInterval * ef * 1.3);
+  }
+
+  let nextEf = ef;
+  if (rating === 0) nextEf = Math.max(1.3, ef - 0.2);
+  else if (rating === 3) nextEf = Math.min(2.5, ef + 0.1);
+
+  return { n: nextN, ef: nextEf, interval, due: Date.now() + interval * 86400000 };
+}
+
+export function rateFlashcard(
+  courseId: string,
+  term: string,
+  rating: FlashcardRating,
+): FlashcardReview {
+  const all = readAllReviews();
+  const profile = getCurrentProfile();
+  const course = all[profile]?.[courseId] ?? {};
+  const review = sm2(course[term], rating);
+  course[term] = review;
+  all[profile] = { ...(all[profile] ?? {}), [courseId]: course };
+  writeAllReviews(all);
+  return review;
+}
+
+export function resetFlashcardReviews(courseId: string): void {
+  const all = readAllReviews();
+  const profile = getCurrentProfile();
+  if (all[profile]) {
+    delete all[profile][courseId];
+    writeAllReviews(all);
+  }
+}
+
+// --- Stats ---
 
 export interface Stats {
   answered: number;
@@ -153,85 +284,4 @@ export function computeStats(
     known: mastered,
     totalFlashcards,
   };
-}
-
-// --- Spaced repetition (SM-2) flashcards ---
-
-const FLASHCARD_REVIEWS_KEY = "acp.flashcardReviews";
-
-function readFlashcardReviews(): Record<string, Record<string, FlashcardReview>> {
-  const raw = read(FLASHCARD_REVIEWS_KEY);
-  if (!raw) return {};
-  try {
-    return JSON.parse(raw) as Record<string, Record<string, FlashcardReview>>;
-  } catch {
-    return {};
-  }
-}
-
-function writeFlashcardReviews(
-  value: Record<string, Record<string, FlashcardReview>>,
-): void {
-  write(FLASHCARD_REVIEWS_KEY, JSON.stringify(value));
-}
-
-export function getFlashcardReviews(
-  courseId: string,
-): Record<string, FlashcardReview> {
-  return readFlashcardReviews()[courseId] ?? {};
-}
-
-export function sm2(
-  prev: FlashcardReview | undefined,
-  rating: FlashcardRating,
-): FlashcardReview {
-  const ef = prev?.ef ?? 2.5;
-  const n = prev?.n ?? 0;
-  const prevInterval = prev?.interval ?? 0;
-
-  let nextN = n;
-  let interval = prevInterval;
-
-  if (rating === 0) {
-    // Again — relearn
-    nextN = 0;
-    interval = 0;
-  } else if (rating === 1) {
-    // Hard
-    interval = Math.max(1, Math.round(prevInterval * 1.2));
-  } else if (rating === 2) {
-    // Good
-    nextN = n + 1;
-    interval = n === 0 ? 1 : n === 1 ? 3 : Math.round(prevInterval * ef);
-  } else {
-    // Easy
-    nextN = n + 1;
-    interval = n === 0 ? 3 : Math.round(prevInterval * ef * 1.3);
-  }
-
-  let nextEf = ef;
-  if (rating === 0) nextEf = Math.max(1.3, ef - 0.2);
-  else if (rating === 3) nextEf = Math.min(2.5, ef + 0.1);
-
-  return { n: nextN, ef: nextEf, interval, due: Date.now() + interval * 86400000 };
-}
-
-export function rateFlashcard(
-  courseId: string,
-  term: string,
-  rating: FlashcardRating,
-): FlashcardReview {
-  const all = readFlashcardReviews();
-  const course = all[courseId] ?? {};
-  const review = sm2(course[term], rating);
-  course[term] = review;
-  all[courseId] = course;
-  writeFlashcardReviews(all);
-  return review;
-}
-
-export function resetFlashcardReviews(courseId: string): void {
-  const all = readFlashcardReviews();
-  delete all[courseId];
-  writeFlashcardReviews(all);
 }
