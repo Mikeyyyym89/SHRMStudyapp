@@ -29,8 +29,8 @@
     "hint": "Signal: pre-close due diligence; undisclosed overtime claim + misclassification audit -> quantify exposure.",
     "prompt": "The company is acquiring a software firm of 900 employees, and the CHRO leads HR due diligence. The target has no disclosure of pending litigation in the data room, but an HR manager casually mentions an unresolved class-action overtime claim and a federal audit of its independent-contractor classifications. The CEO wants the deal announced next week. What should the CHRO do FIRST?",
     "options": [
-      "Quantify pending claims and misclassification exposure before advising.",
       "Proceed with the deal and handle claims after.",
+      "Quantify pending claims and misclassification exposure before advising.",
       "Notify the target to settle claims before announcement.",
       "Exclude the litigation risk from the valuation model."
     ],
@@ -53,9 +53,9 @@
     "hint": "Signal: escalating conflict, no diagnosis yet -> FIRST meet privately to understand interests.",
     "prompt": "Two executive committee members are locked in a public, escalating feud over ownership of a failing digital initiative. Each blames the other in leadership meetings, and their teams have begun withholding information from one another, stalling the program. The CEO, conflict-averse, has let it fester for months and now asks the CHRO to intervene. What is the BEST action?",
     "options": [
-      "Meet each leader privately to understand their interests.",
       "Formally discipline both leaders for undermining the progress.",
       "Reassign the initiative to a neutral third executive.",
+      "Meet each leader privately to understand their interests.",
       "Escalate the conflict to the board governance committee."
     ],
     "answer": 2,
@@ -77,10 +77,10 @@
     "hint": "Signal: identified 8% pay disparity -> remediate proactively, don't conceal.",
     "prompt": "An internal pay analysis reveals that women in engineering are paid 8 percent less than men in the same job family after controlling for tenure and performance, and the gap has persisted for three years. The CEO is sympathetic but worried about cost. The general counsel warns against acknowledging any liability. What should the CHRO recommend as the BEST action?",
     "options": [
-      "Remediate the disparity and correct the pay practices.",
       "Freeze engineering compensation while an outside firm audits.",
       "Keep the analysis confidential and monitor it annually.",
-      "Wait for a formal complaint before adjusting pay."
+      "Wait for a formal complaint before adjusting pay.",
+      "Remediate the disparity and correct the pay practices."
     ],
     "answer": 3,
     "explanation": "Once a systemic pay disparity is identified, the highest-value, lowest-risk action is to remediate it proactively and fix the underlying practices; doing so reduces equal-pay liability and strengthens retention. Waiting, freezing, or concealing the finding increases legal exposure and reputational harm.",
@@ -106,7 +106,7 @@
       "Offer voluntary severance before finalizing the headcount target.",
       "Freeze hiring across all sites to show discipline."
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "A mass layoff or plant closing triggers specific WARN Act notice obligations (generally 60 days) that the CHRO must first confirm along with the affected headcount to stay compliant and manage risk. Announcing, offering severance, or freezing hiring before confirming legal requirements and scope is premature.",
     "docs": [
       {
@@ -125,12 +125,12 @@
     "hint": "Signal: union-organizing discussion + discipline -> protected concerted activity; stop retaliation.",
     "prompt": "A warehouse supervisor learns that a group of employees is discussing forming a union through social media and begins issuing minor discipline to the most vocal workers. The CHRO is told the supervisor acted to protect productivity. What should the CHRO do FIRST?",
     "options": [
-      "Stop the discipline and reaffirm employees' protected rights.",
       "Consult the board about a union-avoidance campaign.",
+      "Stop the discipline and reaffirm employees' protected rights.",
       "Wait for an unfair labor practice charge.",
       "Support the discipline if productivity is genuinely suffering."
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "Disciplining employees for union-related speech can violate the NLRA's protection of concerted activity; the CHRO must promptly stop the conduct and reaffirm those rights to avoid an unfair labor practice charge. Waiting, escalating to the board, or endorsing retaliation increases legal risk.",
     "docs": [
       {
@@ -149,12 +149,12 @@
     "hint": "Signal: toxic culture / harassment / turnover -> present objective culture-risk data.",
     "prompt": "The board is split over whether to replace a high-performing CEO who has driven strong results but whose leadership has produced a toxic culture, high executive turnover, and several harassment complaints against his direct reports that were quietly settled. The board chair asks the CHRO for a recommendation. What is the BEST action?",
     "options": [
-      "Present objective data on culture and risk first.",
       "Recommend immediate termination based on the complaints.",
       "Defend the CEO given the strong financial results.",
+      "Present objective data on culture and risk first.",
       "Commission an outside survey before sharing any findings."
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "The CHRO should give the board objective, evidence-based insight into culture, retention, and conduct risk so it can make an informed governance decision; recommending termination, defending the CEO, or deferring on data abdicates the CHRO's fiduciary advisory role.",
     "docs": [
       {
@@ -173,12 +173,12 @@
     "hint": "Signal: M&A integration, engineers may defect -> FIRST map talent + culture risks.",
     "prompt": "The board has directed the CHRO to help integrate a recently acquired division whose culture is markedly different, with duplicated functions and rumors that key engineers will defect to a competitor. The CEO wants synergy targets hit within two quarters. What should the CHRO do FIRST?",
     "options": [
-      "Map key talent and cultural risks first.",
       "Announce the combined org chart to end uncertainty.",
       "Impose the acquirer's culture to accelerate the alignment.",
-      "Offer retention bonuses to key engineers immediately."
+      "Offer retention bonuses to key engineers immediately.",
+      "Map key talent and cultural risks first."
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Integration success depends on first identifying critical talent and cultural friction points; this diagnostic informs retention, structure, and culture decisions. Announcing structure, imposing culture, or offering bonuses before assessment risks losing key people and repeating integration failures.",
     "docs": [
       {
@@ -202,7 +202,7 @@
       "Accept her view and end the intervention.",
       "Place her on a formal performance plan."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "For a high-value executive with derailing interpersonal behavior, the best first step is targeted coaching that links the behavior to concrete business consequences such as turnover. Reassigning reports, deferring to her, or formal discipline before coaching skips the developmental intervention.",
     "docs": [
       {
@@ -221,12 +221,12 @@
     "hint": "Signal: new-country staffing, strict laws -> FIRST assess talent, laws, costs.",
     "prompt": "A company is expanding into two new countries and must decide how to staff leadership roles there. The CHRO is evaluating whether to send expatriates, hire local nationals, or use a hybrid. Each market has strict employment laws, high local compensation benchmarks, and limited internal candidates with language skills. What should the CHRO do FIRST?",
     "options": [
-      "Assess each market's talent, laws, and costs.",
       "Deploy expatriates to guarantee consistent corporate control.",
+      "Assess each market's talent, laws, and costs.",
       "Hire local nationals to reduce cost and complexity.",
       "Rotate senior leaders through both new markets."
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Global staffing should follow market analysis: the CHRO must first assess local talent availability, legal constraints, and cost implications before choosing among expatriate, local, or hybrid models. Preselecting a model or rotating leaders without analysis raises cost and compliance risk.",
     "docs": [
       {
@@ -245,12 +245,12 @@
     "hint": "Signal: restructuring 300 roles cross-border -> build change plan first.",
     "prompt": "A company is centralizing its regional HR and finance functions into shared-services centers, eliminating roughly 300 roles across three countries. The CHRO must sequence the transition while preserving service quality and morale. What should the CHRO do FIRST?",
     "options": [
-      "Build change plan with impact and stakeholder analysis.",
       "Announce the new structure to create clarity.",
       "Train retained staff on the new processes now.",
+      "Build change plan with impact and stakeholder analysis.",
       "Offer early-retirement packages to reduce the friction."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "A restructuring of this scale requires a structured change plan grounded in impact analysis and stakeholder engagement before any announcement or training. Announcing, training, or offering packages first, without planning, undermines morale, service continuity, and legal compliance across jurisdictions.",
     "docs": [
       {
@@ -269,12 +269,12 @@
     "hint": "Signal: conflict-of-interest whistleblower -> independent confidential investigation first.",
     "prompt": "An employee reports to the ethics hotline that a vice president is steering contracts to a firm owned by his brother-in-law. The VP is the CEO's long-time confidant. The CHRO receives the report and must act. What should the CHRO do FIRST?",
     "options": [
-      "Launch an independent, confidential investigation promptly.",
       "Notify the CEO privately to decide handling.",
       "Confront the VP directly about it.",
-      "Wait for corroborating evidence before taking action."
+      "Wait for corroborating evidence before taking action.",
+      "Launch an independent, confidential investigation promptly."
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "A whistleblower report alleging conflicts of interest requires prompt, independent, and confidential investigation, free from influence by the CEO or the accused. Notifying the CEO to decide, confronting the VP directly, or delaying for corroboration compromises impartiality and increases risk.",
     "docs": [
       {
@@ -298,7 +298,7 @@
       "Create a formal mentoring program for managers.",
       "Send high potentials to external leadership programs."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Building a succession pipeline begins with diagnosing leadership gaps and assessing the readiness of high-potential talent against future strategic needs. Recruiting, mentoring, or sending people to programs before assessment treats symptoms without addressing the root pipeline gap.",
     "docs": [
       {
@@ -317,12 +317,12 @@
     "hint": "Signal: supervised FTEs to contractors -> assess FLSA/IRS misclassification risk.",
     "prompt": "The CHRO is asked to quantify the workforce cost and risk of a proposed operating-model change that would convert 250 full-time employees to independent contractors. The CFO expects significant savings, but the roles have fixed schedules, company-provided equipment, and ongoing supervision. What should the CHRO do FIRST?",
     "options": [
-      "Assess FLSA and IRS classification risk before endorsing.",
       "Convert the roles to contractors to capture savings.",
+      "Assess FLSA and IRS classification risk before endorsing.",
       "Ask the CFO to document the projected savings.",
       "Reclassify only the lowest-risk roles first."
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Converting supervised, full-time employees to contractors invites misclassification liability under FLSA and IRS rules; the CHRO must first evaluate that classification risk before endorsing any savings. Proceeding, deferring to the CFO, or partially reclassifying risks back pay, penalties, and audits.",
     "docs": [
       {
@@ -341,12 +341,12 @@
     "hint": "Signal: rival VPs -> set shared goals + norms.",
     "prompt": "A new CHRO joins an organization where two veteran HR vice presidents openly undermine each other and compete for the CEO's attention, stalling HR strategy. Both are competent but their rivalry is damaging team trust. The CEO expects the new CHRO to fix the team quickly. What is the BEST action?",
     "options": [
-      "Set shared goals and norms addressing rivalry.",
       "Split their responsibilities to eliminate the overlap.",
       "Replace both VPs to reset team dynamics.",
+      "Set shared goals and norms addressing rivalry.",
       "Let the rivalry resolve itself after results."
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "The new CHRO should establish shared goals and behavioral norms while directly addressing the interpersonal rivalry, aligning the team around common outcomes. Restructuring roles, replacing both leaders, or ignoring the conflict avoids the underlying relational issue and risks losing capable talent.",
     "docs": [
       {
@@ -365,12 +365,12 @@
     "hint": "Signal: manager/employee rating disconnect -> diagnose trust gap first.",
     "prompt": "An organization's engagement survey shows that managers rate their teams high on performance but employees report burnout, low psychological safety, and fear of speaking up. Turnover among high performers has risen for two straight quarters. The CHRO must address the disconnect. What should the CHRO do FIRST?",
     "options": [
-      "Diagnose trust gap with focus groups and data.",
       "Train managers on coaching and feedback skills.",
       "Tie manager bonuses to employee engagement scores.",
-      "Replace low-scoring managers to reset the culture."
+      "Replace low-scoring managers to reset the culture.",
+      "Diagnose trust gap with focus groups and data."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "The gap between manager ratings and employee experience signals a trust or feedback problem that must be diagnosed before intervening. Training, incentive changes, or replacing managers before understanding root causes risks misdirected effort and further erodes trust.",
     "docs": [
       {
@@ -413,12 +413,12 @@
     "hint": "Signal: I-9 audit / joint-employer exposure -> assess + correct structure.",
     "prompt": "During a routine I-9 audit the CHRO discovers that a large subset of contractors working on-site are actually treated as employees, with supervisors directing their daily work and providing all equipment. The general counsel warns of joint-employer exposure. What should the CHRO do FIRST?",
     "options": [
-      "Assess joint-employment risk and correct the structure.",
       "Terminate contractor relationships to end the exposure.",
+      "Assess joint-employment risk and correct the structure.",
       "Ask the staffing agency to absorb liability.",
       "Convert the contractors to employees without any analysis."
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "The CHRO must first evaluate joint-employer and misclassification risk under the relevant standards, then correct the engagement structure and any I-9 issues. Terminating, shifting liability to the agency, or converting roles without analysis fails to resolve the underlying compliance exposure.",
     "docs": [
       {
@@ -437,12 +437,12 @@
     "hint": "Signal: HR seen as compliance, no strategy -> align HR to business priorities.",
     "prompt": "A newly hired CHRO finds that the executive team has no agreed-upon HR strategy, that HR metrics are purely administrative, and that business leaders view HR as a compliance function. The CEO wants HR to become a strategic partner. What should the CHRO do FIRST?",
     "options": [
-      "Align HR strategy with business priorities and sponsors.",
       "Publish a new HR operating model and chart.",
       "Launch a technology overhaul to modernize HR systems.",
+      "Align HR strategy with business priorities and sponsors.",
       "Hire strategic business partners across all divisions."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "To shift HR from compliance to strategy, the CHRO must first engage executives to align HR strategy with business priorities and gain sponsorship. Publishing a model, launching technology, or hiring partners before alignment risks building capabilities the business does not value.",
     "docs": [
       {
@@ -461,12 +461,12 @@
     "hint": "Signal: divestiture, pensions/union -> quantify workforce liabilities first.",
     "prompt": "The board is weighing a divestiture of an underperforming business unit with 1,200 employees, and the CHRO must advise on the workforce implications. The unit has unionized locations, legacy pension obligations, and critical customer-facing skills. What should the CHRO do FIRST?",
     "options": [
-      "Quantify workforce liabilities and transition risks first.",
       "Negotiate severance with the unit's union leaders.",
       "Announce the potential sale to reduce speculation.",
-      "Freeze the unit's pension plan to limit obligations."
+      "Freeze the unit's pension plan to limit obligations.",
+      "Quantify workforce liabilities and transition risks first."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Before a divestiture, the CHRO must quantify workforce liabilities (pensions, collective agreements, retention of critical skills) and transition risks so the board can make an informed decision. Negotiating, announcing, or freezing benefits first is premature and can disrupt the deal.",
     "docs": [
       {
@@ -490,7 +490,7 @@
       "Ask the CEO to remove the director immediately.",
       "Ignore the comment and continue the current strategy."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "The professional response is to engage the board member directly and privately to understand the underlying concerns and realign on talent strategy, preserving the relationship and credibility. Rebutting publicly, seeking removal, or ignoring the feedback escalates conflict or forfeits the chance to build alignment.",
     "docs": [
       {
@@ -509,8 +509,8 @@
     "hint": "Signal: critical revenue producer at risk -> targeted performance-tied retention.",
     "prompt": "The company's top sales executive is being recruited by a competitor offering a substantial raise, and she is the single biggest revenue producer. The CEO asks the CHRO to retain her without setting a precedent that inflates pay across the sales force. What should the CHRO recommend?",
     "options": [
-      "Match offer with retention terms tied to performance.",
       "Let her leave to avoid inflating pay structure.",
+      "Match offer with retention terms tied to performance.",
       "Offer equity only to avoid raising base salary.",
       "Promote her to a higher title without pay."
     ],
@@ -533,12 +533,12 @@
     "hint": "Signal: operating-model redesign -> clarify design criteria first.",
     "prompt": "A global firm is redesigning its operating model to move from regional autonomy to global business lines, which will shift reporting for thousands of employees and change how work is governed. The CHRO must guide the organization design. What should the CHRO do FIRST?",
     "options": [
-      "Clarify design criteria and assess capabilities against them.",
       "Announce the new global reporting lines to end ambiguity.",
       "Hire a consulting firm to deliver the structure.",
+      "Clarify design criteria and assess capabilities against them.",
       "Pilot the model in one region before rollout."
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Organization design begins with defining decision-making and capability criteria, then assessing the current state against them. Announcing structure, outsourcing the design, or piloting before clarifying criteria risks a design that does not fit the strategy or the organization's capabilities.",
     "docs": [
       {
@@ -557,10 +557,10 @@
     "hint": "Signal: disability accommodation request -> engage interactive process.",
     "prompt": "An employee files an EEOC charge alleging disability discrimination and requests a reasonable accommodation that the manager has refused as too costly. The CHRO is reviewing the matter before the agency responds. What should the CHRO do FIRST?",
     "options": [
-      "Engage the interactive process to assess accommodation needs.",
       "Defend the manager's denial because of the cost.",
       "Wait for the EEOC's position before acting.",
-      "Grant the request to avoid litigation risk."
+      "Grant the request to avoid litigation risk.",
+      "Engage the interactive process to assess accommodation needs."
     ],
     "answer": 3,
     "explanation": "The ADA requires an interactive process to explore accommodations rather than a blanket denial or automatic grant. Engaging the employee to assess the specific need and feasible options is the compliant, risk-reducing first step; deferring to the manager, waiting, or granting without analysis is not.",
@@ -586,7 +586,7 @@
       "Resign rather than work under an unaccountable CEO.",
       "Report the CEO's conduct to regulators immediately."
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "The CHRO should first assess the governance gaps and build alignment with the board on priorities, then work through agreed mechanisms to strengthen oversight. Confronting the CEO, resigning, or reporting to regulators before diagnosis and coalition-building is premature and ineffective.",
     "docs": [
       {
@@ -605,12 +605,12 @@
     "hint": "Signal: skeptical CFO, business case -> link to talent risks + outcomes.",
     "prompt": "The CEO wants the CHRO to justify the return on a proposed leadership academy costing several million dollars. The CFO is skeptical, and the board has asked for a business case before funding. What should the CHRO do FIRST?",
     "options": [
-      "Link academy to talent risks and measurable outcomes.",
       "Benchmark peer companies on their leadership development spending.",
+      "Link academy to talent risks and measurable outcomes.",
       "Reduce the program scope to lower the budget.",
       "Ask the CEO to champion the program directly."
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "To secure investment, the CHRO must articulate a business case connecting the academy to strategic talent risks and measurable outcomes (retention, readiness, revenue). Benchmarking, cutting scope, or relying on the CEO without that linkage does not demonstrate value to a skeptical board.",
     "docs": [
       {
@@ -629,12 +629,12 @@
     "hint": "Signal: defensive peer CFO -> private feedback with examples + impact.",
     "prompt": "A CHRO must deliver difficult feedback to the CFO, who is a peer and a close ally of the CEO, about behavior that is alienating the finance team and causing resignations. The CFO is defensive and influential. What is the BEST approach?",
     "options": [
-      "Deliver it privately with specific examples and impact.",
       "Ask the CEO to deliver the feedback instead.",
       "Send the feedback in writing to document it.",
+      "Deliver it privately with specific examples and impact.",
       "Delay the feedback until the next performance cycle."
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Peer feedback on sensitive behavior is best delivered privately, directly, and anchored to specific examples and observable business impact. Deflecting to the CEO, relying on written documentation, or delaying weakens accountability and lets the harm continue.",
     "docs": [
       {
@@ -653,12 +653,12 @@
     "hint": "Signal: unclear paths + below-market pay -> diagnose + benchmark first.",
     "prompt": "A company's workforce analytics show that its highest-performing engineers leave within 18 months, primarily because promotion paths are unclear and pay is below market. The CHRO must reverse the trend before a critical product launch. What should the CHRO do FIRST?",
     "options": [
-      "Diagnose turnover drivers and benchmark pay and paths.",
       "Raise engineer salaries across the board immediately.",
       "Create a new senior engineer promotion track.",
-      "Conduct stay interviews with the top performers."
+      "Conduct stay interviews with the top performers.",
+      "Diagnose turnover drivers and benchmark pay and paths."
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "The data already point to unclear paths and below-market pay; the CHRO should first confirm drivers and benchmark pay and career structures before designing interventions. Raising pay broadly, creating a track, or holding interviews without diagnosis risks misdirected fixes.",
     "docs": [
       {
@@ -682,7 +682,7 @@
       "Let each sales leader retain their own team.",
       "Run a competitive selection for every role."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Structure should follow strategy: the CHRO must first align on the combined go-to-market strategy, then design the sales structure and compensation around it. Imposing a merge, preserving the status quo, or launching role contests before strategy invites turf conflict and lost revenue.",
     "docs": [
       {
@@ -701,12 +701,12 @@
     "hint": "Signal: under-reported injuries, retaliation -> correct reporting first.",
     "prompt": "A safety audit reveals that a plant has repeatedly under-reported workplace injuries, and two managers are discouraging employees from filing reports to keep the site's safety bonus. The CHRO learns of the pattern and must respond. What should the CHRO do FIRST?",
     "options": [
-      "Ensure accurate injury reporting and address manager retaliation.",
       "Eliminate the safety bonus program across all sites.",
+      "Ensure accurate injury reporting and address manager retaliation.",
       "Wait for an OSHA inspection to confirm issue.",
       "Retrain managers on proper injury documentation procedures."
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Under-reporting injuries and discouraging reports violates OSHA recordkeeping and anti-retaliation rules; the CHRO must first correct the reporting and stop the retaliatory conduct. Removing the bonus, waiting for inspection, or retraining without fixing the conduct leaves legal exposure in place.",
     "docs": [
       {
@@ -725,9 +725,9 @@
     "hint": "Signal: board split internal/external -> agree criteria + philosophy first.",
     "prompt": "The CHRO is asked to develop the board's succession plan for the CEO and other C-suite roles, but several directors disagree on whether to groom internal successors or recruit externally. The board chair wants a recommendation within 90 days. What should the CHRO do FIRST?",
     "options": [
-      "Facilitate board agreement on criteria and sourcing philosophy.",
       "Commission external searches for the top roles now.",
       "Create individual development plans for internal candidates.",
+      "Facilitate board agreement on criteria and sourcing philosophy.",
       "Benchmark peer firms' CEO succession practices."
     ],
     "answer": 2,
@@ -749,12 +749,12 @@
     "hint": "Signal: cross-border M&A, works councils -> map jurisdiction obligations.",
     "prompt": "The company is pursuing a large international acquisition, and the CHRO is evaluating the target's workforce across three countries, each with different termination, consultation, and works-council requirements. The deal team wants to move quickly. What should the CHRO do FIRST?",
     "options": [
-      "Map each jurisdiction's employment and consultation legal obligations.",
       "Apply the acquirer's standard US termination approach instead.",
       "Defer workforce issues until after the deal closes.",
-      "Ask local managers to handle their own transitions."
+      "Ask local managers to handle their own transitions.",
+      "Map each jurisdiction's employment and consultation legal obligations."
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Cross-border M&A requires first mapping country-specific employment, works-council consultation, and termination obligations to avoid costly legal violations. Applying US norms, deferring, or delegating to local managers without that map exposes the acquirer to significant compliance risk.",
     "docs": [
       {
@@ -797,12 +797,12 @@
     "hint": "Signal: pay-decision uncertainty -> clarify performance-pay linkage first.",
     "prompt": "A company is implementing a new performance-management system that replaces annual ratings with continuous feedback, and managers are anxious about losing a basis for pay decisions. Some senior leaders want to keep forced ranking. The CHRO must move the change forward. What should the CHRO do FIRST?",
     "options": [
-      "Clarify how performance, feedback, and pay will connect.",
       "Train managers on the new software platform now.",
+      "Clarify how performance, feedback, and pay will connect.",
       "Retain forced ranking to reassure senior leaders.",
       "Pilot continuous feedback in one division only."
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "The core resistance is uncertainty about how pay and performance will be decided; the CHRO must first clarify that linkage and the decision process before training or piloting. Preserving forced ranking undermines the intended change and the new system's goals.",
     "docs": [
       {
@@ -821,12 +821,12 @@
     "hint": "Signal: incentives reward individuals -> assess structure/incentive conflicts.",
     "prompt": "The company is shifting to a more agile, team-based operating model, but its current structure, roles, and incentives reward individual function performance. The CHRO must align the organization to the new model. What should the CHRO do FIRST?",
     "options": [
-      "Assess how current structure, roles, and incentives conflict.",
       "Announce the agile transformation to all employees.",
       "Train all employees on agile methods at once.",
+      "Assess how current structure, roles, and incentives conflict.",
       "Eliminate functional silos by reorganizing the company now."
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "The CHRO should first diagnose how the current structure, roles, and incentives conflict with the target model, since incentives in particular drive behavior. Announcing, training, or reorganizing before that assessment risks misaligned effort and failed adoption.",
     "docs": [
       {
@@ -845,12 +845,12 @@
     "hint": "Signal: discrimination complaint -> prompt impartial investigation first.",
     "prompt": "A manager is accused of race-based discrimination in promotion decisions, and the affected employees have filed internal complaints. The CHRO must respond while the manager denies any bias and is a top performer. What should the CHRO do FIRST?",
     "options": [
-      "Launch a prompt, impartial investigation and protect complainants.",
       "Suspend the manager to demonstrate a serious response.",
       "Ask the manager to reverse the promotion decisions.",
-      "Dismiss the complaints until there is more evidence."
+      "Dismiss the complaints until there is more evidence.",
+      "Launch a prompt, impartial investigation and protect complainants."
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Discrimination complaints require a prompt, impartial, and confidential investigation with protection from retaliation. Suspending, reversing decisions, or dismissing without investigation prejudges the outcome and increases legal risk under equal-employment laws.",
     "docs": [
       {
@@ -874,7 +874,7 @@
       "Adopt the investor framework's standard disclosure template.",
       "Focus on climate skills to meet board's goal."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "ESG strategy should be risk- and materiality-driven: the CHRO must first assess which workforce issues are material to the business and stakeholder expectations before prioritizing. Picking a visible win, a template, or the board's preferred topic without that assessment misallocates effort.",
     "docs": [
       {
@@ -893,12 +893,12 @@
     "hint": "Signal: benefits cost/equity trade-off -> model cost + retention + equity.",
     "prompt": "The CFO asks the CHRO to reduce benefits costs by shifting employees to a lower-cost health plan that would significantly raise out-of-pocket costs for lower-paid workers. The CHRO worries about morale, turnover, and pay-equity perceptions. What should the CHRO do FIRST?",
     "options": [
-      "Model cost, retention, and equity impact first.",
       "Implement the lower-cost plan to meet savings.",
+      "Model cost, retention, and equity impact first.",
       "Survey employees on their preferred benefit changes.",
       "Reject the proposal without analysis to protect staff."
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "The CHRO should first model the financial, retention, and equity consequences of the benefit change so the trade-off is visible to the CFO and board. Implementing, surveying, or rejecting outright skips the analytical step that grounds a defensible recommendation.",
     "docs": [
       {
@@ -917,12 +917,12 @@
     "hint": "Signal: territorial CIO -> clarify shared goals + mutual gains.",
     "prompt": "The CHRO is negotiating a partnership between HR and IT to implement a new HRIS, but the CIO is territorial, dismissive of HR's needs, and has previously blocked cross-functional work. The CEO expects the two to collaborate. What is the BEST action?",
     "options": [
-      "Clarify shared goals and mutual gains before planning.",
       "Escalate to the CEO to force CIO cooperation.",
       "Proceed without the CIO to avoid conflict.",
+      "Clarify shared goals and mutual gains before planning.",
       "Assign the project entirely to IT now."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "The CHRO should first build a shared-goals and mutual-gains frame with the CIO, converting a territorial conflict into a joint outcome before detailed planning. Escalating, working around, or ceding the project to IT avoids the relationship issue and weakens the partnership.",
     "docs": [
       {
@@ -941,12 +941,12 @@
     "hint": "Signal: below-market rewards + turnover -> quantify cost + benchmark.",
     "prompt": "A company's total rewards are misaligned: base pay is below market, bonuses are unpredictable, and benefits are minimal, yet senior leaders resist change citing cost. High turnover in critical roles is accelerating. The CHRO must make the case for redesign. What should the CHRO do FIRST?",
     "options": [
-      "Quantify turnover cost and benchmark rewards first.",
       "Raise base pay across levels to market.",
       "Standardize bonus payouts to reduce the current unpredictability.",
-      "Present industry turnover data to senior leaders."
+      "Present industry turnover data to senior leaders.",
+      "Quantify turnover cost and benchmark rewards first."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "The CHRO should first quantify the cost of turnover and benchmark total rewards against market to build a compelling, evidence-based case before any changes. Raising pay, standardizing bonuses, or presenting data without tying it to business cost will not persuade cost-focused leaders.",
     "docs": [
       {
@@ -970,7 +970,7 @@
       "Hire a culture consultant to run workshops.",
       "Replace the leaders who are most resistant."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Culture change must begin with diagnosis and leadership alignment on the specific target behaviors, not with campaigns or workshops. Launching messaging, hiring consultants, or removing leaders before understanding root causes repeats the failure of prior top-down initiatives.",
     "docs": [
       {
@@ -989,12 +989,12 @@
     "hint": "Signal: age-based force retirement -> assess performance/safety objectively (ADEA).",
     "prompt": "A long-tenured employee is about to turn 70 and has begun making errors that could pose a safety risk on the production floor. The manager wants to force retirement. The CHRO must advise on the situation. What should the CHRO do FIRST?",
     "options": [
-      "Assess performance and safety against job requirements objectively.",
       "Support the manager's plan to force retirement.",
+      "Assess performance and safety against job requirements objectively.",
       "Offer a voluntary retirement package to staff.",
       "Move the employee to a non-safety role."
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "Age-based employment decisions are prohibited by the ADEA; the CHRO must first assess whether there are objective, performance- or safety-based concerns that justify action independent of age. Forcing retirement or reassigning on the basis of age is unlawful and risky.",
     "docs": [
       {
@@ -1013,12 +1013,12 @@
     "hint": "Signal: competing pet HR projects -> facilitate priorities tied to strategy.",
     "prompt": "The CHRO has identified that the executive team lacks a coherent vision for the workforce of the future, yet each leader has pet HR projects competing for resources. The CEO wants the CHRO to bring focus. What should the CHRO do FIRST?",
     "options": [
-      "Facilitate agreement on priorities tied to strategy.",
       "Fund each leader's project to maintain harmony.",
       "Select the projects with the highest ROI alone.",
+      "Facilitate agreement on priorities tied to strategy.",
       "Suspend all HR projects pending a strategy review."
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "The CHRO should first facilitate agreement on a shared set of workforce priorities aligned to business strategy, then allocate resources accordingly. Funding everything, choosing unilaterally, or suspending all work without consensus fails to build the alignment the team lacks.",
     "docs": [
       {
@@ -1037,10 +1037,10 @@
     "hint": "Signal: 5,000 skilled roles, tight market -> model demand + supply gaps.",
     "prompt": "The company's growth plan requires adding 5,000 skilled workers over three years, but the labor market for those skills is tight and attrition is rising. The CHRO must advise the board on how to ensure the talent supply. What should the CHRO do FIRST?",
     "options": [
-      "Model future demand, supply gaps, and sourcing options.",
       "Increase recruiting spend across all channels now.",
       "Raise starting pay to attract more applicants.",
-      "Build an internal upskilling academy for staff."
+      "Build an internal upskilling academy for staff.",
+      "Model future demand, supply gaps, and sourcing options."
     ],
     "answer": 3,
     "explanation": "Workforce planning requires first modeling future demand against internal and external supply to identify specific gaps and the best mix of build, buy, or borrow strategies. Increasing spend, raising pay, or building an academy before that analysis risks misdirected investment.",
@@ -1066,7 +1066,7 @@
       "Proceed with the reorganization over the objection.",
       "Halt the reorganization to preserve the relationship."
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "The CHRO should rebuild the relationship by listening and reframing the conversation around shared business outcomes, separating the person from the structural decision. Escalating, overriding, or halting the change to avoid conflict weakens both the relationship and the business outcome.",
     "docs": [
       {
@@ -1085,8 +1085,8 @@
     "hint": "Signal: title-based to skills-based -> map skills + design transition.",
     "prompt": "A company is moving to a skills-based talent model, but its job descriptions, pay bands, and career paths are all job-title based. Employees fear losing their titles, and managers worry about how to manage a skills framework. What should the CHRO do FIRST?",
     "options": [
-      "Map needed skills and design the transition first.",
       "Launch a new skills taxonomy and system.",
+      "Map needed skills and design the transition first.",
       "Assure employees their titles will not change.",
       "Pilot skills-based pay in one department now."
     ],
@@ -1109,9 +1109,9 @@
     "hint": "Signal: matrix accountability conflict -> clarify decision rights first.",
     "prompt": "A company's matrix structure has created unclear accountability, and two functions are fighting over ownership of a key customer process, causing delays and duplicated work. The CEO asks the CHRO to fix the accountability problem. What should the CHRO do FIRST?",
     "options": [
-      "Clarify decision rights and accountabilities for the process.",
       "Eliminate the matrix and return to functional silos.",
       "Assign the process to one function ending conflict.",
+      "Clarify decision rights and accountabilities for the process.",
       "Hire a process owner to arbitrate the dispute."
     ],
     "answer": 2,
@@ -1133,12 +1133,12 @@
     "hint": "Signal: gender-identity harassment complaint -> investigate + reinforce policy.",
     "prompt": "A transgender employee reports being repeatedly misgendered and excluded from client meetings by a manager, and the employee has filed an internal complaint. The manager says he did not intend harm. The CHRO must respond. What should the CHRO do FIRST?",
     "options": [
-      "Investigate the complaint and reinforce the anti-harassment policy.",
       "Dismiss it as unintentional conduct with no harm.",
       "Ask the employee to resolve it with the manager.",
-      "Transfer the employee to another manager quietly."
+      "Transfer the employee to another manager quietly.",
+      "Investigate the complaint and reinforce the anti-harassment policy."
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Harassment and discrimination based on gender identity require a prompt, impartial investigation and reinforcement of anti-harassment standards, regardless of intent. Dismissing it, requiring the employee to self-resolve, or transferring the complainant risks retaliation and liability.",
     "docs": [
       {
@@ -1181,8 +1181,8 @@
     "hint": "Signal: cheaper vs skilled locations -> analyze total talent cost/quality.",
     "prompt": "The CHRO is asked to support a business case for opening a new facility in one of two locations, one with lower labor costs but weaker talent supply and one with higher costs but stronger skills. The CFO favors the cheaper location. What should the CHRO do FIRST?",
     "options": [
-      "Analyze total talent cost, quality, and availability first.",
       "Support the cheaper location to satisfy the CFO.",
+      "Analyze total talent cost, quality, and availability first.",
       "Recommend the higher-cost location for the better skills.",
       "Survey the current employees about their relocation preferences."
     ],
@@ -1205,12 +1205,12 @@
     "hint": "Signal: confrontational negotiator -> coach interest-based approach privately.",
     "prompt": "The CHRO is facilitating a high-stakes negotiation between the company and a key labor group, and the lead company negotiator has become confrontational, insulting the other side and stalling progress. The CHRO must keep the negotiation on track. What is the BEST action?",
     "options": [
-      "Coach the negotiator privately on an interest-based approach.",
       "Replace the negotiator mid-session to reset tone.",
       "Match the confrontational tone to project strength.",
+      "Coach the negotiator privately on an interest-based approach.",
       "Cancel the session entirely until tensions subside."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "The CHRO should privately coach the negotiator toward an interest-based, depersonalized approach while preserving continuity and the relationship. Replacing, matching, or canceling mid-negotiation damages credibility and delays resolution.",
     "docs": [
       {
@@ -1229,12 +1229,12 @@
     "hint": "Signal: retiring engineers, no knowledge transfer -> identify critical knowledge first.",
     "prompt": "A company's workforce is aging, and 40 percent of its specialized engineers will be retirement-eligible within five years, but there are no documented processes to transfer their knowledge to younger hires. What should the CHRO do FIRST?",
     "options": [
-      "Identify critical knowledge and design transfer mechanisms first.",
       "Offer retention bonuses to delay the engineers' retirements.",
       "Hire junior engineers to learn alongside veterans.",
-      "Document the processes only after the retirees leave."
+      "Document the processes only after the retirees leave.",
+      "Identify critical knowledge and design transfer mechanisms first."
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "The CHRO should first identify which knowledge is critical and design transfer mechanisms (mentoring, documentation, phased retirement) before attrition occurs. Bonuses, hiring, or documenting afterward do not ensure critical knowledge is captured in time.",
     "docs": [
       {
@@ -1258,7 +1258,7 @@
       "Standardize all of the policies across the company.",
       "Hire a data team to clean workforce data."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Before choosing technology or standardizing, the CHRO must assess the current systems, data, and processes to define a coherent target-state architecture and roadmap. Selecting a platform, standardizing policies, or hiring data staff without that assessment risks a fragmented fix.",
     "docs": [
       {
@@ -1277,12 +1277,12 @@
     "hint": "Signal: adverse action after complaint -> investigate retaliation link.",
     "prompt": "An employee who filed a sexual-harassment complaint last year now receives a negative performance review and is placed on a performance plan, though her prior reviews were strong. She believes it is retaliation and contacts HR. What should the CHRO do FIRST?",
     "options": [
-      "Investigate whether adverse actions link to her complaint.",
       "Ask her manager to reverse the performance rating.",
+      "Investigate whether adverse actions link to her complaint.",
       "Dismiss it since the complaint was resolved ago.",
       "Transfer her to another manager to reduce tension."
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "The timing of adverse action after protected activity warrants a prompt investigation into possible retaliation. Reversing the rating, dismissing the concern, or transferring the employee without investigating fails to address the legal risk and the employee's protected rights.",
     "docs": [
       {
@@ -1301,12 +1301,12 @@
     "hint": "Signal: board reviews only pay -> define talent/culture/succession oversight.",
     "prompt": "The CHRO is building a board-level human capital committee and must recommend its charter and focus. The board is new to human-capital oversight and currently reviews only executive pay. What should the CHRO recommend as the FIRST priority?",
     "options": [
-      "Define oversight of talent, culture, and succession risks.",
       "Expand the committee's scope to HR operations.",
       "Delegate human-capital oversight to the audit committee.",
+      "Define oversight of talent, culture, and succession risks.",
       "Limit the committee to executive compensation only."
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "A human capital committee should first define its oversight of the strategic people risks — talent, culture, succession — beyond compensation. Expanding into operations, deferring to audit, or limiting to pay undercuts the board's strategic human-capital governance role.",
     "docs": [
       {
@@ -1325,12 +1325,12 @@
     "hint": "Signal: HR outsourcing -> cost-benefit + risk analysis first.",
     "prompt": "The company is evaluating whether to outsource its entire HR service-delivery function to a third party to cut costs, but the CHRO is concerned about data security, service quality, and loss of institutional knowledge. What should the CHRO do FIRST?",
     "options": [
-      "Conduct a cost-benefit and risk analysis first.",
       "Outsource immediately to capture the projected savings.",
       "Reject the outsourcing option to protect internal capabilities.",
-      "Pilot outsourcing in one region to test quality."
+      "Pilot outsourcing in one region to test quality.",
+      "Conduct a cost-benefit and risk analysis first."
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "A sourcing decision of this magnitude requires a rigorous cost-benefit and risk analysis covering quality, security, and knowledge loss before committing. Outsourcing, rejecting, or piloting without analysis risks hidden costs and service disruption.",
     "docs": [
       {
@@ -1354,7 +1354,7 @@
       "Let both candidates compete openly for the role.",
       "Delay the decision until the campaigns subside."
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "The CHRO should establish transparent succession criteria and directly address the divisive campaigning, preserving fairness and team cohesion. Preselecting, encouraging open rivalry, or delaying the decision undermines the process and the team.",
     "docs": [
       {
@@ -1373,12 +1373,12 @@
     "hint": "Signal: toxic top producer, CEO reluctant -> present turnover/risk data.",
     "prompt": "A company's exit interviews reveal that employees are leaving primarily because of a toxic manager who is also a top revenue producer and well-connected. The CHRO has documented the pattern but the CEO is reluctant to act. What should the CHRO do FIRST?",
     "options": [
-      "Present the documented turnover and risk data.",
       "Terminate the manager despite the CEO's reluctance.",
+      "Present the documented turnover and risk data.",
       "Coach the manager to change his behavior.",
       "Accept the CEO's decision and move on."
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "The CHRO should first present objective, documented evidence of the manager's cost in turnover and risk to secure the CEO's support for action. Acting unilaterally, coaching without accountability, or deferring entirely fails to address the documented harm.",
     "docs": [
       {
@@ -1397,9 +1397,9 @@
     "hint": "Signal: remote-first but on-site policies -> design model + policies first.",
     "prompt": "The company is adopting a remote-first model, but its policies, performance measures, and office footprint are still built for on-site work. Employees want clarity, and managers want guidance. The CHRO must lead the transition. What should the CHRO do FIRST?",
     "options": [
-      "Design the remote work model and policies first.",
       "Announce the remote-first policy to all employees immediately.",
       "Let each manager set their own remote rules.",
+      "Design the remote work model and policies first.",
       "Close offices to signal commitment to remote work."
     ],
     "answer": 2,
@@ -1421,12 +1421,12 @@
     "hint": "Signal: wage/condition discussion -> protected concerted activity; stop demand.",
     "prompt": "The CHRO learns that a group of employees is using a private messaging channel to discuss wages and working conditions, and a manager has demanded access to the channel. The employees are upset and considering filing charges. What should the CHRO do FIRST?",
     "options": [
-      "Stop the manager's demand and affirm protected rights.",
       "Grant the manager access to monitor the conversation.",
       "Wait to see if employees actually file charges.",
-      "Ask employees to move discussion to company systems."
+      "Ask employees to move discussion to company systems.",
+      "Stop the manager's demand and affirm protected rights."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Employees discussing wages and working conditions are engaging in protected concerted activity under the NLRA; the CHRO must stop the manager's demand for access. Granting access, waiting for charges, or redirecting the discussion to monitored systems violates protected rights.",
     "docs": [
       {
@@ -1450,7 +1450,7 @@
       "Develop the framework confidentially with HR only.",
       "Defer the framework until executives are less anxious."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "A leadership framework will only be credible and adopted if executives help shape it and see it as linked to strategy rather than as a punitive tool. Imposing a vendor model, building it secretly, or deferring undermines buy-in and strategic alignment.",
     "docs": [
       {
@@ -1469,12 +1469,12 @@
     "hint": "Signal: board metrics/enterprise value -> identify strategy-driving metrics.",
     "prompt": "The board has asked the CHRO to explain how workforce metrics connect to enterprise value and to propose which metrics the board should track going forward. The current dashboard is purely operational. What should the CHRO do FIRST?",
     "options": [
-      "Identify the workforce metrics that drive strategic outcomes.",
       "Expand the dashboard to include every HR metric.",
+      "Identify the workforce metrics that drive strategic outcomes.",
       "Adopt an industry-standard metrics template for the board.",
       "Ask executives which metrics they prefer to see."
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "Board-level human-capital reporting should focus on the workforce metrics that drive strategic and financial outcomes, selected deliberately. Adding all metrics, adopting a template, or polling executives dilutes focus rather than connecting people to enterprise value.",
     "docs": [
       {
@@ -1493,12 +1493,12 @@
     "hint": "Signal: passed-over executive -> deliver directly + discuss options.",
     "prompt": "The CHRO must tell a longtime, well-liked executive that he is being passed over for the COO role in favor of an external hire. The executive is likely to feel betrayed and may become disruptive. What is the BEST approach?",
     "options": [
-      "Deliver the decision directly and discuss his options.",
       "Announce the external hire without speaking to him.",
       "Ask the CEO to deliver the news instead.",
+      "Deliver the decision directly and discuss his options.",
       "Soften the message by blaming the board's decision."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "The CHRO should deliver the decision directly and with respect, then engage the executive on his future options to preserve the relationship and his contribution. Announcing first, deflecting to the CEO, or blaming the board avoids accountability and deepens resentment.",
     "docs": [
       {
@@ -1517,12 +1517,12 @@
     "hint": "Signal: hi-po program no advancement -> diagnose root cause first.",
     "prompt": "A company's high-potential program has a strong reputation but has produced few actual promotions, and several graduates have left because their development did not lead to advancement. The CEO wants the program revamped. What should the CHRO do FIRST?",
     "options": [
-      "Assess why the program produces no advancement.",
       "Expand the program to include more participants.",
       "Rebrand the program to manage expectations.",
-      "Eliminate the program since it is not working."
+      "Eliminate the program since it is not working.",
+      "Assess why the program produces no advancement."
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "The CHRO should first diagnose why development is not converting into advancement — gaps in opportunity, sponsorship, or selection — before redesigning. Expanding, rebranding, or eliminating the program without understanding root causes repeats the failure.",
     "docs": [
       {
@@ -1565,12 +1565,12 @@
     "hint": "Signal: religious accommodation denied -> assess undue hardship first.",
     "prompt": "An employee's religious accommodation request to be excused from weekend shifts is denied by a manager, and the employee files a charge. The manager claims granting it would burden the team. The CHRO must advise. What should the CHRO do FIRST?",
     "options": [
-      "Assess whether the accommodation imposes an undue hardship.",
       "Uphold the manager's denial to support the team.",
+      "Assess whether the accommodation imposes an undue hardship.",
       "Grant the request to settle the charge quickly.",
       "Ask the employee to find a shift swap."
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Title VII requires evaluating religious accommodation requests through an interactive process, granting unless doing so imposes an undue hardship. The CHRO must first assess the specific hardship objectively rather than uphold, grant automatically, or shift the burden to the employee.",
     "docs": [
       {
@@ -1589,9 +1589,9 @@
     "hint": "Signal: controversial CEO stance -> assess stakeholder impact + values.",
     "prompt": "The CHRO is asked to advise the CEO, who wants to publicly take a stand on a controversial social issue that deeply divides employees and could alienate customers and investors. The board is split. What should the CHRO do FIRST?",
     "options": [
-      "Assess stakeholder impact and alignment with values first.",
       "Draft the CEO's statement and release it promptly.",
       "Advise the CEO to stay silent on issues.",
+      "Assess stakeholder impact and alignment with values first.",
       "Survey employees to let them decide the position."
     ],
     "answer": 2,
@@ -1613,12 +1613,12 @@
     "hint": "Signal: automation cuts + union -> assess roles + consultation obligations.",
     "prompt": "The company is considering automation that would eliminate 30 percent of a large department's roles, and the CHRO must advise on the workforce implications and timing. Employees are anxious, and the union is demanding consultation. What should the CHRO do FIRST?",
     "options": [
-      "Assess affected roles, retraining needs, and consultation obligations.",
       "Announce the automation plan to end speculation.",
       "Negotiate severance terms with the union now.",
-      "Pause the automation to avoid workforce disruption."
+      "Pause the automation to avoid workforce disruption.",
+      "Assess affected roles, retraining needs, and consultation obligations."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "The CHRO should first assess which roles are affected, the reskilling and redeployment options, and any bargaining or consultation obligations before announcing or negotiating. Announcing, negotiating severance, or pausing without that analysis is premature and risky.",
     "docs": [
       {
@@ -1642,7 +1642,7 @@
       "Let each region keep resources, avoiding conflict.",
       "Reassign the resources to a neutral central team."
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "The CHRO should facilitate a joint, interest-based resolution centered on shared customer outcomes, building agreement rather than imposing one. Escalating to the CEO, preserving the status quo, or centralizing resources avoids the underlying collaboration issue.",
     "docs": [
       {
@@ -1661,8 +1661,8 @@
     "hint": "Signal: low internal mobility -> identify barriers + manager preferences.",
     "prompt": "A company's internal mobility is low, and high-performing employees report they must leave to advance. Meanwhile, hiring managers prefer external candidates. The CHRO wants to shift the talent culture toward internal growth. What should the CHRO do FIRST?",
     "options": [
-      "Identify barriers to mobility and manager preferences.",
       "Mandate that roles be posted internally first.",
+      "Identify barriers to mobility and manager preferences.",
       "Create a new internal talent marketplace platform immediately.",
       "Incentivize managers to hire internal candidates with bonuses."
     ],
@@ -1685,12 +1685,12 @@
     "hint": "Signal: three depts merging -> define objectives + capabilities first.",
     "prompt": "The company is merging three departments into one, and the CHRO must decide the new leadership structure and roles while minimizing disruption and retaining key staff. Department leaders each expect to lead the combined unit. What should the CHRO do FIRST?",
     "options": [
-      "Define the new unit's objectives and required capabilities.",
       "Select the strongest leader to head the unit.",
       "Announce a flat structure with temporary co-leads.",
+      "Define the new unit's objectives and required capabilities.",
       "Retain all three leaders to avoid conflict."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Structure and staffing should follow the unit's objectives and required capabilities; the CHRO must first define those before choosing leaders or roles. Picking a leader, announcing co-leads, or retaining everyone without defining requirements risks a suboptimal structure.",
     "docs": [
       {
@@ -1709,12 +1709,12 @@
     "hint": "Signal: request for confidentiality -> explain limits + duty to investigate.",
     "prompt": "During a workplace investigation, an employee asks the CHRO to guarantee confidentiality before she will share details about harassment by a senior leader. The CHRO must balance her safety with the duty to act. What should the CHRO do FIRST?",
     "options": [
-      "Explain confidentiality limits and the duty to investigate.",
       "Promise complete confidentiality to secure the employee's cooperation.",
       "Decline to take the report without full disclosure.",
-      "Refer her to the police instead of investigating."
+      "Refer her to the police instead of investigating.",
+      "Explain confidentiality limits and the duty to investigate."
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "The CHRO should explain that while the report will be handled discreetly, confidentiality cannot be absolute because the organization has a duty to investigate and act. Promising secrecy, refusing the report, or deferring to police fails the compliance and safety obligations.",
     "docs": [
       {
@@ -1738,7 +1738,7 @@
       "Replace the entire executive team with immediate effect.",
       "Launch an employee survey to gather anonymous feedback."
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Rebuilding trust begins with visible listening and honest acknowledgment of past issues before any structural or symbolic changes. Reorganizing, replacing the team, or surveying without first listening can seem performative and deepen cynicism.",
     "docs": [
       {
@@ -1757,12 +1757,12 @@
     "hint": "Signal: flat revenue budget defense -> tie spend to revenue risks/returns.",
     "prompt": "The CHRO is presenting the annual people budget to the board and must defend a proposed increase in talent-acquisition and development spend during a period of flat revenue. The CFO wants cuts. What should the CHRO do FIRST?",
     "options": [
-      "Tie spending to revenue risks and returns.",
       "Accept the CFO's proposed cuts to show discipline.",
+      "Tie spending to revenue risks and returns.",
       "Present the spending as essential regardless of returns.",
       "Defer the increase until revenue growth resumes."
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "The CHRO should connect the proposed investment directly to revenue risks (unfilled critical roles, capability gaps) and projected returns so the board can evaluate it as an investment, not a cost. Conceding, asserting need without evidence, or deferring forfeits strategic ground.",
     "docs": [
       {
@@ -1805,10 +1805,10 @@
     "hint": "Signal: 35% new hires leave -> diagnose where/why first.",
     "prompt": "A company's new-hire retention is poor, with 35 percent of new employees leaving within a year, and onboarding is inconsistent across divisions. The CHRO must improve first-year retention. What should the CHRO do FIRST?",
     "options": [
-      "Diagnose where and why new hires leave early.",
       "Standardize onboarding across all of the divisions now.",
       "Increase starting pay to improve new-hire retention.",
-      "Assign every new hire a mentor now."
+      "Assign every new hire a mentor now.",
+      "Diagnose where and why new hires leave early."
     ],
     "answer": 3,
     "explanation": "The CHRO should first diagnose when and why new hires leave during the first year before standardizing onboarding or adding programs. Standardizing, raising pay, or assigning mentors without understanding the failure points risks treating the wrong causes.",
@@ -1834,7 +1834,7 @@
       "Hire more HR staff to handle the workload.",
       "Standardize HR services under one shared-services center."
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "Before choosing a model, the CHRO should assess current HR capabilities against the demands of scale and the needed balance of centralization and local compliance. Decentralizing, adding headcount, or centralizing services without that assessment risks a poor fit.",
     "docs": [
       {
@@ -1853,12 +1853,12 @@
     "hint": "Signal: age-based screening -> investigate + correct criteria.",
     "prompt": "The CHRO discovers that a recruiter has been filtering candidates using criteria that disproportionately exclude older applicants, and hiring managers have relied on that recruiter for years. A candidate has complained. What should the CHRO do FIRST?",
     "options": [
-      "Investigate the practices and correct the criteria.",
       "Defend the recruiter since there was no intent.",
+      "Investigate the practices and correct the criteria.",
       "Wait for an EEOC charge before acting.",
       "Terminate the recruiter to show the company acted."
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "Age-based candidate screening violates the ADEA regardless of intent; the CHRO must investigate and correct the criteria and hiring practices promptly. Defending, waiting for a charge, or terminating without fixing the process leaves the discriminatory practice and legal exposure in place.",
     "docs": [
       {
@@ -1877,12 +1877,12 @@
     "hint": "Signal: disruption-era CEO choice -> define future CEO profile first.",
     "prompt": "The CHRO is advising the board on whether to promote an internal candidate to CEO or hire externally, given the company faces major strategic disruption. The internal candidate knows the business deeply but lacks experience with the disruptive technology. What should the CHRO recommend as the FIRST step?",
     "options": [
-      "Define the future CEO profile against disruption.",
       "Promote the internal candidate to preserve continuity.",
       "Hire an external CEO with technology experience.",
+      "Define the future CEO profile against disruption.",
       "Split the role between internal and external leaders."
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "The internal-versus-external decision must flow from a clearly defined future CEO profile aligned to the disruption strategy; only then can candidates be fairly assessed. Promoting, hiring externally, or splitting the role without that profile is premature and risky.",
     "docs": [
       {
@@ -1901,12 +1901,12 @@
     "hint": "Signal: joint venture staffing -> define workforce needs + governance.",
     "prompt": "The company is entering a new market through a joint venture, and the CHRO must advise on how to staff and govern the venture's workforce, which will blend employees from both partners with different cultures and policies. What should the CHRO do FIRST?",
     "options": [
-      "Define the venture's workforce needs and governance first.",
       "Second employees from each partner in equal numbers.",
       "Apply the lead partner's policies to the venture.",
-      "Hire a new workforce externally to avoid conflicts."
+      "Hire a new workforce externally to avoid conflicts.",
+      "Define the venture's workforce needs and governance first."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Joint-venture staffing should follow the venture's strategic workforce needs and agreed governance, not each partner's assumptions. Equal secondments, imposing one partner's policies, or hiring externally without defining needs and governance risks cultural and operational conflict.",
     "docs": [
       {
