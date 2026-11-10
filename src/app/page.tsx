@@ -46,8 +46,8 @@ export default function Home() {
 
   if (!unlocked) {
     return (
-      <div className="flex min-h-full items-center justify-center px-6">
-        <div className="w-full max-w-md rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
+      <div className="flex min-h-full items-center justify-center bg-gradient-to-br from-purple-600 via-purple-800 to-indigo-900 px-6">
+        <div className="w-full max-w-md rounded-2xl border border-slate-200 bg-white p-8 shadow-xl">
           <div className="text-center">
             <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-xl bg-slate-900 text-lg font-bold text-white">
               {APP_NAME.charAt(0)}
